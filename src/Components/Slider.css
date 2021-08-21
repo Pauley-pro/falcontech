@@ -1,0 +1,138 @@
+@import "react-slideshow-image/dist/styles.css";
+
+.slide-item-1 {
+    background: rgba(0, 0, 0, 0.3) url("../images/slide1.jpg") repeat scroll 0 0;
+}
+
+.slide-item-2 {
+    background: rgba(0, 0, 0, 0.3) url("../images/slide2.jpg") repeat scroll 0 0;
+}
+
+.slide-item-3 {
+    background: rgba(0, 0, 0, 0.3) url("../images/slide3.jpg") repeat scroll 0 0;
+}
+
+.falconet-main-caption{
+    background: rgba(28, 28, 28, 0.49) none repeat scroll 0 0
+}
+
+.falconet-main-slide {
+    background-color: #eee;
+    background-position: center center;
+    background-size:cover;
+    height: 490px ;
+    margin-top: 110px;
+}
+
+.falconet-main-caption{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.falconet-caption-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.slider-text{
+    width: 60%;
+}
+
+.slider-text h2 {
+    color: #fff;
+    font-family: "Oswald",sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.slider-text h2 span {
+    display: block;
+}
+
+.slider-text p {
+    color: #fff;
+    font-size: 16px;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+
+.falconet-main-caption a {
+    margin: 0 5px;
+}
+
+.falconet-slider-area{
+    margin-top:110px;
+}
+
+.slider-text{
+    width:50%;
+    margin-left:100px;
+}
+
+.falconet-btn{
+    background-color: #f26723;
+    padding:10px;
+    text-decoration: none;
+    color:white;
+    text-transform:uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.falconet-btn:hover{
+    background-color: #0B2433;
+}
+
+.para-slide{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 960px){
+    .falconet-slider-area{
+        margin-top:180px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .falconet-slider-area{
+        margin-top:180px;
+    }
+}
+
+@media (max-width: 648px){
+    .falconet-main-slide {
+        background-color: #eee;
+        background-position: center center;
+        background-size:cover;
+        margin-top: 100px;
+        height: 450px;
+        
+    }
+
+    .falconet-caption-cell {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+    }
+    
+
+    #slider-text{
+        width:80%;
+        margin-left: 30px;
+    }
+
+    #slide-h2{
+        font-size:25px;
+    }
+
+    #Para-slide{
+        font-size:15px;
+    }
+
+    
+}

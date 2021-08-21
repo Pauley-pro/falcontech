@@ -1,0 +1,348 @@
+.single-service {
+    background: #f3f3f3 none repeat scroll 0 0;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 30px;
+    margin-top: 90px;
+    padding: 15px 15px 30px;
+    position: relative;
+    text-align: center;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    width:370px;
+    height:100px;
+}
+
+.para{
+    color: #333;
+    font-weight:550;
+    font-size: 12px;
+}
+
+.Clear{
+    clear:both;
+}
+
+#sing-icon1{
+    float:left;
+    margin-left:120px;
+    width:23%;
+    height: 250px;
+    line-height: 20px;
+    background:  url("../images/Video surveillance.jpg") no-repeat 0 0 / cover ;
+}
+
+#sing-icon1:before {
+    background: rgba(1, 7, 23, 0.78) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#sing-icon2{
+    float:left;
+    margin-left:30px;
+    width:23%;
+    height: 250px;
+    background:  rgba(0, 0, 0, 0.3) url("../images/Access-control.jpg") no-repeat 0 0 / cover ;
+}
+
+#sing-icon2:before {
+    background: rgba(1, 7, 23, 0.78) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#sing-icon3{
+    float:left;
+    margin-left:30px;
+    width:23%;
+    height: 250px;
+    background:  rgba(0, 0, 0, 0.3) url("../images/Building-automation.jpg") no-repeat 0 0 / cover ;
+}
+
+#sing-icon3:before {
+    background: rgba(1, 7, 23, 0.78) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#sing-icon4{
+    float:left;
+    margin-top: -20px;
+    margin-left:120px;
+    width:23%;
+    height: 250px;
+    background:  rgba(0, 0, 0, 0.3) url("../images/Fire-protection.jpg") no-repeat 0 0 / cover ;
+}
+
+#sing-icon4:before {
+    background: rgba(1, 7, 23, 0.78) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#sing-icon5{
+    float:left;
+    margin-top: -20px;
+    margin-left:30px;
+    width:23%;
+    height: 250px;
+    background:  rgba(0, 0, 0, 0.3) url("../images/Intercom.jpg") no-repeat 0 0 / cover ;
+}
+
+#sing-icon5:before {
+    background: rgba(1, 7, 23, 0.78) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+#sing-icon6{
+    float:left;
+    margin-top: -20px;
+    margin-left:30px;
+    width:23%;
+    height: 250px;
+    background:  rgba(0, 0, 0, 0.3) url("../images/Security-alarm.jpg") no-repeat 0 0 / cover ;
+}
+
+#sing-icon6:before {
+    background: rgba(1, 7, 23, 0.78) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#sing-icon7{
+    float:left;
+    margin-top: -20px;
+    margin-left:300px;
+    width:23%;
+    height: 250px;
+    background:  rgba(0, 0, 0, 0.3) url("../images/Self-defense.jpg") no-repeat 0 0 / cover ;
+}
+
+#sing-icon7:before {
+    background: rgba(1, 7, 23, 0.78) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#sing-icon8{
+    float:left;
+    margin-top: -20px;
+    margin-left:30px;
+    width:23%;
+    height: 250px;
+    background:  rgba(0, 0, 0, 0.3) url("../images/Workplace-safety.jpg") no-repeat 0 0 / cover ;
+}
+
+#sing-icon8:before {
+    background: rgba(1, 7, 23, 0.78) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.site-heading{
+    line-height:5px;
+    margin-top: -50px;
+}
+
+.single-service .service-icon {
+    background-color: rgba(0, 0, 0, 0.823);
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 80px;
+    left: 0;
+    line-height: 80px;
+    margin: -42px auto 0;
+    position: relative;
+    right: 0;
+    text-align: center;
+    top: 0;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    width: 80px;
+    border-bottom: #f26723 solid 3px;
+}
+
+.single-service .service-icon i:before {
+    font-size: 30px;
+    margin-left: 0;
+    color: #f26723;
+}
+
+.single-service:before {
+    background: #f26723 none repeat scroll 0 0;
+    content: "";
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 4px;
+}
+
+.single-service:after {
+    background: #f26723 none repeat scroll 0 0;
+    content: "";
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 40px;
+}
+
+.single-service > h3 {
+    font-size: 19px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #333
+}
+
+.Serv-link{
+    text-decoration:none;
+    color: white;
+    font-weight:700;
+    font-size: 15px;
+    position:relative
+}
+
+.Serv-link:hover{
+    color: #f26723;
+}
+
+.Serv-h{
+    padding-top: 140px;
+    margin-left: -50px;
+}
+
+.falconet-service-area{
+    margin-top: 150px;
+}
+
+.div-h3{
+    color: #333;
+    text-align:center;
+    font-size:20px;
+    font-weight: 400;
+}
+
+.div-h2{
+    color: #f26723;
+    text-align:center;
+    font-size:25px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.icons{
+    color: white;
+    font-size:30px
+}
+
+
+
+@media (max-width: 648px){
+    .falconet-service-area{
+        margin-top: 150px;
+    }
+
+    #sing-icon1{
+        float:left;
+        margin-left:30px;
+        width: 80%;
+        height: 250px;
+    }
+    
+    #sing-icon2{
+        float:left;
+        margin-top:50px;
+        margin-left:30px;
+        height: 250px;
+        width: 80%;
+    }
+    
+    #sing-icon3{
+        float:left;
+        margin-top:50px;
+        margin-left:30px;
+        width: 80%;
+        height: 250px;
+    }
+
+    #sing-icon4{
+        float:left;
+        margin-top:50px;
+        margin-left:30px;
+        width: 80%;
+        height: 250px;
+    }
+    
+    #sing-icon5{
+        float:left;
+        margin-top:50px;
+        margin-left:30px;
+        height: 250px;
+        width: 80%;
+    }
+    
+    #sing-icon6{
+        float:left;
+        margin-top:50px;
+        margin-left:30px;
+        width: 80%;
+        height: 250px;
+    }
+
+    #sing-icon7{
+        float:left;
+        margin-top:50px;
+        margin-left:30px;
+        width: 80%;
+        height: 250px;
+    }
+
+    #sing-icon8{
+        float:left;
+        margin-top:50px;
+        margin-left:30px;
+        width: 80%;
+        height: 250px;
+    }
+
+    .para{
+        font-size: 13px;
+        line-height:18px;
+    }
+}

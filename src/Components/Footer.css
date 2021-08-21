@@ -1,0 +1,260 @@
+.falconet-footer-area{
+    width:100%;
+    background: #222 none repeat scroll 0 0;
+    height:350px;
+    margin-top: -100px;
+}
+
+#Single-footer1{
+    float:left;
+    width:20%;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+#Single-footer2{
+    float:left;
+    width:20%;
+    margin-left: 20px;
+}
+
+#Single-footer3{
+    float:left;
+    width:20%;
+    margin-left: 20px;
+}
+
+#Single-footer4{
+    float:left;
+    width:20%;
+    margin-left: 20px;
+}
+
+.para-foot{
+    text-align: justify;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.footer-top-area {
+    background: #222 none repeat scroll 0 0;
+    color: #636c72
+}
+
+.footer-logo {
+    margin-bottom: 15px;
+}
+
+.single-footer-widget > h3 {
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 15px
+}
+
+.List{
+    padding-left: 5px;
+    line-height: 20px;
+    margin-top: 10px;
+    
+}
+
+.single-footer-widget {
+    margin-top: 15px;
+}
+.single-footer-widget.footer-logo-widget {
+    margin-top: 0;
+}
+.latest-post-footer-left {
+    background: #303030 none repeat scroll 0 0;
+    color: #fff;
+    float: left;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    width: 40px;
+}
+.latest-post-footer-right {
+    overflow: hidden;
+    line-height: 1px;
+}
+
+.latest-post-footer {
+    margin-bottom: 20px;
+}
+.latest-post-footer:last-child{
+    margin-bottom: 0
+}
+
+.latest-post-footer-right > h4 {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 1px;
+    text-transform: capitalize;
+    color: #787f84
+}
+
+.latest-post-footer {
+    margin-top: 20px;
+}
+
+.B-link:hover{
+    color: #eee
+}
+
+.latest-post-footer-right > p {
+    color: #eee;
+    font-size: 13px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.List-m{
+    padding-left: 5px;
+}
+
+.Links{
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #7f7f7f;
+    font-weight: 100;
+    padding-left: 1px;
+}
+
+.B-link{
+    text-decoration: none;
+    color: #7f7f7f;
+    font-weight: normal;
+}
+
+ul{
+    line-height: 30px;
+}
+
+.single-footer-widget li a:hover{
+    color:#eee
+}
+.single-footer-widget > form {
+    background: #333 none repeat scroll 0 0;
+    height: 35px;
+    margin-top: 10px;
+    position: relative;
+}
+.footer-widget-text{
+    text-align:justify;
+}
+
+.single-footer-widget input {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    padding-left:10px;
+    height: 100%;
+    left: 0;
+    color: #eee;
+    width: 80%;
+}
+
+.single-footer-widget button {
+    background: #f26723 none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20%;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s
+}
+.single-footer-widget button:hover{
+    background: #464646 none repeat scroll 0 0
+}
+
+.copyright-area {
+    background: #171717 none repeat scroll 0 0;
+    border-top: 1px solid #2b2b2b;
+    color: #7f7f7f;
+    padding: 25px 0;
+    text-align: center;
+    clear: both;
+    height: 25px;
+}
+
+.copyright-right p a {
+    color: #ff7f41;
+}
+
+.Footer-logo{
+    width: 210px;
+    height: 50px;
+}
+
+.Last-footer{
+    text-decoration: none;
+}
+
+.copyright-right{
+    margin-top:-15px
+}
+
+.latest-post-footer-right{
+    margin-top: -10px;
+}
+
+
+
+@media (max-width: 648px){
+    .falconet-footer-area{
+        clear: both;
+    }
+
+    .footer-top-area{
+        height:850px
+    }
+
+    .latest-post-footer{
+        margin-top:10px
+    }
+
+    #Single-footer1{
+        width:90%;
+        margin-left: 20px;
+    }
+
+    #Single-footer2{
+        clear: both;
+        width: 90%;
+    }
+
+    #Single-footer3{
+        clear: both;
+        width: 90%;
+    }
+
+    .Links{
+        padding-left: 1px;
+    }
+
+    .B-link{
+        font-size: 12px;
+    }
+
+    #Single-footer4{
+        clear: both;
+        width:90%;
+        margin-bottom: 30px;
+    }
+
+    .copyright-area{
+        clear: both;
+        height: 20px;
+    }
+
+    #para-last{
+        padding-top: -3px;
+        font-size: 13px;
+    }
+}

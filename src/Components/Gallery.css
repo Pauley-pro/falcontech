@@ -1,0 +1,238 @@
+.Gallery{
+    margin-top:150px;
+}
+
+.single-gallery-img {
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden
+}
+
+.single-gallery-img img {
+    background: #f26723 none repeat scroll 0 0;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;
+    -webkit-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
+            
+}
+
+.single-gallery-img {
+    background: #f26723 none repeat scroll 0 0;
+    cursor: pointer;
+    display: block;
+    max-width: 100%;
+    -webkit-perspective: 1200px;
+            perspective: 1200px;
+    -webkit-transform: translate3d(0px, 0px, 300px);
+            transform: translate3d(0px, 0px, 300px);
+    transition: opacity 0.35s ease 0s, transform 0.35s ease 0s, -webkit-transform 0.35s ease 0s;
+}
+
+.single-gallery-img:hover img {
+    opacity: 0.3;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    -webkit-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+}
+
+.single-gallery-img .gallery-caption:before {
+    content: "";
+    height: 160px;
+    left: 50%;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0px) rotate3d(0, 0, 1, -45deg) scale3d(0, 0, 1);
+            transform: translate3d(-50%, -50%, 0px) rotate3d(0, 0, 1, -45deg) scale3d(0, 0, 1);
+    -webkit-transform-origin: 50% 50% 0;
+            transform-origin: 50% 50% 0;
+    transition: opacity 0.35s ease 0s, transform 0.35s ease 0s, -webkit-transform 0.35s ease 0s;
+    width: 160px;
+}
+
+.single-gallery-img:hover .gallery-caption:before {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transform: translate3d(-50%, -50%, 0px) rotate3d(0, 0, 1, -45deg) scale3d(1, 1, 1);
+            transform: translate3d(-50%, -50%, 0px) rotate3d(0, 0, 1, -45deg) scale3d(1, 1, 1);
+}
+
+.gallery-caption p {
+    font-size: 121%;
+    line-height: 2;
+    text-align: center;
+    text-transform: none;
+    width: 100px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0px);
+            transform: translate3d(-50%, -50%, 0px);
+    -webkit-transform-origin: 50% 50% 0;
+            transform-origin: 50% 50% 0;
+    transition: opacity 0.35s ease 0s, transform 0.35s ease 0s, -webkit-transform 0.35s ease 0s;
+}
+
+.gallery-caption p Link {
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: all 200ms linear 0ms;
+    transition: all 200ms linear 0ms;
+    display: inline-block;
+    margin: 0 2px
+}
+
+.gallery-caption p Link Gal-icon:before {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 15px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    -webkit-transition: all 200ms linear 0ms;
+    transition: all 200ms linear 0ms;
+    vertical-align: middle;
+    width: 50px;
+    color: #333
+}
+
+.gallery-caption p Link Gal-icon {
+    color: #1c1c1c;
+    display: inline-block;
+    font-weight: 300;
+    margin-right: 12px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    transition: opacity 0.35s ease 0s, transform 0.35s ease 0s, -webkit-transform 0.35s ease 0s;
+}
+
+.gallery-caption p Link:first-child Gal-icon {
+    -webkit-transform: translate3d(-60px, -60px, 0px);
+            transform: translate3d(-60px, -60px, 0px);
+}
+
+.single-gallery-img:hover p Gal-icon:empty {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+}
+
+.gallery-caption p Link:nth-child(2) Gal-icon {
+    -webkit-transform: translate3d(60px, -60px, 0px);
+            transform: translate3d(60px, -60px, 0px);
+}
+
+#div1{
+    width:350px;
+    float:left;
+    margin-left:60px
+}
+
+#div2{
+    width:350px;
+    float:left;
+    margin-left:30px
+}
+
+#div3{
+    width:350px;
+    float:left;
+    margin-left:30px
+}
+
+#div4{
+    width:350px;
+    float:left;
+    margin-left:60px
+}
+
+#div5{
+    width:350px;
+    float:left;
+    margin-left:30px
+}
+
+#div6{
+    width:350px;
+    float:left;
+    margin-left:30px
+}
+
+.Gal-h3{
+    color: #333;
+    text-align:center;
+    font-size:20px;
+    font-weight: 400;
+}
+
+.Gal-h2{
+    color: #f26723;
+    text-align:center;
+    font-size:30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.Gal-icon1{
+    background-color: white;
+    color:black;
+    padding:10px;
+    border-radius:5px;
+    margin-left: 10px;
+}
+
+.Gal-icon2{
+    background-color: white;
+    color:black;
+    padding:10px;
+    border-radius:5px;
+    margin-right: 10px;
+}
+
+.Gallery1{
+    margin-top:30px
+}
+
+
+
+@media (max-width: 648px){
+    .Gallery{
+        clear: both;
+        height:1500px;
+    }
+
+    #div1{
+        margin-left: 45px;
+    }
+
+    #div2{
+        margin-left: 45px;
+    }
+
+    #div3{
+        margin-left: 45px;
+    }
+
+    #div4{
+        margin-left: 45px;
+    }
+
+    #div5{
+        margin-left: 45px;
+    }
+
+    #div6{
+        margin-left: 45px;
+    }
+   
+}
