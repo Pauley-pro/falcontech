@@ -1,0 +1,174 @@
+.falconet-broucher-area{
+    margin-bottom: 530px;
+}
+
+.breadcromb-top {
+    background: rgba(0, 0, 0, 0) url("../images/breadcromb_bg.jpg") repeat scroll 0 0;
+    color: #fff;
+    padding: 70px 0;
+    text-align: center;
+    position: relative;
+    margin-top:80px;
+}
+
+.breadcromb-top:before {
+    background: rgba(0, 0, 0, 0.54) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.breadcromb-h2 {
+    font-size: 35px;
+    text-transform: capitalize;
+    position: relative;
+    color: #fff;
+    font-weight: 400;
+}
+
+#Breadcromb-bott{
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.Arrow{
+    font-size: 13px;
+}
+
+.Clear{
+    margin-bottom: 100px;
+}
+
+.Breadcromb-bott:hover{
+    color: #f26723;
+}
+
+.Breadcromb-about{
+    color: #f26723;
+    font-size: 13px;
+}
+
+.breadcromb-bottom{
+    background: #f6f8fa none repeat scroll 0 0;
+    padding: 2px 0;
+    padding-left: 70px;
+}
+
+.breadcromb-bottom-text li {
+    color: #f26723;
+    display: inline-block;
+    font-weight: 500;
+    margin: 0 5px;
+    text-transform: capitalize;
+}
+
+.breadcromb-bottom-text a {
+    color: #555;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.breadcromb-bottom-text a:hover{
+    color: #f26723;
+}
+
+.Statement{
+    margin-top:40px
+}
+
+.statement-img{
+    width:48%;
+    float:left;
+    margin-top: 50px;
+}
+
+.img-st{
+    width:80%;
+    height: 250px;
+    margin-left: 100px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05), 2px 2px 12px 2px rgba(0, 0, 0, 0.09);
+}
+
+.statement-right{
+    float:right;
+    width:48%;
+    
+}
+
+.statement-right > h2 {
+    color: #333;
+    font-size: 26px;
+    line-height: 35px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.statement-right > h2:before {
+    background: #f26723 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 100%;
+    width: 80px;
+}
+
+.statement-right > p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: justify;
+    padding-right: 100px;
+}
+
+
+
+
+
+@media (max-width: 648px){
+    .falconet-broucher-area{
+        margin-bottom: 900px;
+    }
+
+    .breadcromb-top-text{
+        margin-top: -10px;
+    }
+
+    .breadcromb-h2{
+        font-size: 20px;
+    }
+    
+    .statement-img{
+        width:100%;
+        margin-top: 50px;
+    }
+    
+    .img-st{
+        width:90%;
+        height: 250px;
+        margin-left: 20px;
+    }
+    
+    .statement-right{
+        width:100%;    
+    }
+    
+    .statement-right > h2 {   
+        font-size: 20px;
+    }
+    
+    .statement-right > p{
+        font-size: 13px;
+        text-align: justify;
+        padding: 15px;
+    }   
+}

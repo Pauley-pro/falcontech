@@ -1,0 +1,78 @@
+.falconet-breadcromb-map{
+    margin-bottom: 100px;
+}
+
+.breadcromb-top {
+    background: rgba(0, 0, 0, 0) url("../images/breadcromb_bg.jpg") repeat scroll 0 0;
+    color: #fff;
+    padding: 70px 0;
+    text-align: center;
+    position: relative;
+    margin-top:110px;
+}
+
+.breadcromb-top:before {
+    background: rgba(0, 0, 0, 0.54) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.breadcromb-h2 {
+    font-size: 35px;
+    text-transform: capitalize;
+    position: relative;
+    color: #fff;
+    font-weight: 400;
+}
+
+#Breadcromb-bott{
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.Arrow{
+    font-size: 13px;
+}
+
+.Clear{
+    margin-bottom: 100px;
+}
+
+.Breadcromb-bott:hover{
+    color: #f26723;
+}
+
+.Breadcromb-about{
+    color: #f26723;
+    font-size: 13px;
+}
+
+.breadcromb-bottom{
+    background: #f6f8fa none repeat scroll 0 0;
+    padding: 2px 0;
+    padding-left: 70px;
+}
+
+.breadcromb-bottom-text li {
+    color: #f26723;
+    display: inline-block;
+    font-weight: 500;
+    margin: 0 5px;
+    text-transform: capitalize;
+}
+
+.breadcromb-bottom-text a {
+    color: #555;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.breadcromb-bottom-text a:hover{
+    color: #f26723;
+}
+

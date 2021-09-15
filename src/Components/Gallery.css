@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 .Gallery{
     margin-top:150px;
 }
@@ -173,6 +175,7 @@
     text-align:center;
     font-size:20px;
     font-weight: 400;
+    font-family: 'Great Vibes', cursive;
 }
 
 .Gal-h2{
@@ -181,6 +184,7 @@
     font-size:30px;
     font-weight: 400;
     text-transform: uppercase;
+    margin-top: -27px;
 }
 
 .Gal-icon1{
@@ -205,6 +209,46 @@
 
 
 
+@media (max-width: 991px){
+    #div1{
+        width:400px;
+        float:left;
+        margin-left:50px
+    }
+    
+    #div2{
+        width:400px;
+        float:left;
+        margin-left:30px
+    }
+    
+    #div3{
+        width:400px;
+        float:left;
+        margin-left:50px
+    }
+    
+    #div4{
+        width:400px;
+        float:left;
+        margin-left:30px
+    }
+    
+    #div5{
+        width:400px;
+        float:left;
+        margin-left:50px
+    }
+    
+    #div6{
+        width:400px;
+        float:left;
+        margin-left:30px
+    }
+}
+
+
+
 @media (max-width: 648px){
     .Gallery{
         clear: both;
@@ -212,27 +256,33 @@
     }
 
     #div1{
-        margin-left: 45px;
+        margin-left: 20px;
+        width: 90%;
     }
 
     #div2{
-        margin-left: 45px;
+        margin-left: 20px;
+        width: 90%;
     }
 
     #div3{
-        margin-left: 45px;
+        mmargin-left: 20px;
+        width: 90%;
     }
 
     #div4{
-        margin-left: 45px;
+        margin-left: 20px;
+        width: 90%;
     }
 
     #div5{
-        margin-left: 45px;
+        margin-left: 20px;
+        width: 90%;
     }
 
     #div6{
-        margin-left: 45px;
+        margin-left: 20px;
+        width: 90%;
     }
    
 }

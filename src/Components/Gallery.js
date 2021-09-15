@@ -34,7 +34,7 @@ class Gallepic extends Component{
                     </Row>
                     <Gallery>
                     <div className="Gallery1">
-                            <Row>
+                        <Row>
                             <Col md={4} sm={4}>
                                 <div className="single-gallery-img" id="div1">
                                     <Item
@@ -47,16 +47,16 @@ class Gallepic extends Component{
                                         <img ref={ref} onClick={open} src={Gallery1} className="img-div1"/>
                                         )}
                                     </Item> 
-                                    <div class="gallery-caption">
+                                    {/*}<div class="gallery-caption">
                                         <p>
-                                            {/*}<Link to="../images/gallery-1.jpg';" className="more gallery2">
+                                            <Link to="../images/gallery-1.jpg';" className="more gallery2">
                                                 <FaSearchPlus className="Gal-icon1"/>
-                                            </Link>{*/}
+                                            </Link
                                             <Link to="./Components/Gallery.js">
                                                 <FaLink className="Gal-icon2"/>
                                             </Link>
                                         </p>
-                                    </div>
+                                    </div>>{*/}
                                 </div>
                             </Col>
                             <Col md={4} sm={4}>
@@ -71,16 +71,16 @@ class Gallepic extends Component{
                                         <img ref={ref} onClick={open} src={Gallery2} className="img-div2"/>
                                         )}
                                     </Item>
-                                    <div className="gallery-caption">
+                                    {/*}<div className="gallery-caption">
                                         <p>
-                                            {/*}<Link to="../images/gallery-2.jpg';" className="more gallery2">
+                                            <Link to="../images/gallery-2.jpg';" className="more gallery2">
                                                 <FaSearchPlus className="Gal-icon1"/>
-                                            </Link>{*/}
+                                            </Link>
                                             <Link to="./Components/Gallery.js">
                                                 <FaLink className="Gal-icon2"/>
                                             </Link>
                                         </p>
-                                    </div>
+                                    </div>{*/}
                                 </div>
                             </Col>
                             <Col md={4} sm={4}>
@@ -95,16 +95,16 @@ class Gallepic extends Component{
                                         <img ref={ref} onClick={open} src={Gallery3} className="img-div3"/>
                                         )}
                                     </Item>
-                                    <div className="gallery-caption">
+                                    {/*}<div className="gallery-caption">
                                         <p>
-                                            {/*}<Link to="../images/gallery-3.jpg';" className="more gallery2">
+                                            <Link to="../images/gallery-3.jpg';" className="more gallery2">
                                                 <FaSearchPlus className="Gal-icon1"/>
-                                            </Link>{*/}
+                                            </Link>
                                             <Link to="./Components/Gallery.js">
                                                 <FaLink className="Gal-icon2"/>
                                             </Link>
                                         </p>
-                                    </div>
+                                        </div>{*/}
                                 </div>
                             </Col>
                         </Row>
@@ -123,16 +123,16 @@ class Gallepic extends Component{
                                         <img ref={ref} onClick={open} src={Gallery4} className="img-div4"/>
                                         )}
                                     </Item>
-                                    <div class="gallery-caption">
+                                    {/*}<div class="gallery-caption">
                                         <p>
-                                            {/*}<Link to="../images/gallery-4.jpg';" className="more gallery2">
+                                            <Link to="../images/gallery-4.jpg';" className="more gallery2">
                                                 <FaSearchPlus className="Gal-icon1"/>
-                                            </Link>{*/}
+                                            </Link>
                                             <Link to="./Components/Gallery.js">
                                                 <FaLink className="Gal-icon2"/>
                                             </Link>
                                         </p>
-                                    </div>
+                                    </div>{*/}
                                 </div>
                             </Col>
                             <Col md={4} sm={4}>
@@ -147,16 +147,16 @@ class Gallepic extends Component{
                                         <img ref={ref} onClick={open} src={Gallery5} className="img-div5"/>
                                         )}
                                     </Item>
-                                    <div class="gallery-caption">
+                                    {/*}<div class="gallery-caption">
                                         <p>
-                                            {/*}<Link to="../images/gallery-5.jpg';" className="more gallery2">
+                                            <Link to="../images/gallery-5.jpg';" className="more gallery2">
                                                 <FaSearchPlus className="Gal-icon1"/>
-                                            </Link>{*/}
+                                            </Link>
                                             <Link to="./Components/Gallery.js">
                                                 <FaLink className="Gal-icon2"/>
                                             </Link>
                                         </p>
-                                    </div>
+                                    </div>{*/}
                                 </div>
                             </Col>
                             <Col md={4} sm={4}>
@@ -171,16 +171,16 @@ class Gallepic extends Component{
                                         <img ref={ref} onClick={open} src={Gallery6} className="img-div6"/>
                                         )}
                                     </Item>
-                                    <div class="gallery-caption">
+                                    {/*}<div class="gallery-caption">
                                         <p>
-                                            {/*}<Link to="../images/gallery-6.jpg';" className="more gallery2">
+                                            <Link to="../images/gallery-6.jpg';" className="more gallery2">
                                                 <FaSearchPlus className="Gal-icon1"/>
-                                            </Link>{*/}
+                                            </Link>
                                             <Link to="./Components/Gallery.js">
                                                 <FaLink className="Gal-icon2"/>
                                             </Link>
                                         </p>
-                                    </div>
+                                    </div>{*/}
                                 </div>
                             </Col>
                         </Row>

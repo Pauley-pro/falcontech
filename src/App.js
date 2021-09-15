@@ -3,13 +3,19 @@ import './App.css';
 import Navbar from './Components/Navbar.js';
 import Home from './Components/Home.js';
 import About from './Components/About.js';
-import Shop from './Components/Shop.js';
+import Shoplist from './Components/Shoplist';
 import Footer from './Components/Footer.js';
 import Scrollup from './Components/Scrollup.js';
-import Servicepage from './Components/Servicepage.js';
-import Terms from './Components/Terms.js';
-import Gallerypage from './Components/Gallerypage';
+import Contact from './Components/Contact.js';
+import Cart from './Components/Cart.js';
+import ShopDetails from './Components/Shopdetails';
+import Signup from './Components/Signup';
+import Login from './Components/Login';
+import Vision from './Components/Vision';
+import Mission from './Components/Mission';
+import Value from './Components/Value';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 
 
 
@@ -24,13 +30,23 @@ class App extends Component{
               <Route exact path="/" component={Home}/>
               <Route path="/home" component={Home}/>                     
               <Route path="/about" component={About}/>
-              <Route path="/shop" component={Shop}/>
-              <Route path="/servicepage" component={Servicepage}/>
-              <Route path="/terms" component={Terms}/>
-              <Route path="/gallerypage" component={Gallerypage}/>
+              <Route path="/shoplist" component={Shoplist}/>
+              <Route path="/contact" component={Contact}/>
+              <Route path="/cart" component={Cart}/>
+              <Route path="/product/:productId" component={ShopDetails} />
+              <Route path="/signup" component={Signup} />
+              <Route path="/login" component={Login} />
+              <Route exact path='/vision' component={Vision}/>
+              <Route exact path='/mission' component={Mission}/>
+              <Route exact path='/value' component={Value}/>
             </Switch>
-
-            <Footer/>
+              
+              
+              
+            
+            <div className="Div-fo">
+              <Footer/>
+            </div>
           </Router>
           
           <Scrollup/>

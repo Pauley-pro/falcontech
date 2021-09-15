@@ -3,7 +3,7 @@ import './Navbar.css';
 import { Link } from 'react-router-dom';
 import { BsX as CloseMenu } from 'react-icons/bs';
 import { VscMenu as MenuIcon } from 'react-icons/vsc';
-import { TiShoppingCart } from 'react-icons/ti';
+import { RiShoppingCartLine } from 'react-icons/ri';
 import Logo from '../images/site-logo.png';
 import {
   faWhatsapp,
@@ -13,21 +13,100 @@ import {
   faLinkedinIn
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import { FaUser, FaSearch } from "react-icons/fa";
 
 
 
-
-const Navbar = () => {
+function Navbar() {
   const [click, setClick] = useState(false);
+
+
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
   
+  
+
+  
+
+{/*}const Navbar = () => {
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+const closeMobileMenu = () => setClick(false);{*/}
+  
   return (
     <div className="header" id="fixed">
+      <div className='navbar-container'>
+        <Link to='/Home' className='navbar-logo' onClick={closeMobileMenu}>
+          <img src={Logo} alt="Falcontech" className="Site-logo"/>
+        </Link>
+        <div className='menu-icon' onClick={handleClick}>
+          {click ? (<CloseMenu className="menu-icon" />) : (<MenuIcon className="menu-icon" />)}
+        </div>
+        <ul className={click ? 'nav-menu active' : 'nav-menu'} id="Navbar">
+          <li className='nav-item'>
+            <Link to='/Home' className='nav-links' onClick={closeMobileMenu} id="Link1">
+              Home
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link to='/About' className='nav-links' onClick={closeMobileMenu} id="Link2">
+              About Us
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link to='/Shoplist' className='nav-links' onClick={closeMobileMenu} id="Link3">
+              Shop
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link to='/Contact' className='nav-links' onClick={closeMobileMenu} id="Link4">
+              Contact
+            </Link>
+          </li>
+        </ul>
+        <ul className="soc-icons">
+          <li>
+            <Link to="" className="whatsapp social">
+              <FontAwesomeIcon icon={faWhatsapp} size="1x" />
+            </Link>
+          </li>
+          <li>
+            <Link to="" className="linkedin social">
+              <FontAwesomeIcon icon={faLinkedinIn} size="1x" />
+            </Link>
+          </li>
+          <li>
+            <Link to="" className="facebook social">
+              <FontAwesomeIcon icon={faFacebookF} size="1x" />
+            </Link>
+          </li>
+          <li>
+            <Link to="" className="twitter social">
+              <FontAwesomeIcon icon={faTwitter} size="1x" />
+            </Link>
+          </li>
+          <li>
+            <Link to="" className="instagram social">
+              <FontAwesomeIcon icon={faInstagram} size="1x" />
+            </Link>
+          </li>
+        </ul>
+
+        <ul className="users">
+          <li>
+            <Link to="/Login" className="login">
+              Login
+            </Link>
+          </li>
+          <li>
+            <Link to="/cart" className="cart">
+              <RiShoppingCartLine id="cart"/>
+              <div className="Cart-counter">0</div>
+            </Link>
+          </li>
+        </ul>
+
+      </div>
+    
       {/*}<div id="site-logo" onClick={closeMobileMenu}>
         <Link to="/Home">
           <img src={Logo} className="site-logo" />
@@ -150,7 +229,7 @@ const Navbar = () => {
       <FaSearch className="search"/>
 {*/}
 
-      
+      {/*}
       <div className="header-right-overlay1">
         <Col md={9}>
           <div className="header-right" id="top-right">
@@ -283,7 +362,7 @@ const Navbar = () => {
           </div>
           <FaSearch className="search"/>
         </Row>
-  </Container>
+  </Container>{*/}
     </div>
   );
 };

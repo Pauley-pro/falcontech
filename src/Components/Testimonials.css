@@ -1,15 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
 .falconet-testimonial-area {
+    background: #212121 url("../images/testimonial-bg.jpg") repeat scroll 0 0;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+    text-align: center;
+    position: relative;
+    margin-top:100px;
+}
+
+
+
+.falconet-testimonial-area:before {
+    background: rgba(0, 0, 0, 0.54) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.falconet-testimonial-area .single-testimonial {
+    background: transparent none repeat scroll 0 0;
+    padding: 20px;
+    position: relative;
+    height: 200px;
+    
+}
+
+.falconet-testimonial-area .single-testimonial:before {
+    bottom: 67px;
+    color: #333;
+    content: "";
+    font-family: "FontAwesome";
+    font-size: 50px;
+    position: absolute;
+    right: 39px;
+}
+
+
+/*.falconet-testimonial-area {
     background: #212121 none repeat scroll 0 0;
+    background-image: url("../images/testimonial-bg.jpg");
     margin-top: 110px;
     height:500px;
 }
 
-.testimonial-slide {
-    margin: 0 auto;
-    text-align: center;
-    width: 50%;
-
-}
 
 .falconet-testimonial-area .single-testimonial {
     background: #212121 none repeat scroll 0 0;
@@ -27,16 +65,25 @@
     position: absolute;
     right: 39px;
 }
+*/
+
+.testimonial-slide {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
 
 .single-testimonial {
     color: #ccc;
 }
 
 .testimonial-text {
-    border-bottom: 1px solid #3c3c3c;
+    border-bottom: 1px solid #f26723;
     margin-bottom: 20px;
-    padding-bottom: 20px;
-    
+    padding-bottom: 10px;
 }
 
 .testimonial-info {
@@ -69,33 +116,42 @@
 
 .site-heading-black{
     line-height: 5px;
+    margin-top: 20px;
+    
 }
 
 .test-h2{
     color: #f26723;
-    text-align:center;
+    text-align:right;
     font-size:30px;
     font-weight: 400;
+    position: relative;
+    padding-right: 300px;
+    margin-top: -27px;
 }
 
 .test-h3{
     color: white;
-    text-align:center;
+    text-align:right;
     font-size:20px;
-    padding-top: 100px;
+    padding-top: 20px;
+    position: relative;
+    padding-right: 310px;
+    
 }
 
 .parag{
     font-family: Gabriola;
     font-size: 20px;
     letter-spacing: 1px;
-    color: white;
+    color: pink;
     line-height: 23px;
     font-weight: 400;
 }
 
 .para-tes{
     color: white;
+    padding-top: 10px;
 }
 
 
@@ -108,12 +164,12 @@
 @media (max-width: 648px){
     .falconet-testimonial-area{
         clear:both;     
-        height:600px;
-        margin-top: 180px; 
+        height:500px;
+        margin-top: 100px; 
     }
 
     .single-testimonial{
-        height: 500px;
+        height: 450px;
     }
 
     .parag{
@@ -125,6 +181,8 @@
         width:80%;
        
     }
+
+    
 
     .para-tes{
         display:contents;
@@ -147,5 +205,27 @@
         text-align: center;
         width: 90%;
     }
+
+    .testimonial-text {
+        border-bottom: 1px solid #f26723;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+
+    .test-h3{
+        font-size:15px;
+        padding-top: 15px;
+        position: relative;
+        padding-right: 170px;
+        text-align: right;
+    }
+
+    .test-h2{
+        position: relative;
+        padding-right: 140px;
+        text-align: right;
+    }
+
+    
     
 }

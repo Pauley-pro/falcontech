@@ -16,7 +16,8 @@ class Testimonials extends Component{
     render(){
         return (
             <div>
-                <div class="falconet-testimonial-area section_100">
+                <div className="falconet-testimonial-area section_100">
+                    
                     <Container>
                         <Row>
                             <Col md={12}>
@@ -30,14 +31,11 @@ class Testimonials extends Component{
                             <Col md={12}>
                                 <div className="testimonial-slide">
                                     <Slide>
-                                    <div class="single-testimonial">
+                                        <div class="single-testimonial">
                                             <div className="testimonial-text">
                                                 <p className="parag">Esse cillum fugiat nulla pariatur excepteur ipsum dolor sit amconsectetur adipisicing elit sedaup eiusmod tempor incididunt labore et dolore magna aliqua lorem ipsum dolor sit ametes etur adipisicing elit usmod tempor incididunt eiusmod tempor incididunt ut labore.</p>
                                             </div>
                                             <div className="testimonial-info">
-                                                <div className="info-img">
-                                                    <img src={Client1} alt="client" />
-                                                </div>
                                                 <div className="info-name">
                                                     <h4 className="tes-head">Mike Hussy</h4>
                                                     
@@ -50,9 +48,6 @@ class Testimonials extends Component{
                                                 <p className="parag">Esse cillum fugiat nulla pariatur excepteur ipsum dolor sit amconsectetur adipisicing elit sedaup eiusmod tempor incididunt labore et dolore magna aliqua lorem ipsum dolor sit ametes etur adipisicing elit usmod tempor incididunt eiusmod tempor incididunt ut labore.</p>
                                             </div>
                                             <div class="testimonial-info">
-                                                <div className="info-img">
-                                                    <img src={Client2} alt="client" />
-                                                </div>
                                                 <div class="info-name">
                                                     <h4 className="tes-head">Zenifar Lopez</h4>
                                             
@@ -65,9 +60,6 @@ class Testimonials extends Component{
                                                 <p className="parag">Esse cillum fugiat nulla pariatur excepteur ipsum dolor sit amconsectetur adipisicing elit sedaup eiusmod tempor incididunt labore et dolore magna aliqua lorem ipsum dolor sit ametes etur adipisicing elit usmod tempor incididunt eiusmod tempor incididunt ut labore.</p>
                                             </div>
                                             <div className="testimonial-info">
-                                                <div className="info-img">
-                                                    <img src={Client1} alt="client" />
-                                                </div>
                                                 <div className="info-name">
                                                     <h4 className="tes-head">Mike Hussy</h4>
                                                     
@@ -80,6 +72,7 @@ class Testimonials extends Component{
                             </Col>
                         </Row>
                     </Container>
+                    
                 </div>
             </div>
         );

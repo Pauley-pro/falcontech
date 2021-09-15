@@ -38,8 +38,8 @@ class Service extends Component{
                                 <div class="service-icon">
                                     <Icon icon={cctvIcon} className="icons"/>
                                 </div>
-                                <h3 className="Serv-h"><Link to="#" className="Serv-link">VIDEO SURVEILLANCE</Link></h3>
-                                {/*}<p className="para">Maintenance, repairs and monitoring for clients<br/> irrespective of location.</p>{*/}
+                                <h3 className="Serv-h" id="Serv-h">Video Surveillance</h3>
+                                <p className="para">We exist to provide you with the ability to stay conversant and abreast with happenings around you. You get to monitor every activity even if you weren't present when it occurred. Every CCTV camera you purchase from us assures you of the best video footage quality and you can access it from just anywhere without you having to be within your property</p>
                             </div>
                         </Col>
                         <Col md={4} sm={4}>
@@ -47,8 +47,8 @@ class Service extends Component{
                                 <div class="service-icon">
                                     <RiRemoteControlFill className="icons"/>
                                 </div>
-                                <h3 className="Serv-h"><Link to="#" className="Serv-link">ACCESS CONTROL</Link></h3>
-                                {/*}<p className="para">Sales and installation of cctv, IP cameras, nanny<br/> cameras, dummy cams, other various types of<br/> security cameras.</p>{*/}
+                                <h3 className="Serv-h" id="Serv-h">ACCESS CONTROL</h3>
+                                <p className="para">We will provide you with the best biometry systems, key locks, motion detectors and essentially every other device that helps you moonitor entry and exit to and from your property. We assure you that every piece of equipment has a simple user interface for our experienced and non-experienced clients.</p>
                             </div>
                         </Col>
                         <Col md={4} sm={4}>
@@ -56,8 +56,8 @@ class Service extends Component{
                                 <div class="service-icon">
                                     <GiSecurityGate className="icons"/>
                                 </div>
-                                <h3 className="Serv-h"><Link to="#" className="Serv-link">BUILDING AUTOMATION</Link></h3>
-                                {/*}<p className="para">Automated gate openers maintenance, repairs and<br/> consultancy services.</p>{*/}
+                                <h3 className="Serv-h" id="Serv-h">BUILDING AUTOMATION</h3>
+                                <p className="para">We will provide you the benefits of excellent and quality building automation. In this, you'll spend less on electrical, security, plumbing, cooling and just about every other system as every piece of equipment you need to control them is available at the snap of a finger</p>
                             </div>
                         </Col>
                     </div>
@@ -70,8 +70,8 @@ class Service extends Component{
                                 <div class="service-icon">
                                     <FaFireExtinguisher className="icons"/>
                                 </div>
-                                <h3 className="Serv-h"><Link to="#" className="Serv-link">FIRE PROTECTION</Link></h3>
-                                {/*}<p className="para">Deployment of motion detection alarm systems.</p>{*/}
+                                <h3 className="Serv-h" id="Serv-h">FIRE PROTECTION</h3>
+                                <p className="para">We will provide you with fire protection devices that will enable you spot the slightest indications of fire. Our smoke detectors ate unrivaled and we'll provide with the most straightforward user interface devices without reducing the quality and value for money.</p>
                             </div>
                         </Col>
                         <Col md={4} sm={4}>
@@ -79,8 +79,8 @@ class Service extends Component{
                                 <div class="service-icon">
                                     <FaIntercom className="icons"/>
                                 </div>
-                                <h3 className="Serv-h"><Link to="#" className="Serv-link">INTERCOM</Link></h3>
-                                {/*}<p className="para">Excellent and uncompromising customer service with<br/> absolute integrity guided by our values and<br/> professional ethics.</p>{*/}
+                                <h3 className="Serv-h" id="Serv-h">INTERCOM</h3>
+                                <p className="para">We can help you pair intercoms with surveillance services to make ecurity airtight and even easier. With a superp quality intercom service, you or your security personnel can adequately monitor security footage without disturbing access to your property and communicate easily from all parts of your property.</p>
                             </div>
                         </Col>
                         <Col md={4} sm={4}>
@@ -88,8 +88,8 @@ class Service extends Component{
                                 <div class="service-icon">
                                     <RiAlarmWarningFill className="icons"/>
                                 </div>
-                                <h3 className="Serv-h"><Link to="#" className="Serv-link">SECURITY ALARMS</Link></h3>
-                                {/*}<p className="para">User Access Control systems on computerised door<br/> panels</p>{*/}
+                                <h3 className="Serv-h" id="Serv-h">SECURITY ALARMS</h3>
+                                <p className="para">We provide you scirity alarms that are highly sensitive and will detect the slightest intrusion and unauthorised access and alert you long before any damage can be done to your property. This enables you to pair surveillance cameras with security alarms which gives you airtight security for your property</p>
                             </div>
                         </Col>
                     </div>
@@ -102,8 +102,8 @@ class Service extends Component{
                                 <div class="service-icon">
                                     <FaUserShield className="icons"/>
                                 </div>
-                                <h3 className="Serv-h"><Link to="#" className="Serv-link">SELF DEFENSE SUPPLIES</Link></h3>
-                                {/*}<p className="para">Deployment of motion detection alarm systems.</p>{*/}
+                                <h3 className="Serv-h" id="Serv-h">SELF DEFENSE SUPPLIES</h3>
+                                <p className="para">With self-defense supplies, you can adequately equip yourself with everything you need to ensure maximum safety in the case of an unforseen attack. At Falcontech, we'll recommend the moost suitable ones for your person and will guide you on how to use them without harming yourself.</p>
                             </div>
                         </Col>
                         <Col md={4} sm={4}>
@@ -111,8 +111,8 @@ class Service extends Component{
                                 <div class="service-icon">
                                     <RiSafeFill className="icons"/>
                                 </div>
-                                <h3 className="Serv-h"><Link to="#" className="Serv-link">WORKPLACE SAFETY SUPPLIES</Link></h3>
-                                {/*}<p className="para">Excellent and uncompromising customer service with<br/> absolute integrity guided by our values and<br/> professional ethics.</p>{*/}
+                                <h3 className="Serv-h" id="Serv-h">WORKPLACE SAFETY SUPPLIES</h3>
+                                <p className="para">We provide you with every device and equipment you need for a safe workplace environment such as Well-equipped first aid boxes, safety signs, spill kits, and every other workplace safety supply in the market can protect you from hefty lawsuits. Invest in these supplies today to ensure the maximum protection of yourself and your employees in the workplace. </p>
                             </div>
                         </Col>
                     </div>

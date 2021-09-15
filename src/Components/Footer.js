@@ -4,9 +4,9 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Logo from '../images/footer-logo.png';
-import { IoImageSharp } from "react-icons/io5";
-import { FaBriefcase } from "react-icons/fa";
-import { FaEnvelopeOpen } from "react-icons/fa";
+import { RiWhatsappFill } from "react-icons/ri";
+import { ImLinkedin2, ImTwitter } from "react-icons/im";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 
@@ -16,84 +16,46 @@ import { Link } from 'react-router-dom';
 class Footer extends Component{
   render(){
     return (
-        <div class="falconet-footer-area">
-            <div class="footer-top-area section_50">
-                <Container>
-                    <Row>
-                        <Col md={3} sm={3}>
-                            <div className="single-footer-widget footer-logo-widget" id="Single-footer1">
-                                <div class="footer-logo">
-                                    <Link to="index.html">
-                                        <img src={Logo} alt="footer logo" className="Footer-logo"/>
-                                    </Link>
-                                </div>
-                                <div className="footer-widget-text">
-                                    <p className="para-foot">Falconet is a standard and well-equipped CCTV security camera installation services company that offers basic services such as the sales, installation, servicing and maintenance of CCTV security camera devices, monitoring services and other related training, advisory and consultancy services.</p>
-                                </div>
+        <>
+            <div class="falconet-footer-area">
+                <div className="Footer1">
+                    <ul className="List">
+                        <li>
+                            <div class="footer-logo">
+                                <Link to="/Home">
+                                    <img src={Logo} alt="footer logo" className="Footer-logo"/>
+                                </Link>
                             </div>
-                        </Col>
-                        <Col md={3} sm={3}>
-                            <div className="single-footer-widget" id="Single-footer2">
-                                <h3>latest post</h3>
-                                <div className="latest-post-footer clearfix">
-                                    <div className="latest-post-footer-left">
-                                        <IoImageSharp/>
-                                    </div>
-                                    <div className="latest-post-footer-right">
-                                        <h4 className="head4"><Link to="#" className="B-link">Revealed: How to set goals for you and your team</Link></h4>
-                                        <p className="par-foot" id="par-foot">Jan 14, 2018</p>
-                                    </div>
-                                </div>
-                                <div className="latest-post-footer clearfix">
-                                    <div className="latest-post-footer-left">
-                                        <FaBriefcase/>
-                                    </div>
-                                    <div className="latest-post-footer-right" id="latest-post-footer-right">
-                                        <h4 className="head4"><Link to="#" className="B-link">Five ways to improve as a business professional!</Link></h4>
-                                        <p className="par-foot" id="par-foot">Jan 14, 2018</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </Col>
-                        <Col md={3} sm={3}>
-                            <div className="single-footer-widget" id="Single-footer3">
-                                <h3 className="List-m">main links</h3>
-                                <ul className="List">
-                                    <li><Link to="/About" className="Links">About us</Link></li>
-                                    <li><Link to="#" className="Links">Delivery Information</Link></li>
-                                    <li><Link to="/Terms" className="Links">Terms & Conditions</Link></li>
-                                    <li><Link to="#" className="Links">Privacy Policy</Link></li>
-                                    <li><Link to="#" className="Links">Contact us</Link></li>
-                                    <li><Link to="#" className="Links">Return Policy</Link></li>
-                                </ul>
-                            </div>
-                        </Col>
-                        <Col md={3} sm={3}>
-                            <div className="single-footer-widget"id="Single-footer4">
-                                <h3>Newsletter</h3>
-                                <p className="para-foot">Don't miss to subscribe to our news feeds, kindly fill the form below.</p>
-                                <form>
-                                    <input type="email" placeholder="Subscribe"/ >
-                                    <button type="submit" ><FaEnvelopeOpen/></button>
-                                </form>
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
+                        </li>
+                    </ul>
+                </div>
+                <div className="Footer2">
+                    <h5 className="h5-foot">Company</h5>
+                    <ul className="List">
+                    <li className="Sub-list"><Link to="/About" className="test-link">About</Link></li>
+                        <li className="Sub-list"><Link to="/Contact" className="test-link">Contact</Link></li>
+                        <li className="Sub-list"><Link to="" className="test-link">Shop</Link></li>
+                    </ul>
+                </div>
+                <div className="Footer3">
+                    <h5 className="h5-foot">Legal</h5>
+                    <ul className="List">
+                        <li className="Sub-list"><Link to="/Terms" className="test-link">Terms and Conditions</Link></li>
+                    </ul>
+                </div>
+                <div className="Footer4">
+                <h5 className="h5-foot">Follow us</h5>
+                    <RiWhatsappFill className="Soc-list" id="Soc-list"/>
+                    <ImLinkedin2 className="Soc-list"/>
+                    <FaFacebook className="Soc-list"/>
+                    <ImTwitter className="Soc-list"/>
+                    <FaInstagram className="Soc-list"/>
+                </div>    
             </div>
-            <div className="copyright-area">
-                <Container>
-                    <Row>
-                        <Col md={12}>
-                            <div className="copyright-right">
-                                <p className="para-last" id="para-last">&copy; Copyright <Link to="#" className="Last-footer">FalconTech</Link> All rights reserved</p>
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </div>
-            
-        </div>
+            <div className="Copyright-area" id="Copyright-area">
+                <p id="para-footer">&copy; Copyright <Link to="#" className="foot-link">FalconTech</Link> All rights reserved</p> 
+            </div> 
+        </>
     );
   }
 }

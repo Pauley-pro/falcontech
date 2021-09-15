@@ -3,9 +3,10 @@
     position: relative;
     text-align: center;
     color: #fff;
-    margin-top: 80px;
-    height: 450px;
+    margin-top: 100px;
+    height: 400px;
 }
+
 .falconet-count-area:before {
     background: rgba(1, 7, 23, 0.78) none repeat scroll 0 0;
     content: "";
@@ -15,21 +16,24 @@
     top: 0;
     width: 100%;
 }
+
 .count-box h3 {
     margin-bottom: 10px;
     font-family: "Oswald",sans-serif;
     font-size: 33px;
 }
+
 .counts-text {
     margin: 0 auto;
     width: 70%;
     position:relative
 }
+
 .counts-text > h3 {
     font-family: "Oswald",sans-serif;
     line-height: 35px;
     text-transform: uppercase;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .Count-h2{
@@ -47,11 +51,11 @@
     color:white;
     position:relative;
     float:left;
-    margin-left: 80px;
+    margin-left: 75px;
 }
 
 #count-box{
-    margin-left: 170px;
+    margin-left: 215px;
 }
 
 .counter{
@@ -61,10 +65,21 @@
 }
 
 
+
+@media (max-width: 991px){
+    #count-box{
+        margin-left: 55px;
+    }
+}
+
 @media (max-width: 648px){
     .falconet-count-area{
         clear:both;
-        height: 1000px;
+        height: 750px;
+    }
+
+    .counts-text > h3{
+        padding-top: 40px;
     }
 
     #count-box{
@@ -84,10 +99,17 @@
     }
 
     #count-box4{
-        margin-left: 143px;
+        margin-left: 125px;
     }
 
     .counts-text{
-        width:100%;
+        width:90%;
     }
+
+    #Count-h3{
+        font-size: 13px;
+        line-height: 18px;
+        
+    }
+
 }

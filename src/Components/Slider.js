@@ -24,12 +24,12 @@ const Slider = () => {
                                 <Col md={12}>
                                     <div className="slider-text" id="slider-text">
                                         <h2 className="slide-h2" id="slide-h2">
-                                            the most successful security <span>agency</span>
+                                            secure your <span>environment</span>
                                         </h2>
                                         <p id="Para-slide">
-                                            Nunc accumsan metus quis metus. Sed luctus. Mauris eu enim quisque dignissim nequesudm consectetuer dapibus wn eu leo integer varius erat.
+                                            Security is the top reason anyone anyone purchases <br/>a surveillance camera.
                                         </p>
-                                        <Link to="#" className="falconet-btn">start a project</Link>
+                                        <Link to="#" className="falconet-btn">learn more</Link>
                                     </div>
                                 </Col>
                             </Row>
@@ -46,10 +46,10 @@ const Slider = () => {
                                 <Col md={12}>
                                     <div className="slider-text" id="slider-text">
                                         <h2 className="slide-h2" id="slide-h2">
-                                            Premium Security Services Trusted <span> by Millions</span>
+                                            tune into your <span> surroundings</span>
                                         </h2>
                                         <p id="Para-slide">
-                                            Nunc accumsan metus quis metus. Sed luctus. Mauris eu enim quisque dignissim nequesudm consectetuer dapibus wn eu leo integer varius erat.
+                                            awareness may not be stressed enough, but it cannot <br/>be overemphasised. 
                                         </p>
                                         <Link to="#" class="falconet-btn">learn more</Link>
                                     </div>
@@ -68,10 +68,31 @@ const Slider = () => {
                                 <Col md={12}>
                                     <div className="slider-text" id="slider-text">
                                         <h2 className="slide-h2" id="slide-h2">
-                                            Premium Security Services Trusted<span> by Millions</span>
+                                            stay one step<span> ahead</span>
                                         </h2>
                                         <p id="Para-slide">
-                                            Nunc accumsan metus quis metus. Sed luctus. Mauris eu enim quisque dignissim nequesudm consectetuer dapibus wn eu leo integer varius erat.
+                                            it's not sufficient to own CCTV camera, you need to ensure that you <br/>purchase those of excellent quality.
+                                        </p>
+                                        <Link to="#" className="falconet-btn">learn more</Link>
+                                    </div>
+                                </Col>
+                            </Row>
+                        </Container>
+                    </div>
+                </div>
+            </div>
+            <div className="falconet-main-slide slide-item-4">
+                <div className="falconet-main-caption">
+                    <div className="falconet-caption-cell">
+                        <Container>
+                            <Row>
+                                <Col md={12}>
+                                    <div className="slider-text" id="slider-text">
+                                        <h2 className="slide-h2" id="slide-h2">
+                                            give yourself an<span> edge</span>
+                                        </h2>
+                                        <p id="Para-slide">
+                                            Whether you intend to call the police or handle negative situations yourself, you give yourself an edge with Falcontech.
                                         </p>
                                         <Link to="#" className="falconet-btn">learn more</Link>
                                     </div>
