@@ -9,12 +9,14 @@ import Scrollup from './Components/Scrollup.js';
 import Contact from './Components/Contact.js';
 import Cart from './Components/Cart.js';
 import ShopDetails from './Components/Shopdetails';
-import Signup from './Components/Signup';
-import Login from './Components/Login';
 import Vision from './Components/Vision';
+import Signup from './Auth-pages/Signup';
+import Login from './Auth-pages/Login';
 import Mission from './Components/Mission';
 import Value from './Components/Value';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+{/*}import Signup from './Components/Signup';
+import Login from './Components/Login';{*/}
 
 
 

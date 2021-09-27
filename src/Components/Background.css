@@ -1,0 +1,109 @@
+.Back-ground{
+    background: #222 none repeat scroll 0 0;
+    border: #f7f7f7 solid 20px;
+    height: 600px;
+    margin-top: -100px;
+}
+
+.Back-left{
+    float:left;
+    position: relative;
+}
+
+.Back-right{
+    float:left;
+    margin-top: 50px;
+    width: 40%;
+    margin-left: 40px;
+}
+
+.Bimage{
+    height:500px;
+    width: 500px;
+    margin-top: 10px;
+}
+
+.span-back{
+    color: #f26723;
+    text-decoration: underline;
+}
+
+.para-back{
+    font-size: 20px;
+    padding: 20px;
+    width: 90%;
+    color: white;
+    font-family: gabriola;
+    line-height: 20px;
+}
+
+.para-h2{
+    padding: 20px;
+    padding-top: 15px;
+    font-size: 30px;
+    color: white;
+}
+
+.para-h4{
+    padding: 20px;    
+    padding-bottom: 0px;
+    color: white;
+}
+
+.main-back{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.But-con{
+    font-size:11px;
+    font-weight: 500;
+    border-radius:23px;
+    height:10px;
+    width:300px;
+    margin:20px;
+    color:#222;
+    background-color:beige;
+    border:solid beige 2px;
+    padding-top:33px;
+    padding-bottom:38px;
+    text-align:center;
+    text-transform:uppercase;
+    text-decoration:none;
+    letter-spacing:2px;
+    font-family:monospace;
+    float:left
+}
+
+.But-con:hover{
+    background-color: transparent;
+    color: beige;
+}
+
+@media (max-width: 992px){
+    .Back-ground{
+        height: 1100px;
+    }
+
+    .Back-right{
+        width:100%;
+        margin-left: -30px;
+    }
+}
+
+@media (max-width: 768px){
+    .Back-ground{
+        height: 1050px;
+    }
+
+    .Bimage{
+        height: 400px;
+        width: 400px;
+        margin-left: -80px;
+    }
+
+    .Back-right{
+        width:100%;
+        margin-left: -50px;
+    }
+}

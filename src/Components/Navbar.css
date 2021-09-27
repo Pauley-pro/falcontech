@@ -29,8 +29,6 @@
 .navbar-container {
   display: flex;
   margin-right: -100px;
-  /*justify-content: center;
-  align-items: center;*/
 }
 
 .Log{
@@ -70,7 +68,9 @@
 
 #Navbar{
   float: right;
-  margin-right:50px;
+  margin-right:100px;
+  display: flex;
+  grid-gap:20px
 }
 
 .soc-icons{
@@ -118,7 +118,7 @@ a.instagram {
 
 .users{
   display: flex;
-  grid-gap:50px;
+  grid-gap:10px;
   margin-right: 200px;
   margin-top: 25px;
 }
@@ -126,6 +126,31 @@ a.instagram {
 .login{
   text-decoration: none;
   color:white;
+}
+
+.logy{
+  margin-right: 10px;
+}
+
+.signup{
+  background-color: white;
+  color:black;
+  font-weight: 400;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 15px;
+  border: white solid 2px;
+}
+
+.signup:hover{
+  color:white;
+  background-color:transparent;
+  border: white solid 2px;
+
+}
+
+.reg{
+  width: 100px;
 }
 
 .cart{
@@ -153,7 +178,7 @@ a.instagram {
   align-items: center;
   text-decoration: none;
   margin-top: -15px;
-  height: 95%;
+  height: 90%;
   font-size: 14px;
   font-weight: 400;
 }
@@ -161,7 +186,6 @@ a.instagram {
 .nav-links:hover {
   border-bottom: 4px solid #fff;
   transition: all 0.2s ease-out;
-  color: #f26723
 }
 
 .nav-links-mobile {
@@ -170,6 +194,10 @@ a.instagram {
 
 .menu-icon {
   display: none;
+}
+
+#Link6, #Link7{
+  display:none
 }
 
 
@@ -264,13 +292,6 @@ a.instagram {
     
   }
 
-  .nav-links:hover {
-    color: #f26723;
-    height: 30px;
-    border-bottom: none;
-    transition: none;
-  }
-
   .navbar-logo {
     position: absolute;
     margin-top: -15px;
@@ -287,6 +308,14 @@ a.instagram {
     font-size: 1.8rem;
     cursor: pointer;
     color:white
+  }
+
+  #Link6, #Link7{
+    display:contents
+  }
+
+  .signup{
+    display:none
   }
 }
 
@@ -331,7 +360,7 @@ a.instagram {
   }
 
   #Link1{
-    margin-top:-50px;
+    margin-top:10px;
     margin-left: 30px;
     text-align: left;
     width:20%;
@@ -339,7 +368,7 @@ a.instagram {
   }
 
   #Link2{
-    margin-top:-100px;
+    margin-top:-30px;
     margin-left: 30px;
     text-align: left;
     width:20%;
@@ -347,19 +376,25 @@ a.instagram {
   }
 
   #Link3{
-    margin-top:-150px;
+    margin-top:-75px;
     margin-left: 30px;
     text-align: left;
     width:20%;
     height: 10px;
   }
 
-  #Link4{
-    margin-top:-200px;
+    #Link4{
+    margin-top:-120px;
     margin-left: 30px;
     text-align: left;
     width:20%;
     height: 10px;
+  }
+
+  
+
+  #Link7{
+    display: contents;
   }
 
   #Link1, #Link2, #Link3, #Link4:hover{
@@ -405,6 +440,10 @@ a.instagram {
     font-size: 1.8rem;
     cursor: pointer;
     color:white
+  }
+
+  .signup{
+    display:none
   }
 
   /*.nav-links-mobile {
@@ -1220,41 +1259,3 @@ a.instagram {
 
 
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  width: 120px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  margin-top:20px;
-  transition: all 0.2s ease-out;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 4px 6px;
-  text-decoration: none;
-  display: block;
-  font-size: 10px;
-  font-weight: 400;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ddd;  
-  
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block; 
-}

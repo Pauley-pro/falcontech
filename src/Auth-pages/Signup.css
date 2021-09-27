@@ -1,0 +1,201 @@
+.form-body{
+    height: 750px;
+    width:100%;
+    background-color:#f4f4f4;
+    
+    min-height:100vh;
+    margin:0;
+    z-index: 10000;
+    position: absolute;
+}
+
+.Form-img{
+    float: left;
+    width:50%;
+    margin-top: 40px;
+}
+
+.FormImg{
+    width:100px;
+    height:50px
+}
+
+.Form-gen{
+    width:35%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05), 2px 2px 12px 2px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    margin-top: 80px;
+    float: left;
+}
+
+.head-form{
+    text-align: center;
+    font-family: gabriola;
+    font-weight: 800;
+}
+
+
+.form{
+    margin-top: -50px;
+    width:100%;
+    padding: 30px;
+    margin-left: 5px;
+}
+
+.div-form{
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+
+.form-left{
+    float:left
+}
+
+.form-left2{
+    float:left;
+    margin-top:-20px
+}
+
+.form-right{
+    float:left;
+    margin-left: -5px;
+}
+
+.form-right2{
+    float:left;
+    margin-left: 35px;
+}
+
+.clear-both{
+    clear: both;
+    margin-top: 20px;
+}
+
+.mail{
+    clear: both;
+    margin-top: 30px;
+}
+
+.confirm{
+    clear: both;
+    margin-top: 20px;
+}
+
+#name{
+    width:75%;
+    display:block;
+    border:solid 2px #f0f0f0;
+    border-radius:5px;
+    padding:10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05), 2px 2px 12px 2px rgba(0, 0, 0, 0.09);
+}
+
+#lastname{
+    width:75%;
+    display:block;
+    border:solid 2px #f0f0f0;
+    border-radius:5px;
+    padding:10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05), 2px 2px 12px 2px rgba(0, 0, 0, 0.09);
+}
+
+#password{
+    width:73%;
+    display:block;
+    border:solid 2px #f0f0f0;
+    border-radius:5px;
+    padding:10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05), 2px 2px 12px 2px rgba(0, 0, 0, 0.09);
+}
+
+#con-password{
+    width:73%;
+    display:block;
+    border:solid 2px #f0f0f0;
+    border-radius:5px;
+    padding:10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05), 2px 2px 12px 2px rgba(0, 0, 0, 0.09);
+}
+
+#contact{
+    width:100%;
+    display:block;
+    border:solid 2px #f0f0f0;
+    border-radius:5px;
+    padding:10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05), 2px 2px 12px 2px rgba(0, 0, 0, 0.09);
+}
+
+#email{
+    width:73%;
+    display:block;
+    border:solid 2px #f0f0f0;
+    border-radius:5px;
+    padding:10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05), 2px 2px 12px 2px rgba(0, 0, 0, 0.09);
+}
+
+fieldset{
+    width:50%;
+
+}
+
+.Label{
+    font-size: 10px;
+}
+
+.p-log{
+    font-size: 12px;
+    font-weight: 400;
+    
+    float: right;
+}
+
+#btn{
+    float:left;
+    width:120px;
+    height: 35px;
+    border: blue solid 1px;
+    display:block;
+    color: white;
+    border-radius:5px;
+    background-color: blue;
+    cursor: pointer;
+}
+
+#btn-login{
+    width:69%;
+    height: 35px;
+    border: blue solid 1px;
+    display:block;
+    color: white;
+    border-radius:5px;
+    background-color: blue;
+    margin-top:20px;
+    margin-bottom:20px;
+    cursor: pointer;
+}
+
+.Login-link{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.Reg-link{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 648px){
+    fieldset{
+        width:90%;
+        height: 700px;
+    }
+
+    
+
+    #name{
+        width:100%
+    }
+}

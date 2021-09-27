@@ -28,7 +28,7 @@ class Gallepic extends Component{
                         <Col md={12}>
                             <div class="site-heading">
                                 <h3 className="Gal-h3">See Our Experience</h3>
-                                <h2 className="Gal-h2">Photo Gallery</h2>
+                                <h2 className="Gal-h2">Our Portfolio</h2>
                             </div>
                         </Col>
                     </Row>

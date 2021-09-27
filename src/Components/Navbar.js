@@ -17,6 +17,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 function Navbar() {
+  
   const [click, setClick] = useState(false);
 
 
@@ -63,7 +64,31 @@ const closeMobileMenu = () => setClick(false);{*/}
             </Link>
           </li>
         </ul>
-        <ul className="soc-icons">
+        
+        <ul className="users">
+          <li className="logy">
+            <Link to="/Login" className="login">
+              Login
+            </Link>
+          </li>
+          <li className="reg">
+            <Link to="/Signup" className="signup">
+              SIGN UP
+            </Link>
+          </li>
+          <li>
+            <Link to="/cart" className="cart">
+              <RiShoppingCartLine id="cart"/>
+              <div className="Cart-counter">0</div>
+            </Link>
+          </li> 
+        </ul>
+
+      </div>
+
+
+
+      {/*}<ul className="soc-icons">
           <li>
             <Link to="" className="whatsapp social">
               <FontAwesomeIcon icon={faWhatsapp} size="1x" />
@@ -90,22 +115,7 @@ const closeMobileMenu = () => setClick(false);{*/}
             </Link>
           </li>
         </ul>
-
-        <ul className="users">
-          <li>
-            <Link to="/Login" className="login">
-              Login
-            </Link>
-          </li>
-          <li>
-            <Link to="/cart" className="cart">
-              <RiShoppingCartLine id="cart"/>
-              <div className="Cart-counter">0</div>
-            </Link>
-          </li>
-        </ul>
-
-      </div>
+        {*/}
     
       {/*}<div id="site-logo" onClick={closeMobileMenu}>
         <Link to="/Home">

@@ -2,6 +2,11 @@
     clear:both;
 }
 
+.Back-clear{
+    clear: both;
+    margin-top: -100px;
+}
+
 
 
 

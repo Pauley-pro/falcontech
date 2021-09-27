@@ -236,7 +236,7 @@ ul{
 }
 
 .h5-foot{
-    color:white;
+    color:#f26723;
     text-transform: uppercase;
 }
 
@@ -295,7 +295,7 @@ ul{
 }
 
 #para-footer{
-    margin-top: -10px;
+    margin-top: -4px;
 }
 
 .clear-foot{
@@ -314,6 +314,24 @@ ul{
     #para-footer{
         padding-top: 2px;
         font-size: 13px;
+    }
+
+    .Footer2{
+        float: left;
+        margin-top: 40px;
+        margin-left: 55px;
+    }
+
+    .Footer3{
+        float: right;
+        margin-top: 30px;
+        margin-right: 30px;
+    }
+
+    .Footer4{
+        float: right;
+        margin-top: 30px;
+        margin-right: 40px;
     }
 }
 
@@ -376,7 +394,7 @@ ul{
     .Footer2{
         float: right;
         margin-top: -40px;
-        margin-right: 40px;
+        margin-right: 95px;
     }
 
     .Footer3{
@@ -387,7 +405,7 @@ ul{
 
     .Footer4{
         float: left;
-        margin-top: -150px;
+        margin-top: -100px;
         margin-left: 20px;
     }
 }
