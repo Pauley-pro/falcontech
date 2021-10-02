@@ -149,7 +149,46 @@
     margin-top: 5px;
 }
 
-@media (max-width: 648px){
+.h4-val{
+    margin-top: 20px;
+}
+
+
+
+@media (max-width: 992px){
+    #paragr{
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: justify;
+        padding-right: 50px;
+        padding-top: 5px;
+        font-family: JosefInSans;
+    }
+
+    .statement-right{
+        width:48%
+    }
+    
+    .h4-val{
+        margin-top: 5px;
+        padding-left: 13px;
+    }
+
+    .img-st{
+       margin-left: 50px;
+       width:90%
+    }
+    
+    .img-st2{
+        margin-left: 50px;
+        width:90%
+    }    
+}
+
+
+
+@media (max-width: 768px){
     .falconet-broucher-area{
         margin-bottom: 900px;
     }
@@ -186,4 +225,8 @@
         text-align: justify;
         padding: 15px;
     }   
+
+    .img-st2{
+        display: none;
+    }
 }

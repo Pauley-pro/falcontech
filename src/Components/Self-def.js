@@ -1,28 +1,25 @@
 import React, { Component } from "react";
-import './Mission.css';
+import './Self-def.css';
 import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Missionpic from '../images/mission.jpg';
+import Selfimg from '../images/Self-defense.jpg';
 import { FaLongArrowAltRight } from "react-icons/fa";
 
 
 
-
-
-
-class Mission extends Component{
+class Selfdef extends Component{
     render(){
         return (
-            <div class="falconet-broucher-mission">
+            <div class="falconet-broucher-video">
                 <section className="falconet-breadcromb-area">
                     <div className="breadcromb-top section_50">
                         <Container>
                             <Row>
                                 <Col md={12}>
                                     <div className="breadcromb-top-text">
-                                        <h2 className="breadcromb-h2">Our Mission</h2>
+                                        <h2 className="breadcromb-h2">Self Defense Supplies</h2>
                                     </div>
                                 </Col>
                             </Row>
@@ -36,8 +33,8 @@ class Mission extends Component{
                                     <div class="breadcromb-bottom-text">
                                         <ul>
                                         <li><Link to="/Home" id="Breadcromb-bott">home</Link></li>
-                                        <li><Link to="/Shop"><FaLongArrowAltRight className="Arrow"/></Link></li>
-                                        <li className="Breadcromb-about">Mission</li>
+                                        <li><Link to="/Video"><FaLongArrowAltRight className="Arrow"/></Link></li>
+                                        <li className="Breadcromb-about">Self Defense Supplies</li>
                                         </ul>
                                     </div>
                                 </Col>
@@ -52,16 +49,16 @@ class Mission extends Component{
                     <Container>
                         <Row>
                             <Col md={6} sm={6}>
-                                <div className="statement-img">
-                                    <img src={Missionpic} className="img-st"/>
+                                <div className="statement-vid">
+                                    <img src={Selfimg} className="img-fire"/>
                                 </div>
                             </Col>
                             <Col md={6} sm={6}>
-                                <div className="statement-right">
-                                <h2>Mission Statement</h2>
-                                <p className="Para1" id="Para1">At Falcontech, we provide beyond ordinary services. We offer you a lifestyle! To back up this goal, we ensure that every surveillance product we purchase to sell to you is tested and trusted, thereby keeping you one step ahead.</p>
-                                <p className="Para1" id="Para1">How do we go about this? We rely on only the reknowned brands in the surveillance industry and even go beyond that. Our engineers actively await the latest CCTV cameras and swoop them up even before they go mainstream.</p> 
-                                <p className="Para1" id="Para1">We assure you that every surveillance product you purchase from us has the latest cutting-edge and and high-end technology. This means you will be able to see what is coming from every angle</p>
+                                <div className="statevid-right">
+                                <h2>Self Defense Supplies</h2>
+                                <p className="Para-vid" id="Para-vid">In terms of self and property protection, you can’t be too careful. With self-defense supplies, you can adequately equip yourself with everything you need to ensure maximum safety in the case of an unforeseen attack.</p>
+                                <p className="Para-vid" id="Para-vid">In a world where civil unrest is fast becoming rampant, you’ll be doing yourself a solid by purchasing tasers, stun guns, pepper spray and just about any device you need to protect yourself. </p> 
+                                <p className="Para-vid" id="Para-vid">At Falcontech, we'll recommend the most suitable ones for your person, and will even guide you on how to use them without harming yourself. Falcontech prioritizes the security of self and property, and you'll realize that when you reach out to us.  </p>
                                 </div>
                             </Col>
                         </Row>
@@ -72,4 +69,4 @@ class Mission extends Component{
     }
 }
 
-export default Mission;
+export default Selfdef;

@@ -7,7 +7,8 @@
 .single-gallery-img {
     margin-top: 30px;
     position: relative;
-    overflow: hidden
+    overflow: hidden;
+    
 }
 
 .single-gallery-img img {
@@ -135,37 +136,37 @@
 }
 
 #div1{
-    width:350px;
+    width:400px;
     float:left;
-    margin-left:60px
+    margin-left:40px
 }
 
 #div2{
-    width:350px;
+    width:400px;
     float:left;
     margin-left:30px
 }
 
 #div3{
-    width:350px;
+    width:400px;
     float:left;
     margin-left:30px
 }
 
 #div4{
-    width:350px;
+    width:400px;
     float:left;
-    margin-left:60px
+    margin-left:40px
 }
 
 #div5{
-    width:350px;
+    width:400px;
     float:left;
     margin-left:30px
 }
 
 #div6{
-    width:350px;
+    width:400px;
     float:left;
     margin-left:30px
 }
@@ -209,47 +210,49 @@
 
 
 
-@media (max-width: 991px){
+@media (max-width: 992px){
     #div1{
-        width:400px;
+        width:420px;
         float:left;
         margin-left:50px
     }
     
     #div2{
-        width:400px;
+        width:420px;
         float:left;
         margin-left:30px
     }
     
     #div3{
-        width:400px;
+        width:420px;
         float:left;
         margin-left:50px
     }
     
     #div4{
-        width:400px;
+        width:420px;
         float:left;
         margin-left:30px
     }
     
     #div5{
-        width:400px;
+        width:420px;
         float:left;
         margin-left:50px
     }
     
     #div6{
-        width:400px;
+        width:420px;
         float:left;
         margin-left:30px
     }
+
+    
 }
 
 
 
-@media (max-width: 648px){
+@media (max-width: 768px){
     .Gallery{
         clear: both;
         height:1500px;

@@ -1,5 +1,6 @@
-.falconet-broucher-vision{
-    margin-bottom: 550px;
+.falconet-broucher-video{
+    margin-bottom: 150px;
+    height: 700px;
 }
 
 .breadcromb-top {
@@ -76,30 +77,30 @@
     color: #f26723;
 }
 
-.state-vision{
-    margin-top:40px;
+.Statement{
+    margin-top:40px
 }
 
-.statement-img{
+.statement-vid{
     width:48%;
     float:left;
     margin-top: 50px;
 }
 
-.img-st{
+.img-acc{
     width:80%;
-    height: 250px;
+    height: 320px;
     margin-left: 100px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05), 2px 2px 12px 2px rgba(0, 0, 0, 0.09);
 }
 
-.statement-right{
+.statevid-right{
     float:right;
     width:48%;
-    
+    margin-top: 50px
 }
 
-.state-vision > h2 {
+.statevid-right > h2 {
     color: #333;
     font-size: 26px;
     line-height: 35px;
@@ -112,7 +113,7 @@
     font-size: 30px;
 }
 
-.state-vision > h2:before {
+.statevid-right > h2:before {
     background: #f26723 none repeat scroll 0 0;
     content: "";
     height: 2px;
@@ -122,70 +123,70 @@
     width: 80px;
 }
 
-.Parag1{
+.statevid-right > p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
     text-align: justify;
-    padding-top: 20px;
+    padding-right: 100px;
+}
+
+.Para-vid{
+    text-align: justify;
+    padding-top: 10px;
     font-family: JosefinSans;
 }
 
-#Parag1{
+#Para-vid{
     font-size: 15px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 25px;
 }
 
 
 
 
 @media (max-width: 992px){
-    .falconet-broucher-vision{
-        margin-bottom: 550px;
+    .falconet-broucher-video{
+        height: 800px;
     }
 
-    .breadcromb-top-text{
-        margin-top: -10px;
-    }
-
-    .breadcromb-h2{
+    .statevid-right > h2{
         font-size: 20px;
     }
-    
-    .statement-img{
-        width:100%;
-        margin-top: 50px;
-    }
 
-    #Parag1{
-        font-size: 15px;
-        font-weight: 400;
+    #Para1{
+        font-size: 14px;
+        font-weight: 500;
         line-height: 20px;
     }
-    
-    .img-st{
-        width:90%;
-        height: 250px;
-        margin-left: 20px;
+
+    .statement-vid{
+        width:50%;
     }
-    
-    .statement-right{
-        width:100%;    
+
+
+    .img-acc{
+        width:80%;
+        height: 400px;
+        margin-left: 50px;
     }
-    
-    .statement-right > h2 {   
-        font-size: 20px;
+
+    .statevid-right{
+        width: 50%;
     }
-    
-    .statement-right > p{
-        font-size: 13px;
-        text-align: justify;
-        padding: 15px;
-    }   
+
+    .statevid-right > p{
+        padding-right: 50px;
+        
+    }
 }
 
 
+
 @media (max-width: 768px){
-    .falconet-broucher-vision{
-        margin-bottom: 550px;
+    .falconet-broucher-mission{
+        margin-bottom: 300px;
     }
 
     .breadcromb-top-text{
@@ -196,26 +197,26 @@
         font-size: 20px;
     }
     
-    .statement-img{
+    .statement-vid{
         width:100%;
         margin-top: 50px;
     }
     
-    .img-st{
+    .img-acc{
         width:90%;
         height: 250px;
         margin-left: 20px;
     }
     
-    .statement-right{
+    .statevid-right{
         width:100%;    
     }
     
-    .statement-right > h2 {   
+    .statevid-right > h2 {   
         font-size: 20px;
     }
     
-    .statement-right > p{
+    .statevid-right > p{
         font-size: 13px;
         text-align: justify;
         padding: 15px;

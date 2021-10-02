@@ -40,23 +40,13 @@ class Gallepic extends Component{
                                     <Item
                                         original={Gallery1}
                                         thumbnail={Gallery1}
-                                        width="350"
-                                        height="200"
+                                        width="550"
+                                        height="300"
                                         >
                                         {({ ref, open }) => (
                                         <img ref={ref} onClick={open} src={Gallery1} className="img-div1"/>
                                         )}
                                     </Item> 
-                                    {/*}<div class="gallery-caption">
-                                        <p>
-                                            <Link to="../images/gallery-1.jpg';" className="more gallery2">
-                                                <FaSearchPlus className="Gal-icon1"/>
-                                            </Link
-                                            <Link to="./Components/Gallery.js">
-                                                <FaLink className="Gal-icon2"/>
-                                            </Link>
-                                        </p>
-                                    </div>>{*/}
                                 </div>
                             </Col>
                             <Col md={4} sm={4}>
@@ -64,23 +54,13 @@ class Gallepic extends Component{
                                     <Item
                                         original={Gallery2}
                                         thumbnail={Gallery2}
-                                        width="350"
-                                        height="200"
+                                        width="550"
+                                        height="300"
                                         >
                                         {({ ref, open }) => (
                                         <img ref={ref} onClick={open} src={Gallery2} className="img-div2"/>
                                         )}
                                     </Item>
-                                    {/*}<div className="gallery-caption">
-                                        <p>
-                                            <Link to="../images/gallery-2.jpg';" className="more gallery2">
-                                                <FaSearchPlus className="Gal-icon1"/>
-                                            </Link>
-                                            <Link to="./Components/Gallery.js">
-                                                <FaLink className="Gal-icon2"/>
-                                            </Link>
-                                        </p>
-                                    </div>{*/}
                                 </div>
                             </Col>
                             <Col md={4} sm={4}>
@@ -88,23 +68,13 @@ class Gallepic extends Component{
                                     <Item
                                         original={Gallery3}
                                         thumbnail={Gallery3}
-                                        width="350"
-                                        height="200"
+                                        width="550"
+                                        height="300"
                                         >
                                         {({ ref, open }) => (
                                         <img ref={ref} onClick={open} src={Gallery3} className="img-div3"/>
                                         )}
                                     </Item>
-                                    {/*}<div className="gallery-caption">
-                                        <p>
-                                            <Link to="../images/gallery-3.jpg';" className="more gallery2">
-                                                <FaSearchPlus className="Gal-icon1"/>
-                                            </Link>
-                                            <Link to="./Components/Gallery.js">
-                                                <FaLink className="Gal-icon2"/>
-                                            </Link>
-                                        </p>
-                                        </div>{*/}
                                 </div>
                             </Col>
                         </Row>
@@ -116,23 +86,13 @@ class Gallepic extends Component{
                                     <Item
                                         original={Gallery4}
                                         thumbnail={Gallery4}
-                                        width="350"
-                                        height="200"
+                                        width="550"
+                                        height="300"
                                         >
                                         {({ ref, open }) => (
                                         <img ref={ref} onClick={open} src={Gallery4} className="img-div4"/>
                                         )}
                                     </Item>
-                                    {/*}<div class="gallery-caption">
-                                        <p>
-                                            <Link to="../images/gallery-4.jpg';" className="more gallery2">
-                                                <FaSearchPlus className="Gal-icon1"/>
-                                            </Link>
-                                            <Link to="./Components/Gallery.js">
-                                                <FaLink className="Gal-icon2"/>
-                                            </Link>
-                                        </p>
-                                    </div>{*/}
                                 </div>
                             </Col>
                             <Col md={4} sm={4}>
@@ -140,23 +100,13 @@ class Gallepic extends Component{
                                     <Item
                                         original={Gallery5}
                                         thumbnail={Gallery5}
-                                        width="350"
-                                        height="200"
+                                        width="550"
+                                        height="300"
                                         >
                                         {({ ref, open }) => (
                                         <img ref={ref} onClick={open} src={Gallery5} className="img-div5"/>
                                         )}
                                     </Item>
-                                    {/*}<div class="gallery-caption">
-                                        <p>
-                                            <Link to="../images/gallery-5.jpg';" className="more gallery2">
-                                                <FaSearchPlus className="Gal-icon1"/>
-                                            </Link>
-                                            <Link to="./Components/Gallery.js">
-                                                <FaLink className="Gal-icon2"/>
-                                            </Link>
-                                        </p>
-                                    </div>{*/}
                                 </div>
                             </Col>
                             <Col md={4} sm={4}>
@@ -164,23 +114,13 @@ class Gallepic extends Component{
                                     <Item
                                         original={Gallery6}
                                         thumbnail={Gallery6}
-                                        width="350"
-                                        height="200"
+                                        width="550"
+                                        height="300"
                                         >
                                         {({ ref, open }) => (
                                         <img ref={ref} onClick={open} src={Gallery6} className="img-div6"/>
                                         )}
                                     </Item>
-                                    {/*}<div class="gallery-caption">
-                                        <p>
-                                            <Link to="../images/gallery-6.jpg';" className="more gallery2">
-                                                <FaSearchPlus className="Gal-icon1"/>
-                                            </Link>
-                                            <Link to="./Components/Gallery.js">
-                                                <FaLink className="Gal-icon2"/>
-                                            </Link>
-                                        </p>
-                                    </div>{*/}
                                 </div>
                             </Col>
                         </Row>

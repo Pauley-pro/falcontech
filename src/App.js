@@ -14,9 +14,16 @@ import Signup from './Auth-pages/Signup';
 import Login from './Auth-pages/Login';
 import Mission from './Components/Mission';
 import Value from './Components/Value';
+import Video from './Components/Video';
+import Access from './Components/Access';
+import Build from './Components/Building';
+import Fire from './Components/Fire';
+import Intercom from './Components/Intercom';
+import Security from './Components/Security';
+import Selfdef from './Components/Self-def';
+import Workplace from './Components/Workplace';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-{/*}import Signup from './Components/Signup';
-import Login from './Components/Login';{*/}
+
 
 
 
@@ -41,6 +48,14 @@ class App extends Component{
               <Route exact path='/vision' component={Vision}/>
               <Route exact path='/mission' component={Mission}/>
               <Route exact path='/value' component={Value}/>
+              <Route exact path='/video' component={Video}/>
+              <Route exact path='/access' component={Access}/>
+              <Route exact path='/build' component={Build}/>
+              <Route exact path='/fire' component={Fire}/>
+              <Route exact path='/intercom' component={Intercom}/>
+              <Route exact path='/security' component={Security}/>
+              <Route exact path='/self-def' component={Selfdef}/>
+              <Route exact path='/workplace' component={Workplace}/>
             </Switch>
               
               

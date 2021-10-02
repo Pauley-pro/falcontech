@@ -133,19 +133,19 @@ a.instagram {
 }
 
 .signup{
-  background-color: white;
-  color:black;
+  background-color: #f26723;
+  color:white;
   font-weight: 400;
   font-size: 13px;
   text-decoration: none;
   padding: 15px;
-  border: white solid 2px;
+  border: #f26723 solid 2px;
 }
 
 .signup:hover{
   color:white;
   background-color:transparent;
-  border: white solid 2px;
+  border: #f26723 solid 2px;
 
 }
 
@@ -184,7 +184,7 @@ a.instagram {
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #fff;
+  border-bottom: 4px solid #f26723;
   transition: all 0.2s ease-out;
 }
 
@@ -218,7 +218,7 @@ a.instagram {
   }
 
   .cart{
-    margin-right: -700px;
+    margin-right: -600px;
     margin-top: 5px;
     float: right;
   }
@@ -323,7 +323,7 @@ a.instagram {
 
 
 
-@media screen and (max-width: 648px) {
+@media screen and (max-width: 768px) {
   .NavbarItems {
     position: relative;
   }
@@ -339,7 +339,7 @@ a.instagram {
   }
 
   .cart{
-    margin-left: 270px;
+    margin-right: -220px;
   }
 
   #cart{
@@ -360,7 +360,7 @@ a.instagram {
   }
 
   #Link1{
-    margin-top:10px;
+    margin-top:-110px;
     margin-left: 30px;
     text-align: left;
     width:20%;
@@ -368,7 +368,7 @@ a.instagram {
   }
 
   #Link2{
-    margin-top:-30px;
+    margin-top:-175px;
     margin-left: 30px;
     text-align: left;
     width:20%;
@@ -376,7 +376,7 @@ a.instagram {
   }
 
   #Link3{
-    margin-top:-75px;
+    margin-top:-240px;
     margin-left: 30px;
     text-align: left;
     width:20%;
@@ -384,7 +384,7 @@ a.instagram {
   }
 
     #Link4{
-    margin-top:-120px;
+    margin-top:-300px;
     margin-left: 30px;
     text-align: left;
     width:20%;

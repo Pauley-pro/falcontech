@@ -71,7 +71,7 @@
 
 
 
-@media (max-width: 991px){
+@media (max-width: 992px){
     .falconet-count-area{
         height: 400px;
     }
@@ -82,7 +82,7 @@
     }
 
     #count-box{
-        margin-left: 105px;
+        margin-left: 170px;
     }
 
     #count-box2{

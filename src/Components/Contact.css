@@ -1,5 +1,10 @@
+.Falconet-map{
+    height:1500px
+}
+
 .falconet-breadcromb-map{
     margin-bottom: 100px;
+    
 }
 
 .breadcromb-top {
@@ -76,3 +81,17 @@
     color: #f26723;
 }
 
+.Map{
+    clear: both;
+}
+
+
+.Main-map{
+    width: 600px;
+    height: 450px;
+}
+
+.Contact-info{
+    clear: both;
+    margin-top: 200px;
+}

@@ -27,9 +27,9 @@ const Slider = () => {
                                             secure your <span>environment</span>
                                         </h2>
                                         <p id="Para-slide">
-                                            Security is the top reason anyone anyone purchases <br/>a surveillance camera.
+                                            Security is the top reason anyone anyone purchases a surveillance camera.
                                         </p>
-                                        <Link to="#" className="falconet-btn">learn more</Link>
+                                        <Link to="/About" className="falconet-btn">learn more</Link>
                                     </div>
                                 </Col>
                             </Row>
@@ -49,9 +49,9 @@ const Slider = () => {
                                             tune into your <span> surroundings</span>
                                         </h2>
                                         <p id="Para-slide">
-                                            awareness may not be stressed enough, but it cannot <br/>be overemphasised. 
+                                            awareness may not be stressed enough, but it cannot be overemphasised. 
                                         </p>
-                                        <Link to="#" class="falconet-btn">learn more</Link>
+                                        <Link to="/About" class="falconet-btn">learn more</Link>
                                     </div>
                                 </Col>
                             </Row>
@@ -71,9 +71,9 @@ const Slider = () => {
                                             stay one step<span> ahead</span>
                                         </h2>
                                         <p id="Para-slide">
-                                            it's not sufficient to own CCTV camera, you need to ensure that you <br/>purchase those of excellent quality.
+                                            it's not sufficient to own CCTV camera, you need to ensure that you purchase those of excellent quality.
                                         </p>
-                                        <Link to="#" className="falconet-btn">learn more</Link>
+                                        <Link to="/About" className="falconet-btn">learn more</Link>
                                     </div>
                                 </Col>
                             </Row>
@@ -94,7 +94,7 @@ const Slider = () => {
                                         <p id="Para-slide">
                                             Whether you intend to call the police or handle negative situations yourself, you give yourself an edge with Falcontech.
                                         </p>
-                                        <Link to="#" className="falconet-btn">learn more</Link>
+                                        <Link to="/About" className="falconet-btn">learn more</Link>
                                     </div>
                                 </Col>
                             </Row>

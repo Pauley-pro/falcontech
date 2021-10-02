@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import './Signup.css';
 import { Button, CustomInput, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, Form, FormGroup, Label, Input, FormText, Modal, ModalBody, ModalFooter, ModalHeader } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import Formimg from '../images/myformimage.jpg';
-import FormImg from '../images/form.jpg';
+import Formimg from '../images/cutting-edge.jpg';
+import FormImg from '../images/real-form.jpg';
 
 
 
@@ -18,11 +18,12 @@ class Signup extends Component{
       <div className="form-body">
         <div className="Form-img">
           <img src={FormImg} className="FormImg"/>
-          <img src={Formimg}/>
+          <br/>
+          <img src={Formimg} className="Formimg"/>
         </div>
         <div className="Form-gen">
         
-        <h1 className="head-form">Sign Up to Falcontech</h1>
+        <h1 className="head-form">Sign <span className="span-form">Up</span></h1>
         <Form className = "form" onSubmit={this.handleSubmit}>
           
           <div className="div-form">
@@ -61,8 +62,9 @@ class Signup extends Component{
             </FormGroup>
           </div>
         </Form>
-        </div>
         <p className="p-log">Already a member? <Link to="/Login" className="Login-link"> Login</Link></p>
+      </div>
+        
         
     </div>
   );

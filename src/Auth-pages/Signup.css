@@ -1,9 +1,7 @@
 .form-body{
-    height: 750px;
+    height: 690px;
     width:100%;
     background-color:#f4f4f4;
-    
-    min-height:100vh;
     margin:0;
     z-index: 10000;
     position: absolute;
@@ -11,27 +9,57 @@
 
 .Form-img{
     float: left;
-    width:50%;
-    margin-top: 40px;
+    width:30%;
+    height: 100%;
+    background-color: #f26723;
 }
 
 .FormImg{
-    width:100px;
-    height:50px
+    width:50px;
+    height:25px;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.Formimg{
+    float: right;
+    margin-right: -130px;
+    margin-top: 100px;
+    border:  white solid 4px;
+    border-radius: 50%;
+    background-color: black;
+    width: 400px;
+    height: 350px;
+}
+
+.span-form{
+    color: #f26723;
+    font-family: Calibri;
+    text-transform: uppercase;
 }
 
 .Form-gen{
     width:35%;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05), 2px 2px 12px 2px rgba(0, 0, 0, 0.09);
     border-radius: 10px;
-    margin-top: 80px;
+    margin-top: 100px;
+    margin-left: 300px;
+    float: left;
+}
+
+.Form-login{
+    width:35%;
+    border-radius: 10px;
+    margin-top: 200px;
+    margin-left: 300px;
     float: left;
 }
 
 .head-form{
     text-align: center;
-    font-family: gabriola;
+    font-family: Calibri;
     font-weight: 800;
+    text-transform: uppercase;
+    margin-left: -20px;
 }
 
 
@@ -82,7 +110,7 @@
 }
 
 #name{
-    width:75%;
+    width:80%;
     display:block;
     border:solid 2px #f0f0f0;
     border-radius:5px;
@@ -91,7 +119,7 @@
 }
 
 #lastname{
-    width:75%;
+    width:80%;
     display:block;
     border:solid 2px #f0f0f0;
     border-radius:5px;
@@ -141,36 +169,36 @@ fieldset{
 }
 
 .Label{
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .p-log{
-    font-size: 12px;
-    font-weight: 400;
-    
-    float: right;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px;
 }
 
 #btn{
     float:left;
-    width:120px;
+    width:150px;
     height: 35px;
-    border: blue solid 1px;
+    border: #f26723 solid 1px;
     display:block;
     color: white;
     border-radius:5px;
-    background-color: blue;
+    background-color: #f26723;
     cursor: pointer;
 }
 
 #btn-login{
-    width:69%;
+    width:79%;
     height: 35px;
-    border: blue solid 1px;
+    border: #f26723 solid 1px;
     display:block;
     color: white;
     border-radius:5px;
-    background-color: blue;
+    background-color: #f26723;
     margin-top:20px;
     margin-bottom:20px;
     cursor: pointer;
@@ -179,6 +207,11 @@ fieldset{
 .Login-link{
     text-decoration: none;
     font-weight: 700;
+    color: #f26723;
+}
+
+#p-log{
+    margin-top: -40px;
 }
 
 .Reg-link{
@@ -186,16 +219,208 @@ fieldset{
     font-weight: 700;
 }
 
+@media screen and (max-width: 992px){
+    .form-body{
+        width:100%;
+    }
 
-@media screen and (max-width: 648px){
     fieldset{
         width:90%;
         height: 700px;
     }
 
+    #name{
+        width:100%
+    }
+
+    .Form-img{
+        width:20%
+    }
+
+    .FormImg{
+        width:40px;
+        height:20px;
+        margin-top: 60px;
+        margin-left: 30px;
+    }
+
+    .Formimg{
+        float: left;
+        margin-left: 130px;
+        margin-top: 100px;
+        border:  white solid 2px;
+        border-radius: 50%;
+        background-color: black;
+        width: 150px;
+        height: 120px;
+    }
+
+    .Form-gen{
+        width:50%;
+        margin-top: -620px;
+        margin-left: 300px;
+        float: left;
+    }
+
+    .Form-login{
+        width:50%;
+        margin-top: -520px;
+        margin-left: 300px;
+        float: left;
+    }
+
+    .form{
+        margin-top: -80px;
+    }
     
+    .form-left, .form-left2{
+        width:70%;
+        margin-left: 70px;
+    }
+
+    .form-right, .form-right2{
+        width:87%;
+        margin-top: 10px;
+        margin-left: 70px;
+        clear: both;
+    }
+
+    .mail{
+        width:96%;
+        clear: both;
+        margin-top: 90px;
+        margin-left: 70px;
+    }
+
+    .clear-both{
+        width:96%;
+        clear: both;
+        margin-top: 10px;
+        margin-left: 70px;
+    }
+
+    .confirm{
+        width:96%;
+        clear: both;
+        margin-top: 10px;
+        margin-left: 70px;
+    }
+
+    #btn{
+        width:87%;
+        clear: both;
+        margin-top: 10px;
+        margin-left: -1px;
+    }
+
+    #btn-login{
+        margin-top: 10px;
+        margin-left: 70px;
+        width:75%;
+    }
+
+    .p-log{
+        padding-left: 100px;
+        padding-top: 50px;
+    }
+
+    #p-log{
+        margin-top: -70px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .form-body{
+        width:100%;
+    }
+
+    fieldset{
+        width:90%;
+        height: 700px;
+    }
 
     #name{
         width:100%
+    }
+
+    .Form-img{
+        width:20%
+    }
+
+    .FormImg{
+        width:40px;
+        height:20px;
+        margin-top: 60px;
+        margin-left: 30px;
+    }
+
+    .Formimg{
+        float: left;
+        margin-left: 20px;
+        margin-top: 100px;
+        border:  white solid 2px;
+        border-radius: 50%;
+        background-color: black;
+        width: 100px;
+        height: 90px;
+    }
+
+    .Form-gen{
+        width:70%;
+        margin-top: -620px;
+        margin-right: 100px;
+        float: right;
+    }
+
+    .Form-login{
+        width:70%;
+        margin-top: -570px;
+        margin-right: 100px;
+        float: right;
+    }
+
+    .form-left, .form-left2{
+        width:70%;
+        margin-left: 70px;
+    }
+
+    .form-right, .form-right2{
+        width:88%;
+        margin-top: 10px;
+        margin-left: 70px;
+        clear: both;
+    }
+
+    .mail{
+        width:95%;
+        clear: both;
+        margin-top: 90px;
+        margin-left: 70px;
+    }
+
+    .clear-both{
+        width:95%;
+        clear: both;
+        margin-top: 10px;
+        margin-left: 70px;
+    }
+
+    .confirm{
+        width:95%;
+        clear: both;
+        margin-top: 10px;
+        margin-left: 70px;
+    }
+
+    #btn{
+        width:88%;
+        clear: both;
+        margin-top: 10px;
+        margin-left: -1px;
+    }
+
+    .p-log{
+        padding-left: 100px;
+        padding-top: 50px;
     }
 }

@@ -1,18 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 import { BsX as CloseMenu } from 'react-icons/bs';
 import { VscMenu as MenuIcon } from 'react-icons/vsc';
 import { RiShoppingCartLine } from 'react-icons/ri';
 import Logo from '../images/site-logo.png';
-import {
-  faWhatsapp,
-  faFacebookF,
-  faTwitter,
-  faInstagram,
-  faLinkedinIn
-} from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 
 
@@ -43,7 +36,7 @@ const closeMobileMenu = () => setClick(false);{*/}
           {click ? (<CloseMenu className="menu-icon" />) : (<MenuIcon className="menu-icon" />)}
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'} id="Navbar">
-          <li className='nav-item'>
+          <li className='nav-item' id="nav-item">
             <Link to='/Home' className='nav-links' onClick={closeMobileMenu} id="Link1">
               Home
             </Link>
@@ -54,7 +47,7 @@ const closeMobileMenu = () => setClick(false);{*/}
             </Link>
           </li>
           <li className='nav-item'>
-            <Link to='/Shoplist' className='nav-links' onClick={closeMobileMenu} id="Link3">
+            <Link to='' className='nav-links' onClick={closeMobileMenu} id="Link3">
               Shop
             </Link>
           </li>
@@ -63,6 +56,7 @@ const closeMobileMenu = () => setClick(false);{*/}
               Contact
             </Link>
           </li>
+          
         </ul>
         
         <ul className="users">

@@ -18,7 +18,7 @@ const Shoplist = () => {
 
     const fetchProducts = async() => {
         const response = await axios
-        .get(" https://falcontech-backend-v1.herokuapp.com/products")
+        .post(" https://falcontech-backend-v1.herokuapp.com/products")
         .catch((err) => {
             console.log("Err", err);
         });

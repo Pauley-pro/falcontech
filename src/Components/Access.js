@@ -1,28 +1,25 @@
 import React, { Component } from "react";
-import './Mission.css';
+import './Access.css';
 import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Missionpic from '../images/mission.jpg';
+import Accessimg from '../images/Access-control.jpg';
 import { FaLongArrowAltRight } from "react-icons/fa";
 
 
 
-
-
-
-class Mission extends Component{
+class Access extends Component{
     render(){
         return (
-            <div class="falconet-broucher-mission">
+            <div class="falconet-broucher-video">
                 <section className="falconet-breadcromb-area">
                     <div className="breadcromb-top section_50">
                         <Container>
                             <Row>
                                 <Col md={12}>
                                     <div className="breadcromb-top-text">
-                                        <h2 className="breadcromb-h2">Our Mission</h2>
+                                        <h2 className="breadcromb-h2">Access Control</h2>
                                     </div>
                                 </Col>
                             </Row>
@@ -36,8 +33,8 @@ class Mission extends Component{
                                     <div class="breadcromb-bottom-text">
                                         <ul>
                                         <li><Link to="/Home" id="Breadcromb-bott">home</Link></li>
-                                        <li><Link to="/Shop"><FaLongArrowAltRight className="Arrow"/></Link></li>
-                                        <li className="Breadcromb-about">Mission</li>
+                                        <li><Link to="/Video"><FaLongArrowAltRight className="Arrow"/></Link></li>
+                                        <li className="Breadcromb-about">Access Control</li>
                                         </ul>
                                     </div>
                                 </Col>
@@ -52,16 +49,16 @@ class Mission extends Component{
                     <Container>
                         <Row>
                             <Col md={6} sm={6}>
-                                <div className="statement-img">
-                                    <img src={Missionpic} className="img-st"/>
+                                <div className="statement-vid">
+                                    <img src={Accessimg} className="img-acc"/>
                                 </div>
                             </Col>
                             <Col md={6} sm={6}>
-                                <div className="statement-right">
-                                <h2>Mission Statement</h2>
-                                <p className="Para1" id="Para1">At Falcontech, we provide beyond ordinary services. We offer you a lifestyle! To back up this goal, we ensure that every surveillance product we purchase to sell to you is tested and trusted, thereby keeping you one step ahead.</p>
-                                <p className="Para1" id="Para1">How do we go about this? We rely on only the reknowned brands in the surveillance industry and even go beyond that. Our engineers actively await the latest CCTV cameras and swoop them up even before they go mainstream.</p> 
-                                <p className="Para1" id="Para1">We assure you that every surveillance product you purchase from us has the latest cutting-edge and and high-end technology. This means you will be able to see what is coming from every angle</p>
+                                <div className="statevid-right">
+                                <h2>Access Control</h2>
+                                <p className="Para-vid" id="Para-vid">The world is largely unsafe, and the faster we accept that, the better. Limiting access to your property helps you make your world much safer. So why not take the first step today by reaching out to Falcontech?</p>
+                                <p className="Para-vid" id="Para-vid">We’ll provide you with the best biometry systems, key locks, motion detectors, and essentially every other device that helps you monitor entry and exit to and from your property.</p> 
+                                <p className="Para-vid" id="Para-vid">The best part is that the products we sell don't need tech-savvy operators. No, you don't need to be an expert before navigating the controls for the equipment. We ensure that every piece of equipment has a simple user interface for our experienced and non-experienced clients without providing you with inferior products. </p>
                                 </div>
                             </Col>
                         </Row>
@@ -72,4 +69,4 @@ class Mission extends Component{
     }
 }
 
-export default Mission;
+export default Access;

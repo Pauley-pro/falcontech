@@ -33,43 +33,43 @@ class Service extends Component{
                 </Row>
                 <div className="div-service">
                     <Row>
-                        <Col xs={6} md={4}>
-                            <Link to='/Full' className='But6'>
+                        <Col xs={6} md={4} >
+                            <Link to='/Video' className='But6'>
                                 Video Surveillance
                             </Link>
                         </Col>
                         <Col xs={6} md={4}>
-                            <Link to='/Full' className='But7'>
+                            <Link to='/Access' className='But7'>
                                 ACCESS CONTROL
                             </Link>
                         </Col>
                         <Col xs={6} md={4}>
-                            <Link to='/Full' className='But8'>
+                            <Link to='/Build' className='But8'>
                                 BUILDING AUTOMATION
                             </Link>
                         </Col>
                         <Col xs={6} md={4}>
-                            <Link to='/Full' className='But9'>
+                            <Link to='/Fire' className='But9'>
                                 FIRE PROTECTION
                             </Link>
                         </Col>
                         <Col xs={6} md={4}>
-                            <Link to='/Full' className='But10'>
+                            <Link to='/Intercom' className='But10'>
                                 INTERCOM
                             </Link>
                         </Col>
                         <Col xs={6} md={4}>
-                            <Link to='/Full' className='But11'>
+                            <Link to='/Security' className='But11'>
                                 SECURITY ALARMS
                             </Link>
                         </Col>
                         <Col xs={12} md={6}>
-                            <Link to='/Full' className='Transparent'>
+                            <Link to='/Self-def' className='Transparent'>
                                 SELF DEFENSE SUPPLIES
                             </Link>
                         </Col>
                         <Col xs={12} md={6}>
-                            <Link to='/Full' className='Transparent'>
+                            <Link to='/Workplace' className='Transparent'>
                                 WORKPLACE SAFETY SUPPLIES
                             </Link>
                         </Col>
