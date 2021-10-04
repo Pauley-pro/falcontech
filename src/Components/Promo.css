@@ -23,13 +23,8 @@
     border-bottom: 3px solid #fff;
     padding: 20px;
     text-align: center;
-    
     margin-top: -30px;
     height: 90px;
-}
-
-.promo-text a:hover{
-    color: #f26723
 }
 
 .div1{
@@ -169,6 +164,11 @@
 
     .single-promo{
         width: 400px;
+    }
+
+    .single-promo:hover .promo-text{
+        border-bottom: 3px solid #f26723;
+        width:400px
     }
 
     
