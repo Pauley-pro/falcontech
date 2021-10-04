@@ -128,6 +128,10 @@ a.instagram {
   color:white;
 }
 
+.login:hover{
+  color:white;
+}
+
 .logy{
   margin-right: 10px;
 }
@@ -186,6 +190,7 @@ a.instagram {
 .nav-links:hover {
   border-bottom: 4px solid #f26723;
   transition: all 0.2s ease-out;
+  color:white
 }
 
 .nav-links-mobile {
@@ -270,11 +275,6 @@ a.instagram {
     text-align: left;
     width:20%;
     height: 10px;
-  }
-
-  #Link1, #Link2, #Link3, #Link4:hover{
-    color:white;
-    border:none;
   }
 
   .nav-menu.active {
