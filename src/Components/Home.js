@@ -17,8 +17,8 @@ function Home() {
   return (
     < div className="Home">
       <Slider />
-      <div className="Clear"></div>
-      <Promo />
+      {/*}<div className="Clear"></div>
+      <Promo />{*/}
       <div className="Clear"></div>
       <Service />
       <div className="Clear"></div>

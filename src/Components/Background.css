@@ -99,17 +99,42 @@
 
 @media (max-width: 768px){
     .Back-ground{
-        height: 950px;
+        height: 900px;
     }
 
     .Bimage{
-        height: 400px;
-        width: 400px;
-        margin-left: -80px;
+        height: 250px;
+        width: 250px;
+        float: left;
+        margin-left: -50px;
     }
 
     .Back-right{
         width:100%;
         margin-left: -50px;
+        clear: both;
+    }
+
+    .para-h4{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .para-h2{
+        font-size: 20px;
+        margin-top: -20px;
+        text-align: center;
+    }
+
+    .para-back{
+        text-align: center;
+        padding-left: 40px;
+        width:100%
+    }
+
+    .But-con{
+        padding-bottom: 33px;
+        margin-left: 37px;
+        width:80%
     }
 }

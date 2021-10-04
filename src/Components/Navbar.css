@@ -324,6 +324,10 @@ a.instagram {
 
 
 @media screen and (max-width: 768px) {
+  #fixed{
+    width:100%
+  }
+
   .NavbarItems {
     position: relative;
   }
