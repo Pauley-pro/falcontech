@@ -102,14 +102,14 @@
     margin-bottom: 15px
 }
 
-
-
 .single-footer-widget {
     margin-top: 15px;
 }
+
 .single-footer-widget.footer-logo-widget {
     margin-top: 0;
 }
+
 .latest-post-footer-left {
     background: #303030 none repeat scroll 0 0;
     color: #fff;
@@ -121,6 +121,7 @@
     text-align: center;
     width: 40px;
 }
+
 .latest-post-footer-right {
     overflow: hidden;
     line-height: 1px;
@@ -380,10 +381,10 @@ ul{
         float:right
     }
 
-    .copyright-area{
+    .Copyright-area{
         clear: both;
-        height: 20px;
-        margin-top: 10px;
+        height: 40px;
+        margin-top: -5px;
     }
 
     #para-last{
@@ -393,19 +394,19 @@ ul{
 
     .Footer2{
         float: right;
-        margin-top: 30px;
-        margin-right: 95px;
+        margin-top: -50px;
+        margin-right: 100px;
     }
 
     .Footer3{
         float: right;
-        margin-top: 30px;
-        margin-right: 25px;
+        margin-top: 20px;
+        margin-right: 35px;
     }
 
     .Footer4{
         float: left;
-        margin-top: -80px;
+        margin-top: -100px;
         margin-left: 20px;
     }
 }

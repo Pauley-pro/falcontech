@@ -15,10 +15,10 @@ import Testimonials from '../Components/Testimonials.js';
 
 function Home() {
   return (
-    < div className="Home">
+    <div className="Home">
       <Slider />
-      {/*}<div className="Clear"></div>
-      <Promo />{*/}
+      <div className="Clear"></div>
+      <Promo />
       <div className="Clear"></div>
       <Service />
       <div className="Clear"></div>

@@ -27,7 +27,7 @@ class Counter extends Component{
                     </Row>
                     <Row>
                         <Col xs={6} md={3}>
-                            <div className="count-box" id="count-box" >
+                            <div className="count-box" id="count-box">
                                 <h3 className="Count-h2">
                                     <CountUp end={2700} duration={5} redraw={true} suffix="+" className="counts">
                                         {({ countUpRef, start }) => (

@@ -33,7 +33,7 @@
     font-family: "Oswald",sans-serif;
     line-height: 35px;
     text-transform: uppercase;
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
 .Count-h2{
@@ -52,15 +52,15 @@
     position:relative;
     float:left;
     margin-left: 75px;
-    height: 50px;
+    height: 90px;
 }
 
 #count-box{
-    margin-left: 215px;
+    margin-left: 250px;
 }
 
 .Count-h4{
-    padding-top: 15px;
+    margin-top: -15px;
 }
 
 .counter{
@@ -102,7 +102,7 @@
     .falconet-count-area{
         background: rgba(0, 0, 0, 0) url("../images/security-camera-outdoor-vatican-museum-daylight.jpg") no-repeat fixed 0 0 / cover ;
         clear:both;
-        height: 550px;
+        height: 620px;
     }
 
     .counts-text > h3{

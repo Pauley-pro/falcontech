@@ -1,7 +1,7 @@
 .Back-ground{
     background: #222 none repeat scroll 0 0;
     border: #f7f7f7 solid 20px;
-    height: 600px;
+    height: 650px;
     margin-top: -100px;
 }
 
@@ -13,8 +13,8 @@
 .Back-right{
     float:left;
     margin-top: 50px;
-    width: 40%;
-    margin-left: 40px;
+    width: 50%;
+    margin-left: 100px;
 }
 
 .Bimage{
@@ -31,8 +31,10 @@
 
 .para-back{
     font-size: 15px;
-    padding: 20px;
-    width: 90%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-top: 5px;
+    width: 100%;
     color: white;
     font-family: JosefinSans;
     line-height: 25px;
@@ -40,7 +42,7 @@
 
 .para-h2{
     padding: 20px;
-    padding-top: 15px;
+    padding-top: 5px;
     font-size: 30px;
     color: white;
     font-family: JosefinSans;
@@ -68,13 +70,14 @@
     background-color:#f26723;
     border:solid #f26723 2px;
     padding-top:15px;
-    padding-bottom:20px;
+    padding-bottom: 33px;
     text-align:center;
     text-transform:uppercase;
     text-decoration:none;
     letter-spacing:2px;
     font-family:monospace;
-    float:left
+    float:left;
+    margin-left: -400px;
 }
 
 .But-con:hover{
@@ -84,7 +87,7 @@
 
 @media (max-width: 992px){
     .Back-ground{
-        height: 950px;
+        height: 1100px;
     }
 
     .Back-right{
@@ -95,23 +98,34 @@
     .main-back{
         margin-top: 10px;
     }
+
+    .Bimage{
+        margin-top: 30px;
+    }
+
+    .But-con{
+        padding-bottom: 33px;
+       
+    }
 }
 
 @media (max-width: 768px){
     .Back-ground{
-        height: 900px;
+        height: 800px;
+    }
+
+    .Back-left{
+        width:100%
     }
 
     .Bimage{
         height: 250px;
         width: 250px;
-        float: left;
-        margin-left: -50px;
+        margin-left: -70px;
     }
 
     .Back-right{
         width:100%;
-        margin-left: -50px;
         clear: both;
     }
 
@@ -128,13 +142,14 @@
 
     .para-back{
         text-align: center;
-        padding-left: 40px;
+        padding-left: 5px;
         width:100%
     }
 
     .But-con{
         padding-bottom: 33px;
-        margin-left: 37px;
+        margin-left: 10px;
         width:80%
     }
 }
+

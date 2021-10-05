@@ -59,7 +59,7 @@
     font-family: Calibri;
     font-weight: 800;
     text-transform: uppercase;
-    margin-left: -20px;
+    margin-left: -60px;
 }
 
 
@@ -110,7 +110,7 @@
 }
 
 #name{
-    width:80%;
+    width:85%;
     display:block;
     border:solid 2px #f0f0f0;
     border-radius:5px;
@@ -119,6 +119,16 @@
 }
 
 #lastname{
+    width:85%;
+    display:block;
+    border:solid 2px #f0f0f0;
+    border-radius:5px;
+    padding:10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05), 2px 2px 12px 2px rgba(0, 0, 0, 0.09);
+    margin-left: -10px;
+}
+
+#password{
     width:80%;
     display:block;
     border:solid 2px #f0f0f0;
@@ -127,17 +137,8 @@
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05), 2px 2px 12px 2px rgba(0, 0, 0, 0.09);
 }
 
-#password{
-    width:73%;
-    display:block;
-    border:solid 2px #f0f0f0;
-    border-radius:5px;
-    padding:10px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05), 2px 2px 12px 2px rgba(0, 0, 0, 0.09);
-}
-
 #con-password{
-    width:73%;
+    width:80%;
     display:block;
     border:solid 2px #f0f0f0;
     border-radius:5px;
@@ -146,7 +147,7 @@
 }
 
 #contact{
-    width:100%;
+    width:85%;
     display:block;
     border:solid 2px #f0f0f0;
     border-radius:5px;
@@ -155,7 +156,7 @@
 }
 
 #email{
-    width:73%;
+    width:80%;
     display:block;
     border:solid 2px #f0f0f0;
     border-radius:5px;
@@ -177,18 +178,20 @@ fieldset{
     font-weight: 700;
     text-align: center;
     padding: 15px;
+    margin-left: -60px;
 }
 
 #btn{
     float:left;
     width:150px;
-    height: 35px;
+    height: 40px;
     border: #f26723 solid 1px;
     display:block;
     color: white;
     border-radius:5px;
     background-color: #f26723;
     cursor: pointer;
+    margin-left: -45px;
 }
 
 #btn-login{

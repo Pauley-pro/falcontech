@@ -6,21 +6,21 @@
 
 .div-service{
     margin-top: 30px;
-    margin-left: 130px;
+    margin-left: 150px;
 }
 
 .But6{
     font-size:11px;
-    border-radius:23px;
-    height:50px;
+    border-radius:10px;
+    height:90px;
     font-weight:500;
     width:190px;
     margin:10px;
     color:black;
     background-color:beige;
     border:solid beige 2px;
-    padding-top:40px;
-    padding-bottom:12px;
+    padding-top:35px;
+    padding-bottom:40px;
     text-align:center;
     text-transform:uppercase;
     text-decoration:none;
@@ -32,16 +32,16 @@
 
 .But7{
     font-size:11px;
-    border-radius:23px;
-    height:26px;
+    border-radius:10px;
+    height:90px;
     width:190px;
     font-weight:500;
     margin:10px;
     color:black;
     background-color:beige;
     border:solid beige 2px;
-    padding-top:40px;
-    padding-bottom:38px;
+    padding-top:35px;
+    padding-bottom:40px;
     text-align:center;
     text-transform:uppercase;
     text-decoration:none;
@@ -53,16 +53,16 @@
 
 .But8{
     font-size:11px;
-    border-radius:23px;
-    height:26px;
+    border-radius:10px;
+    height:90px;
     width:190px;
     font-weight:500;
     margin:10px;
     color:black;
     background-color:beige;
     border:solid beige 2px;
-    padding-top:40px;
-    padding-bottom:38px;
+    padding-top:35px;
+    padding-bottom:40px;
     text-align:center;
     text-transform:uppercase;
     text-decoration:none;
@@ -74,16 +74,16 @@
 
 .But9{
     font-size:11px;
-    border-radius:23px;
-    height:26px;
+    border-radius:10px;
+    height:90px;
     width:190px;
     font-weight:500;
     margin:10px;
     color:black;
     background-color:beige;
     border:solid beige 2px;
-    padding-top:40px;
-    padding-bottom:38px;
+    padding-top:35px;
+    padding-bottom:40px;
     text-align:center;
     text-transform:uppercase;
     text-decoration:none;
@@ -95,17 +95,17 @@
 
 .But10{
     font-size:11px;
-    border-radius:23px;
-    height:26px;
+    border-radius:10px;
+    height:90px;
     width:190px;
     font-weight:500;
     margin:10px;
     color:black;
     background-color:beige;
     border:solid beige 2px;
-    padding-top:40px;
-    padding-bottom:38px;
-    text-align: center;
+    padding-top:35px;
+    padding-bottom:40px;
+    text-align:center;
     text-transform:uppercase;
     text-decoration:none;
     letter-spacing:1px;
@@ -116,16 +116,16 @@
 
 .But11{
     font-size:11px;
-    border-radius:23px;
-    height:26px;
-    font-weight:500;
+    border-radius:10px;
+    height:90px;
     width:190px;
+    font-weight:500;
     margin:10px;
     color:black;
     background-color:beige;
     border:solid beige 2px;
-    padding-top:40px;
-    padding-bottom:38px;
+    padding-top:35px;
+    padding-bottom:40px;
     text-align:center;
     text-transform:uppercase;
     text-decoration:none;
@@ -173,8 +173,8 @@
 
 .Transparent{
     font-size:11px;
-    border-radius:23px;
-    height:26px;
+    border-radius:10px;
+    height:90px;
     width:300px;
     margin:10px;
     color:pink;
@@ -183,8 +183,8 @@
     border-bottom:solid white 2px;
     border-left:solid white 2px;
     border-right:solid white 2px;
-    padding-top:33px;
-    padding-bottom:38px;;
+    padding-top:35px;
+    padding-bottom:40px;;
     text-align:center;
     text-transform:uppercase;
     text-decoration:none;
@@ -481,7 +481,7 @@
     font-size:25px;
     font-weight: 400;
     text-transform: uppercase;
-    margin-top: 27px;
+    margin-top: -15px;
 }
 
 
