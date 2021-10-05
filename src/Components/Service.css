@@ -487,23 +487,35 @@
 
 
 
-@media (max-width: 992px){
+@media (max-width: 768px){
     .falconet-service-area{
-        height:500px;
+        height:800px;
+    }
+    .site-heading{
+        padding-top: 50px;
     }
 
     .div-service{
-        margin-left: 150px;
+        margin-left: 170px;
+    }
+
+    .Transparent{
+        width:68%;
+        margin-left: 10px;
     }
    
 }
 
-@media (max-width: 768px){
+@media (max-width: 320px){
     .falconet-service-area{
         margin-top: -100px;
-        height:700px;
+        height:1050px;
         width: 100%;
        
+    }
+
+    .site-heading{
+        padding-top: 30px;
     }
     
     .div-service{
@@ -514,65 +526,72 @@
     .But6{
         font-size:10px;
         height:13px;
-        width:200px;
+        width:90%;
         margin:5px;
-        padding-top:40px;
-        padding-bottom:38px;
-        float:left
+        padding-top:30px;
+        padding-bottom:55px;
+        float:left;
+        margin-left: 1px;
     }
 
     .But7{
         font-size:10px;
         height:13px;
-        width:200px;
+        width:90%;
         margin:5px;
-        padding-top:40px;
-        padding-bottom:38px;
-        float:left
+        padding-top:30px;
+        padding-bottom:55px;
+        float:left;
+        margin-left: 1px;
     }
 
     .But8{
         font-size:10px;
         height:13px;
-        width:200px;
+        width:90%;
         margin:5px;
-        padding-top:40px;
-        padding-bottom:38px;
-        float:left
+        padding-top:30px;
+        padding-bottom:55px;
+        float:left;
+        margin-left: 1px;
     }
 
     .But9{
         font-size:10px;
         height:13px;
-        width:200px;
+        width:90%;
         margin:5px;
-        padding-top:40px;
-        padding-bottom:38px;
-        float:left
+        padding-top:30px;
+        padding-bottom:55px;
+        float:left;
+        margin-left: 1px;
     }
 
     .But10{
         font-size:10px;
         height:13px;
-        width:200px;
+        width:90%;
         margin:5px;
-        padding-top:40px;
-        padding-bottom:38px;
-        float:left
+        padding-top:30px;
+        padding-bottom:55px;
+        float:left;
+        margin-left: 1px;
     }
 
     .But11{
         font-size:10px;
         height:13px;
-        width:200px;
+        width:90%;
         margin:5px;
-        padding-top:40px;
-        padding-bottom:38px;
-        float:left
+        padding-top:30px;
+        padding-bottom:55px;
+        float:left;
+        margin-left: 1px;
     }
 
     .Transparent{
-        width:90%
+        width:90%;
+        margin-left: 1px;
     }
 
 }

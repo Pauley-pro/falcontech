@@ -71,9 +71,9 @@
 
 
 
-@media (max-width: 992px){
+@media (max-width: 768px){
     .falconet-count-area{
-        height: 400px;
+        height: 270px;
     }
 
     #Count-h3{
@@ -82,23 +82,23 @@
     }
 
     #count-box{
-        margin-left: 170px;
-    }
-
-    #count-box2{
         margin-left: 80px;
     }
 
+    #count-box2{
+        margin-left: 10px;
+    }
+
     #count-box3{
-        margin-left:4;
+        margin-left: 10px;
     }
 
     #count-box4{
-        margin-left: 180px;
+        margin-left: 10px;
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 320px){
     .falconet-count-area{
         background: rgba(0, 0, 0, 0) url("../images/security-camera-outdoor-vatican-museum-daylight.jpg") no-repeat fixed 0 0 / cover ;
         clear:both;
@@ -110,7 +110,7 @@
     }
 
     #count-box{
-        margin-left: 155px;
+        margin-left: 100px;
     }
 
     .count-box{
@@ -118,15 +118,15 @@
     }
 
     #count-box2{
-        margin-left: 130px;
+        margin-left: 100px;
     }
 
     #count-box3{
-        margin-left: 150px;
+        margin-left: 100px;
     }
 
     #count-box4{
-        margin-left: 125px;
+        margin-left: 100px;
     }
 
     .counts-text{

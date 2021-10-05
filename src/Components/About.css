@@ -95,7 +95,8 @@
 }
 
 .about-right {
-    margin: 30px 0;
+    margin: 30px;
+    margin-top: -5px;
     width:40%;
     float:left;
     padding-top: 25px;
@@ -106,10 +107,11 @@
     color: #333;
     font-size: 15px;
     line-height: 20px;
-    margin-bottom: 10px;
+    
     text-align: justify;
     font-family: JosefinSans;
     font-weight: 500;
+    margin-top: -10px;
 }
 
 .about-right > p {
@@ -172,6 +174,7 @@
 
 .Abtimg{
     margin-left: 60px;
+    height: 320px;
 }
 
 .img-right{
@@ -185,7 +188,7 @@
     margin-top:30px;
     margin-left:100px;
     float:left;
-    height: 250px;
+    height: 340px;
 }
 
 .stat-h2{

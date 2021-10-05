@@ -20,7 +20,7 @@ class Login extends Component{
         <div className="Form-login">
           <h1 className="head-form">Log <span className="span-form">in</span></h1>
           
-            <Form className = "form">
+            <Form className = "form" id="Form">
               <FormGroup className="mail">
                 <Label for="password" className="Label">Email:</Label><br/>
                 <Input type="email" name="email" id="email" placeholder="Your Email" required/>

@@ -306,7 +306,7 @@ ul{
 
 
 
-@media (max-width: 992px){
+@media (max-width: 768px){
     .falconet-footer-area{
         clear: both;
         height: 200px;
@@ -337,10 +337,14 @@ ul{
 }
 
 
-@media (max-width: 768px){
+@media (max-width: 320px){
     .falconet-footer-area{
         clear: both;
-        height: 220px;
+        height: 250px;
+    }
+
+    #falconet-footer-area{
+        margin-top: -310px;
     }
 
     .footer-top-area{
@@ -351,34 +355,12 @@ ul{
         margin-top:10px
     }
 
-    #Single-footer1{
-        width:90%;
-        margin-left: 20px;
-    }
-
-    #Single-footer2{
-        clear: both;
-        width: 90%;
-    }
-
-    #Single-footer3{
-        clear: both;
-        width: 90%;
-    }
-
     .Links{
         padding-left: 1px;
     }
 
     .B-link{
         font-size: 12px;
-    }
-
-    #Single-footer4{
-        clear: both;
-        width:25%;
-        margin-bottom: 30px;
-        float:right
     }
 
     .Copyright-area{
@@ -393,20 +375,26 @@ ul{
     }
 
     .Footer2{
-        float: right;
-        margin-top: -50px;
-        margin-right: 100px;
+        float: left;
+        margin-top: 30px;
+        margin-left: 90px;
     }
 
     .Footer3{
-        float: right;
+        float: left;
         margin-top: 20px;
-        margin-right: 35px;
+        margin-left: 195px;
     }
 
     .Footer4{
         float: left;
         margin-top: -100px;
         margin-left: 20px;
+    }
+
+    .Footer-logo{
+        width:40px;
+        height: 20px;
+        float: left;
     }
 }

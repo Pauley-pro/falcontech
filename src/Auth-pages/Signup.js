@@ -57,7 +57,7 @@ class Signup extends Component{
               <Label for="phone number" className="Label">Phone Number:</Label><br/>
               <Input type="password" name="number" id="contact" placeholder="Phone number" required/>
             </FormGroup>
-            <FormGroup className="form-right2">
+            <FormGroup className="form-right2" id="form-right2">
               <Input type="submit" name="Submit" id="btn" />
             </FormGroup>
           </div>

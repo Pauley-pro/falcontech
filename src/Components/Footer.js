@@ -3,7 +3,7 @@ import './Footer.css';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Logo from '../images/footer-logo.png';
+import Logo from '../images/real-form.jpg';
 import { RiWhatsappFill } from "react-icons/ri";
 import { ImLinkedin2, ImTwitter } from "react-icons/im";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
@@ -17,7 +17,7 @@ class Footer extends Component{
   render(){
     return (
         <>
-            <div class="falconet-footer-area">
+            <div class="falconet-footer-area" id="falconet-footer-area">
                 <div className="Footer1">
                     <ul className="List">
                         <li>
@@ -40,7 +40,7 @@ class Footer extends Component{
                 <div className="Footer3">
                     <h5 className="h5-foot">Legal</h5>
                     <ul className="List">
-                        <li className="Sub-list"><Link to="/Terms" className="test-link">Terms and Conditions</Link></li>
+                        <li className="Sub-list"><Link to="/Terms" className="test-link">Terms</Link></li>
                     </ul>
                 </div>
                 <div className="Footer4">
