@@ -17,7 +17,9 @@ class Signup extends Component{
     return (
       <div className="form-body">
         <div className="Form-img">
-          <img src={FormImg} className="FormImg"/>
+          <Link to="/Home">
+            <img src={FormImg} className="FormImg"/>
+          </Link>
           <br/>
           <img src={Formimg} className="Formimg"/>
         </div>
