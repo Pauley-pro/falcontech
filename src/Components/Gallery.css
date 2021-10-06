@@ -136,37 +136,37 @@
 }
 
 #div1{
-    width:400px;
+    width:350px;
     float:left;
-    margin-left:40px
+    margin-left:60px
 }
 
 #div2{
-    width:400px;
+    width:350px;
     float:left;
     margin-left:30px
 }
 
 #div3{
-    width:400px;
+    width:350px;
     float:left;
     margin-left:30px
 }
 
 #div4{
-    width:400px;
+    width:350px;
     float:left;
-    margin-left:40px
+    margin-left:60px
 }
 
 #div5{
-    width:400px;
+    width:350px;
     float:left;
     margin-left:30px
 }
 
 #div6{
-    width:400px;
+    width:350px;
     float:left;
     margin-left:30px
 }
@@ -257,7 +257,7 @@
 
 
 
-@media (max-width: 320px){
+@media (max-width: 420px){
     .falconet-gallery-area{
         margin-top: -120px;
     }
@@ -272,32 +272,32 @@
     }
 
     #div1{
-        margin-left: 5px;
+        margin-left: 10px;
         width: 90%;
     }
 
     #div2{
-        margin-left: 5px;
+        margin-left: 10px;
         width: 90%;
     }
 
     #div3{
-        margin-left: 5px;
+        margin-left: 10px;
         width: 90%;
     }
 
     #div4{
-        margin-left: 5px;
+        margin-left: 10px;
         width: 90%;
     }
 
     #div5{
-        margin-left: 5px;
+        margin-left: 10px;
         width: 90%;
     }
 
     #div6{
-        margin-left: 5px;
+        margin-left: 10px;
         width: 90%;
     }
    

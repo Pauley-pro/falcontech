@@ -40,7 +40,7 @@ class Footer extends Component{
                 <div className="Footer3">
                     <h5 className="h5-foot">Legal</h5>
                     <ul className="List">
-                        <li className="Sub-list"><Link to="/Terms" className="test-link">Terms</Link></li>
+                        <li className="Sub-list"><Link to="/Terms" className="test-link">Terms and Conditions</Link></li>
                     </ul>
                 </div>
                 <div className="Footer4">

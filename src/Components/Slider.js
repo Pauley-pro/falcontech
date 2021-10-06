@@ -51,7 +51,7 @@ const Slider = () => {
                                         <p id="Para-slide">
                                             awareness may not be stressed enough, but it cannot be overemphasised. 
                                         </p>
-                                        <Link to="/About" class="falconet-btn">learn more</Link>
+                                        <Link to="/About" className="falconet-btn">learn more</Link>
                                     </div>
                                 </Col>
                             </Row>

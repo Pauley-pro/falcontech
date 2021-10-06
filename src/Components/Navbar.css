@@ -223,7 +223,7 @@ a.instagram {
   }
 
   .cart{
-    margin-right: -600px;
+    margin-right: -500px;
     margin-top: 5px;
     float: right;
   }
@@ -323,7 +323,8 @@ a.instagram {
 
 
 
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 420px) {
   #fixed{
     width:100%
   }
@@ -343,7 +344,7 @@ a.instagram {
   }
 
   .cart{
-    margin-right: -220px;
+    margin-right: -120px;
   }
 
   #cart{
@@ -364,7 +365,7 @@ a.instagram {
   }
 
   #Link1{
-    margin-top:-110px;
+    margin-top:5px;
     margin-left: 30px;
     text-align: left;
     width:20%;
@@ -372,7 +373,7 @@ a.instagram {
   }
 
   #Link2{
-    margin-top:-175px;
+    margin-top:-25px;
     margin-left: 30px;
     text-align: left;
     width:20%;
@@ -380,7 +381,7 @@ a.instagram {
   }
 
   #Link3{
-    margin-top:-240px;
+    margin-top:-55px;
     margin-left: 30px;
     text-align: left;
     width:20%;
@@ -388,7 +389,7 @@ a.instagram {
   }
 
     #Link4{
-    margin-top:-300px;
+    margin-top:-85px;
     margin-left: 30px;
     text-align: left;
     width:20%;

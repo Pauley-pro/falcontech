@@ -312,6 +312,12 @@ ul{
         height: 200px;
     }
 
+    .Footer-logo{
+        width:40px;
+        height: 20px;
+        float: left;
+    }
+
     #para-footer{
         padding-top: 2px;
         font-size: 13px;
@@ -331,20 +337,20 @@ ul{
 
     .Footer4{
         float: right;
-        margin-top: 45px;
-        margin-right: 40px;
+        margin-top: 35px;
+        margin-right: 60px;
     }
 }
 
 
-@media (max-width: 320px){
+@media (max-width: 420px){
     .falconet-footer-area{
         clear: both;
         height: 250px;
     }
 
     #falconet-footer-area{
-        margin-top: -310px;
+        margin-top: -130px;
     }
 
     .footer-top-area{
@@ -377,13 +383,13 @@ ul{
     .Footer2{
         float: left;
         margin-top: 30px;
-        margin-left: 90px;
+        margin-left: 145px;
     }
 
     .Footer3{
         float: left;
         margin-top: 20px;
-        margin-left: 195px;
+        margin-left: 250px;
     }
 
     .Footer4{
