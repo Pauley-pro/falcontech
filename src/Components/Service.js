@@ -64,12 +64,12 @@ class Service extends Component{
                             </Link>
                         </Col>
                         <Col xs={12} md={6}>
-                            <Link to='/Self-def' className='Transparent'>
+                            <Link to='/Self-def' className='Transparent' id='Transparent'>
                                 SELF DEFENSE SUPPLIES
                             </Link>
                         </Col>
                         <Col xs={12} md={6}>
-                            <Link to='/Workplace' className='Transparent'>
+                            <Link to='/Workplace' className='Transparent' id='Transparent'>
                                 WORKPLACE SAFETY SUPPLIES
                             </Link>
                         </Col>

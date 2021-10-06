@@ -16,6 +16,7 @@
     font-weight:500;
     width:190px;
     margin:10px;
+    margin-left: -50px;
     color:black;
     background-color:beige;
     border:solid beige 2px;
@@ -121,6 +122,7 @@
     width:190px;
     font-weight:500;
     margin:10px;
+    margin-left: -50px;
     color:black;
     background-color:beige;
     border:solid beige 2px;
@@ -490,6 +492,7 @@
 @media (max-width: 768px){
     .falconet-service-area{
         height:800px;
+        margin-top: 20px;
     }
     .site-heading{
         padding-top: 50px;
@@ -497,6 +500,26 @@
 
     .div-service{
         margin-left: 170px;
+    }
+
+    .But6{
+        margin-left: 20px;
+    }
+
+    .But8{
+        margin-left: 20px;
+    }
+
+    .But10{
+        margin-left: 20px;
+    }
+
+    .But11{
+        margin-left: 10px;
+    }
+
+    #Transparent{
+        margin-left: 20px;
     }
 
     .Transparent{
@@ -531,7 +554,7 @@
         padding-top:30px;
         padding-bottom:55px;
         float:left;
-        margin-left: 1px;
+        margin-left: 5px;
     }
 
     .But7{
@@ -542,7 +565,7 @@
         padding-top:30px;
         padding-bottom:55px;
         float:left;
-        margin-left: 1px;
+        margin-left: 5px;
     }
 
     .But8{
@@ -553,7 +576,7 @@
         padding-top:30px;
         padding-bottom:55px;
         float:left;
-        margin-left: 1px;
+        margin-left: 5px;
     }
 
     .But9{
@@ -564,7 +587,7 @@
         padding-top:30px;
         padding-bottom:55px;
         float:left;
-        margin-left: 1px;
+        margin-left: 5px;
     }
 
     .But10{
@@ -575,7 +598,7 @@
         padding-top:30px;
         padding-bottom:55px;
         float:left;
-        margin-left: 1px;
+        margin-left: 5px;
     }
 
     .But11{
@@ -586,12 +609,12 @@
         padding-top:30px;
         padding-bottom:55px;
         float:left;
-        margin-left: 1px;
+        margin-left: 5px;
     }
 
-    .Transparent{
+    #Transparent{
         width:90%;
-        margin-left: 1px;
+        margin-left: 5px;
     }
 
 }
