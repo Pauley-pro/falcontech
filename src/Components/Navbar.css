@@ -223,9 +223,14 @@ a.instagram {
   }
 
   .cart{
-    margin-right: -500px;
-    margin-top: 5px;
-    float: right;
+    display: block;
+    position: absolute;
+    margin-top: 7px;
+    right: 0;
+    transform: translate(-500%, -20%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color:white;
   }
 
   #cart{
@@ -279,14 +284,16 @@ a.instagram {
   
   #Navitems{
     margin-top: -250px;
-    margin-left: -30px;
+    margin-left: 30px;
+    text-align: left;
     width:20%;
   }
 
   #Navitems2{
     margin-top: -50px;
-    margin-left: -20px;
+    margin-left: 30px;
     margin-bottom: 80px;
+    text-align: left;
     width:20%;
   }
 
@@ -357,7 +364,15 @@ a.instagram {
   }
 
   .cart{
-    margin-right: -170px;
+    /*margin-right: -170px;*/
+    display: block;
+    position: absolute;
+    margin-top: 7px;
+    right: 0;
+    transform: translate(-500%, -20%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color:white;
   }
 
   #cart{
@@ -412,14 +427,14 @@ a.instagram {
 
   #Navitems{
     margin-top: -310px;
-    margin-left: -320px;
+    margin-left: 30px;
     text-align: left;
     width:20%;
   }
 
   #Navitems2{
     margin-top: -50px;
-    margin-left: -300px;
+    margin-left: 30px;
     margin-bottom: 60px;
     text-align: left;
     width:20%;
