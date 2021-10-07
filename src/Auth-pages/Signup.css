@@ -390,6 +390,7 @@ fieldset{
         height:20px;
         margin-top: 90px;
         margin-left: 30px;
+        position: relative;
     }
 
     .Formimg{
@@ -451,7 +452,7 @@ fieldset{
     }
 
     #firstname{
-        width: 100%
+        width: 100%;
     }
 
     #lastname{
@@ -494,7 +495,7 @@ fieldset{
     }
 
     #p-log{
-        padding-left: 200px;
+        padding-left: 250px;
     }
 
     .head-form{
