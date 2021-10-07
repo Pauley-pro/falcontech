@@ -56,6 +56,16 @@ const closeMobileMenu = () => setClick(false);{*/}
               Contact
             </Link>
           </li>
+          <li className='nav-item' id="Navitems">
+            <Link to='/Login' className='nav-links' onClick={closeMobileMenu} id="Link5">
+              Login
+            </Link>
+          </li>
+          <li className='nav-item' id="Navitems2">
+            <Link to='/Signup' className='nav-links' onClick={closeMobileMenu} id="Link6">
+              Sign Up
+            </Link>
+          </li>
           
         </ul>
         
