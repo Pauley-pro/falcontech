@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './About.css';
+import './Contact.css';
 import { FaLongArrowAltRight } from "react-icons/fa";
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';

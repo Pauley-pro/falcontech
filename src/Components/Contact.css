@@ -1,5 +1,5 @@
 .Falconet-map{
-    height:15000px
+    height:1000px
 }
 
 .falconet-breadcromb-map{
@@ -83,13 +83,15 @@
 
 .Map{
     clear: both;
+    width: 95%;
+    margin-left: 35px;
 }
 
-
-.Main-map{
-    width: 600px;
-    height: 450px;
+.Real-map{
+    width: 100%;
+    height: 500px;
 }
+
 
 .Contact-info{
     clear: both;
