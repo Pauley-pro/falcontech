@@ -83,8 +83,9 @@
 
 .Map{
     clear: both;
-    width: 95%;
-    margin-left: 35px;
+    width: 70%;
+    border-right: black solid 1px;
+    border-bottom: black solid 1px;
 }
 
 .Real-map{
@@ -99,5 +100,5 @@
 }
 
 @media (max-width: 420px){
-    
+
 }
