@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { Link } from 'react-router-dom';
 import Center from 'react-center';
+import { ImLocation2 } from "react-icons/im";
 
 
 
@@ -44,6 +45,22 @@ function Contact() {
             </Container>
           </div>
         </section>
+        <div>
+          <div className="con1">
+            <div className="sub-con1">
+              <div className="div-con1">
+                <ImLocation2/>
+              </div>
+              <div className="div-con2">
+                <h4>LOCATION</h4>
+                <p>BuildSpace, Opposite U.I Second gate, Ibadan, Oyo State, Nigeria.</p>
+              </div>
+            </div>
+            <div className="sub-con2"></div>
+          </div>
+          <div className="con2"></div>
+          <div className="con3"></div>
+        </div>
         <Center>
           <div className="Map">
             <iframe className="Real-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.118390022238!2d3.904862464269562!3d7.452152513739227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1039ed6299bb87cd%3A0xb89ec4b3a3bf5aa1!2sUniversity%20of%20Ibadan%20Second%20Gate%2C%20200132%2C%20Ibadan!5e0!3m2!1sen!2sng!4v1631659028134!5m2!1sen!2sng"  allowfullscreen="" loading="lazy"></iframe>
