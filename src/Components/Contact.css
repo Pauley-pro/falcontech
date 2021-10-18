@@ -1,10 +1,9 @@
 .Falconet-map{
-    height:1000px
+    height:1200px
 }
 
 .falconet-breadcromb-map{
-    margin-bottom: 100px;
-    
+    margin-bottom: 100px;    
 }
 
 .breadcromb-top {
@@ -83,26 +82,180 @@
 
 .Map{
     clear: both;
-    width: 70%;
-    border-right: black solid 1px;
-    border-bottom: black solid 1px;
+    width: 90%;
+    margin-top: 350px;
 }
 
 .Real-map{
     width: 100%;
-    height: 400px;
+    height: 500px;
+    border-right: black solid 1px;
+    border-bottom: black solid 1px;
+    margin-left: 150px;
 }
 
+.Main-con{
+    clear: both;
+}
 
 .Contact-info{
     clear: both;
     margin-top: 200px;
 }
 
-.sub-con1{
-    width:20%
+.con1{
+    width:20%;
+    float: left;
+    margin-left: 150px;
 }
 
-@media (max-width: 420px){
+.con2{
+    width:20%;
+    float: left;
+    margin-left: 150px;
+}
 
+.con3{
+    width:20%;
+    float: left;
+    margin-left: 150px;
+}
+
+.div-con1{
+    width:30%;
+    float: left;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05), 2px 2px 12px 2px rgba(0, 0, 0, 0.09);
+}
+
+.div-con2{
+    width: 50%;
+    float: left;
+    margin-left: 10px;
+}
+
+.icontact{
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+    color: #f26723;
+}
+
+
+@media (max-width: 768px){
+    .Falconet-map{
+        height:1200px
+    }
+
+    .Real-map{
+        width: 100%;
+        height: 300px;
+        border-right: black solid 1px;
+        border-bottom: black solid 1px;
+    }
+
+    .Map{
+        width: 100%;
+        margin-left: -75px;
+        margin-top: 600px;
+        clear: both;
+    }
+
+    .con1{
+        width:80%;
+        float: left;
+        margin-left: 40px;
+        margin-top: -20px;
+        
+    }
+    
+    .con2{
+        width:80%;
+        float: left;
+        margin-left: 40px;
+        margin-top: 20px;
+        
+    }
+    
+    .con3{
+        width:80%;
+        float: left;
+        margin-left: 40px;
+        margin-top: 20px;
+        
+    }
+
+    .div-con1{
+        width: 20%;
+        margin-left: 45px;
+        margin-top: 5px;
+    }
+
+    .div-con2{
+        margin-top: 40px;
+        margin-left: 50px
+    }
+
+    .par-con{
+        margin-top: -10px;
+    }
+}
+
+
+@media (max-width: 420px){
+    .Falconet-map{
+        height:1000px
+    }
+
+    .Real-map{
+        width: 100%;
+        height: 300px;
+        border-right: black solid 1px;
+        border-bottom: black solid 1px;
+    }
+
+    .Map{
+        width: 100%;
+        margin-left: -75px;
+        margin-top: 400px;
+        clear: both;
+    }
+
+    .con1{
+        width:80%;
+        float: left;
+        margin-left: 40px;
+        margin-top: -20px;
+        
+    }
+    
+    .con2{
+        width:80%;
+        float: left;
+        margin-left: 40px;
+        margin-top: 20px;
+        
+    }
+    
+    .con3{
+        width:80%;
+        float: left;
+        margin-left: 40px;
+        margin-top: 20px;
+        
+    }
+
+    .div-con1{
+        width: 20%;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+
+    .div-con2{
+        margin-top: 5px;
+    }
+
+    .par-con{
+        margin-top: -10px;
+    }
 }
