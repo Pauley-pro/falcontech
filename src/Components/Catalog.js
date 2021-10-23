@@ -73,7 +73,7 @@ var products =
       title: "Flashlight Stun Gun",
       description: "Very efficient and pictures every movement",
       currency: "NGN",
-      price: "25",
+      price: "15000",
       image: "images/Stillflashlightstungun.jpg",
     },
     {
