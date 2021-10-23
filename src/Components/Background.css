@@ -2,7 +2,7 @@
     background: #222 none repeat scroll 0 0;
     border: #f7f7f7 solid 20px;
     height: 650px;
-    margin-top: -5px;
+    margin-top: -100px;
 }
 
 .Back-left{
@@ -160,8 +160,8 @@
 
     .para-back{
         text-align: center;
-        margin-left: -25px;
-        padding-right: 40px;
+        padding-left: 5px;
+        padding-right: 20px;
         width:100%
     }
 

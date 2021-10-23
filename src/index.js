@@ -1,32 +1,21 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
-import "./index.css";
-import App from "./App";
-import ProductsContextProvider from "./context/products-context";
-import CartContextProvider from "./context/cart-context";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
 
-import { Elements } from '@stripe/react-stripe-js'
-import { loadStripe } from '@stripe/stripe-js'
 
-import reportWebVitals from "./reportWebVitals";
-
-const stripePromise = loadStripe(process.env.REACT_APP_PUBLISHABLE_KEY)
 
 ReactDOM.render(
-  <BrowserRouter>
-    <ProductsContextProvider>
-      <CartContextProvider>
-        <Elements stripe={stripePromise}>
-          <App />
-        </Elements>        
-      </CartContextProvider>
-    </ProductsContextProvider>
-  </BrowserRouter>,
-  document.getElementById("root")
+  <React.StrictMode>
+    
+      <App/>
+    
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();

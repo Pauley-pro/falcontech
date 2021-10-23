@@ -13,9 +13,9 @@ import { Link } from 'react-router-dom';
 
 
 
-const Footer = () => {
-    const year = new Date().getFullYear();
-    return(
+class Footer extends Component{
+  render(){
+    return (
         <>
             <div class="falconet-footer-area" id="falconet-footer-area">
                 <div className="Footer1">
@@ -32,7 +32,7 @@ const Footer = () => {
                 <div className="Footer2">
                     <h5 className="h5-foot">Company</h5>
                     <ul className="List">
-                        <li className="Sub-list"><Link to="/About" className="test-link">About</Link></li>
+                    <li className="Sub-list"><Link to="/About" className="test-link">About</Link></li>
                         <li className="Sub-list"><Link to="/Contact" className="test-link">Contact</Link></li>
                         <li className="Sub-list"><Link to="" className="test-link">Shop</Link></li>
                     </ul>
@@ -40,7 +40,7 @@ const Footer = () => {
                 <div className="Footer3">
                     <h5 className="h5-foot">Legal</h5>
                     <ul className="List">
-                        <li className="Sub-list3"><Link to="/Terms" className="test-link">Terms and Conditions</Link></li>
+                        <li className="Sub-list"><Link to="/Terms" className="test-link">Terms and Conditions</Link></li>
                     </ul>
                 </div>
                 <div className="Footer4">
@@ -53,11 +53,11 @@ const Footer = () => {
                 </div>    
             </div>
             <div className="Copyright-area" id="Copyright-area">
-                <p id="para-footer"> {year} &copy; Copyright <Link to="#" className="foot-link">FalconTech</Link> All rights reserved</p> 
+                <p id="para-footer">&copy; Copyright <Link to="#" className="foot-link">FalconTech</Link> All rights reserved</p> 
             </div> 
         </>
     );
   }
-
+}
 
 export default Footer;

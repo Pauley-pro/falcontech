@@ -2,7 +2,7 @@
     margin-top: -100px;
     background: #f7f7f7 none repeat scroll 0 0;
     height: 550px;
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 .h2-prom{
@@ -15,11 +15,7 @@
     text-transform: capitalize;
     color: #333;
     font-weight:400;
-    padding-top: 15px;
-}
-
-.Prom{
-    text-decoration: none;
+    padding-top: 13px;
 }
 
 .pro-text{
@@ -69,10 +65,9 @@
 
 @media (max-width: 768px){
     .Pro-div{
-        margin-top: 100px;
+        margin-top: 200px;
         width:100%;
         height: 1150px;
-        padding-top: 80px;
     }
 
     .falc-div1{
@@ -101,10 +96,9 @@
 
 @media (max-width: 420px){
     .Pro-div{
-        margin-top: 80px;
+        margin-top: 150px;
         width:100%;
         height: 990px;
-        padding-top: 30px;
     }
 
     .falc-div1{

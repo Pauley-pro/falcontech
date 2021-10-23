@@ -22,7 +22,7 @@ class Promo extends Component{
                 <div className="pro-head">
                     <h2 className="h2-prom">We always provide cost effective security solutions</h2>
                     <div className="falc-div1">
-                        <Link to='/vision'className="Prom">
+                        <Link to='/vision' >
                             <div className="pro-img">
                                 <img src={Vision} className="img-pro"/>
                             </div>
@@ -32,7 +32,7 @@ class Promo extends Component{
                         </Link>
                     </div>
                     <div className="falc-div2">
-                        <Link to='/vision'  className="Prom">
+                        <Link to='/vision' >
                            <div className="pro-img">
                                 <img src={Value} className="img-pro"/>
                             </div>
@@ -42,7 +42,7 @@ class Promo extends Component{
                         </Link>
                     </div>
                     <div className="falc-div3" >
-                        <Link to='/vision' className="Prom">
+                        <Link to='/vision'>
                             <div className="pro-img">
                                 <img src={Mission} className="img-pro"/>
                             </div>

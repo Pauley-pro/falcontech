@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import './Navbar.css';
 import { Link } from 'react-router-dom';
-import { VscMenu as MenuIcon } from 'react-icons/vsc';
-import Logo from '../assets//site-logo.png';
 import { BsX as CloseMenu } from 'react-icons/bs';
+import { VscMenu as MenuIcon } from 'react-icons/vsc';
+import Logo from '../images/site-logo.png';
 
 
 
@@ -29,7 +29,7 @@ const closeMobileMenu = () => setClick(false);{*/}
   return (
     <div className="header" id="fixed">
       <div className='navbar-container'>
-        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+        <Link to='/Home' className='navbar-logo' onClick={closeMobileMenu}>
           <img src={Logo} alt="Falcontech" className="Site-logo"/>
         </Link>
         <div className='menu-icon' onClick={handleClick}>
@@ -37,7 +37,7 @@ const closeMobileMenu = () => setClick(false);{*/}
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'} id="Navbar">
           <li className='nav-item' id="nav-item">
-            <Link to='/' className='nav-links' onClick={closeMobileMenu} id="Link1">
+            <Link to='/Home' className='nav-links' onClick={closeMobileMenu} id="Link1">
               Home
             </Link>
           </li>
@@ -47,8 +47,8 @@ const closeMobileMenu = () => setClick(false);{*/}
             </Link>
           </li>
           <li className='nav-item'>
-            <Link to='/Shop' className='nav-links' onClick={closeMobileMenu} id="Link3">
-              Shop
+            <Link to='/Catalog' className='nav-links' onClick={closeMobileMenu} id="Link3">
+              Catalog
             </Link>
           </li>
           <li className='nav-item'>
@@ -80,7 +80,7 @@ const closeMobileMenu = () => setClick(false);{*/}
               SIGN UP
             </Link>
           </li>
-           
+          
         </ul>
 
       </div>

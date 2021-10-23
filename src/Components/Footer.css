@@ -230,7 +230,6 @@ ul{
 .test-link{
     color:white;
     text-decoration: none;
-    
 }
 
 .test-link:hover{
@@ -245,13 +244,7 @@ ul{
 .Sub-list{
     color:white;
     font-size: 12px;
-    margin-left: -35px;
-}
-
-.Sub-list3{
-    color:white;
-    font-size: 12px;
-    margin-left: -38px;
+    
 }
 
 .Soc-list{
