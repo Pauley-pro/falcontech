@@ -3,7 +3,6 @@ import './Navbar.css';
 import { Link } from 'react-router-dom';
 import { VscMenu as MenuIcon } from 'react-icons/vsc';
 import Logo from '../assets//site-logo.png';
-import CartIcon from './cart-icon/cart-icon';
 import { BsX as CloseMenu } from 'react-icons/bs';
 
 
@@ -81,9 +80,7 @@ const closeMobileMenu = () => setClick(false);{*/}
               SIGN UP
             </Link>
           </li>
-          <li>
-            <CartIcon />
-          </li> 
+           
         </ul>
 
       </div>

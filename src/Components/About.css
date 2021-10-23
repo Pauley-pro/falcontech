@@ -90,8 +90,9 @@
     padding-bottom: 20px;
 }
 
-.Clear{
+#Clear{
     clear: both;
+    padding-top: 50px;
 }
 
 .about-right {
