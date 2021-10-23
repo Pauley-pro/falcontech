@@ -61,7 +61,7 @@ function Contact() {
             </div>
             <div className="div-con2">
               <h4>EMAIL</h4>
-              <p className="par-con">BuildSpace, Opposite U.I Second gate, Ibadan, Oyo State, Nigeria.</p>
+              <p className="par-con">falcontechnigeria@gmail.com</p>
             </div>
           </div>
           <div className="con3">

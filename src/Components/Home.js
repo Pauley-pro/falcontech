@@ -6,7 +6,6 @@ import Service from '../Components/Service.js';
 import Counter from '../Components/Counter.js';
 import Gallepic from '../Components/Gallery.js';
 import Background from '../Components/Background';
-import Blog from '../Components/Blog.js';
 import Testimonials from '../Components/Testimonials.js';
 
 

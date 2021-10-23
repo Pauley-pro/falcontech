@@ -3,8 +3,8 @@
     position: relative;
     text-align: center;
     color: #fff;
-    margin-top: -100px;
-    height: 300px;
+    margin-top: 0px;
+    height: 400px;
 }
 
 .falconet-count-area:before {
@@ -40,8 +40,12 @@
     font-weight:300
 }
 
+.Count-icon{
+    font-size: 55px;
+    color: white;
+}
+
 .count-box {
-    border: 1px solid rgba(175, 175, 175, 0.46);
     border-radius: 5px;
     line-height: 10px;
     padding: 20px;
@@ -52,7 +56,7 @@
     position:relative;
     float:left;
     margin-left: 75px;
-    height: 90px;
+    height: 190px;
 }
 
 #count-box{
@@ -60,7 +64,7 @@
 }
 
 .Count-h4{
-    margin-top: -15px;
+    margin-top: -10px;
 }
 
 .counter{

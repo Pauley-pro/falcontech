@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 
 .About-main{
-    margin-top:80px
+    margin-top:-30px
 }
 
 .breadcromb-top {
@@ -96,7 +96,8 @@
 
 .about-right {
     margin: 30px;
-    margin-top: -5px;
+    margin-top: 15px;
+    margin-left: 100px;
     width:40%;
     float:left;
     padding-top: 25px;
@@ -127,7 +128,7 @@
     margin-left:80px;
     width:40%;
     float:left;
-    height: 250px;
+    height: 280px;
 }
 
 .Abt-img{
@@ -170,6 +171,7 @@
     width: 40%;
     padding-left:60px;
     padding-top: 25px;
+    margin-top: 80px;
 }
 
 .Abtimg{
@@ -185,8 +187,8 @@
     padding: 5px;
     position: relative;
     margin: 10px;
-    margin-top:30px;
-    margin-left:100px;
+    margin-top:100px;
+    margin-left:200px;
     float:left;
     height: 340px;
 }
@@ -223,7 +225,8 @@
     }
 
     .about-right{
-        width:90%
+        width:90%;
+        margin-left: 10px;
     }
 
     .statement{
@@ -249,12 +252,21 @@
         height:20px;
         background-size: 50px;
     }
+
+    .breadcromb-top:before{
+        width:100%;
+    }
     
     .breadcromb-h2{
         margin-top: -1px;
         font-size: 15px;
         position: relative;
     }    
+
+    #Clear{
+        clear: both;
+        margin-top: 500px;
+    }
 
     .Fal-h2{
         text-align: center;

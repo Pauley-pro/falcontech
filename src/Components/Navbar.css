@@ -23,7 +23,7 @@
 .Site-logo{
   width:250px;
   height:50px;
-  margin-top: 10px;
+  margin-top: -20px;
 }
 
 .navbar-container {
@@ -120,7 +120,7 @@ a.instagram {
   display: flex;
   grid-gap:10px;
   margin-right: 200px;
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 .login{
@@ -157,31 +157,12 @@ a.instagram {
   width: 100px;
 }
 
-.cart{
-  color:white;
-  margin-top: 100px;
-}
-
-.cart:hover{
-  color:white;
-  
-}
-
-
-.Cart-counter{
-  float: right;
-  color: white;
-  margin-right: -10px;
-  margin-top: -15px;
-  
-}
-
 .nav-links {
   color:#fff;
   display: flex;
   align-items: center;
   text-decoration: none;
-  margin-top: -15px;
+  margin-top: -30px;
   height: 90%;
   font-size: 14px;
   font-weight: 400;
@@ -192,6 +173,10 @@ a.instagram {
   transition: all 0.2s ease-out;
   color:white
 }
+
+#Link1, #Link2, #Link3, #Link4{
+  color:white
+} 
 
 .nav-links-mobile {
   display: none;

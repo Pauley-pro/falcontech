@@ -5,6 +5,9 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import CountUp, { startAnimation } from 'react-countup';
 import VisibilitySensor from "react-visibility-sensor";
+import { IoMdMedal }  from "react-icons/io";
+import { FaDumbbell, FaHandHoldingUsd, FaUserFriends } from "react-icons/fa";
+
 
 
 
@@ -28,6 +31,7 @@ class Counter extends Component{
                     <Row>
                         <Col xs={6} md={3}>
                             <div className="count-box" id="count-box">
+                                <FaDumbbell className="Count-icon"/>
                                 <h3 className="Count-h2">
                                     <CountUp end={2700} duration={5} redraw={true} suffix="+" className="counts">
                                         {({ countUpRef, start }) => (
@@ -42,6 +46,7 @@ class Counter extends Component{
                         </Col>
                         <Col xs={6} md={3}>
                             <div className="count-box" id="count-box2">
+                                <FaUserFriends className="Count-icon"/>
                                 <h3 className="Count-h2">
                                     <CountUp end={1200} duration={5} redraw={true} suffix="+">
                                         {({ countUpRef, start }) => (
@@ -56,6 +61,7 @@ class Counter extends Component{
                         </Col>
                         <Col xs={6} md={3}>
                             <div className="count-box" id="count-box3">
+                                <FaHandHoldingUsd className="Count-icon"/>
                                 <h3 className="Count-h2">
                                     <CountUp end={3100} duration={5} redraw={true} suffix="+">
                                         {({ countUpRef, start }) => (
@@ -70,6 +76,7 @@ class Counter extends Component{
                         </Col>
                         <Col xs={6} md={3}>
                             <div className="count-box" id="count-box4">
+                            <IoMdMedal className="Count-icon"/>
                                 <h3 className="Count-h2">
                                     <CountUp end={2700} duration={5} redraw={true} suffix="+">
                                         {({ countUpRef, start }) => (

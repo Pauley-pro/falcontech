@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import './Navbar.css';
 import { Link } from 'react-router-dom';
-import { BsX as CloseMenu } from 'react-icons/bs';
 import { VscMenu as MenuIcon } from 'react-icons/vsc';
-import { RiShoppingCartLine } from 'react-icons/ri';
-import Logo from '../images/site-logo.png';
+import Logo from '../assets//site-logo.png';
+import CartIcon from './cart-icon/cart-icon';
+import { BsX as CloseMenu } from 'react-icons/bs';
+
 
 
 
@@ -29,7 +30,7 @@ const closeMobileMenu = () => setClick(false);{*/}
   return (
     <div className="header" id="fixed">
       <div className='navbar-container'>
-        <Link to='/Home' className='navbar-logo' onClick={closeMobileMenu}>
+        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
           <img src={Logo} alt="Falcontech" className="Site-logo"/>
         </Link>
         <div className='menu-icon' onClick={handleClick}>
@@ -37,7 +38,7 @@ const closeMobileMenu = () => setClick(false);{*/}
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'} id="Navbar">
           <li className='nav-item' id="nav-item">
-            <Link to='/Home' className='nav-links' onClick={closeMobileMenu} id="Link1">
+            <Link to='/' className='nav-links' onClick={closeMobileMenu} id="Link1">
               Home
             </Link>
           </li>
@@ -47,7 +48,7 @@ const closeMobileMenu = () => setClick(false);{*/}
             </Link>
           </li>
           <li className='nav-item'>
-            <Link to='' className='nav-links' onClick={closeMobileMenu} id="Link3">
+            <Link to='/Shop' className='nav-links' onClick={closeMobileMenu} id="Link3">
               Shop
             </Link>
           </li>
@@ -81,10 +82,7 @@ const closeMobileMenu = () => setClick(false);{*/}
             </Link>
           </li>
           <li>
-            <Link to="/cart" className="cart">
-              <RiShoppingCartLine id="cart"/>
-              <div className="Cart-counter">0</div>
-            </Link>
+            <CartIcon />
           </li> 
         </ul>
 

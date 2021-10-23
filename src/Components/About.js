@@ -7,7 +7,8 @@ import Row from 'react-bootstrap/Row';
 import { Link } from 'react-router-dom';
 import AbtImg from '../images/watch-cam.jpg';
 import Abtimg from '../images/formimg.jpg';
-
+import Layout from './shared/layout';
+import Gallery from '../components/Gallery'
 
 
 
@@ -15,6 +16,7 @@ import Abtimg from '../images/formimg.jpg';
 class About extends Component{
   render(){
     return (
+      <Layout>
       <div className = "About-main">
         <section className="falconet-breadcromb-area">
           <div className="breadcromb-top section_50">
@@ -68,9 +70,11 @@ class About extends Component{
           </Container>
         </section>
     
-        <div className="Clear"></div>
+        <div id="Clear">
+        <Gallery/>
+        </div>
     
-         
+          
         
           <Container>
             <Row>
@@ -94,6 +98,7 @@ class About extends Component{
         
         <div className="Clear"></div>
       </div>     
+      </Layout>
     );
   }
 }

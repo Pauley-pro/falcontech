@@ -1,79 +1,48 @@
-import React, { Component } from "react";
-import './App.css';
-import Navbar from './Components/Navbar.js';
-import Home from './Components/Home.js';
-import About from './Components/About.js';
-import Footer from './Components/Footer.js';
-import Scrollup from './Components/Scrollup.js';
-import Contact from './Components/Contact.js';
-import Cart from './Components/Cart.js';
-import Vision from './Components/Vision';
-import Signup from './Auth-pages/Signup';
-import Login from './Auth-pages/Login';
-import Mission from './Components/Mission';
-import Value from './Components/Value';
-import Video from './Components/Video';
-import Access from './Components/Access';
-import Build from './Components/Building';
-import Fire from './Components/Fire';
-import Intercom from './Components/Intercom';
-import Security from './Components/Security';
-import Selfdef from './Components/Self-def';
-import Workplace from './Components/Workplace';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom'
+import HomePage from './components/home-page'
+import About from './components/About.js';
+import NotFound from './components/not-found'
+import Shop from './components/pages/shop/shop'
+import SingleProduct from './components/single-product/single-product'
+import CartPage from './components/pages/cart-page/cart-page'
+import Checkout from './components/checkout/checkout'
+import Success from './components/checkout/stripe-checkout/success'
+import Canceled from './components/checkout/stripe-checkout/canceled'
+import Scrollup from './components/Scrollup.js';
 
 
 
 
+import './App.scss'
 
-class App extends Component{
-  render(){
-    return (
-      <div className = "App">
-        <div>
-          <Router>
-            <Navbar/>
-            <Switch>
-              <Route exact path="/" component={Home}/>
-              <Route path="/home" component={Home}/>                     
-              <Route path="/about" component={About}/>
-              <Route path="/contact" component={Contact}/>
-              <Route path="/cart" component={Cart}/>
-              <Route path="/signup" component={Signup} />
-              <Route path="/login" component={Login} />
-              <Route exact path='/vision' component={Vision}/>
-              <Route exact path='/mission' component={Mission}/>
-              <Route exact path='/value' component={Value}/>
-              <Route exact path='/video' component={Video}/>
-              <Route exact path='/access' component={Access}/>
-              <Route exact path='/build' component={Build}/>
-              <Route exact path='/fire' component={Fire}/>
-              <Route exact path='/intercom' component={Intercom}/>
-              <Route exact path='/security' component={Security}/>
-              <Route exact path='/self-def' component={Selfdef}/>
-              <Route exact path='/workplace' component={Workplace}/>
-            </Switch>
-              
-              
-              
-            
-            <div className="Div-fo">
-              <Footer/>
-            </div>
-          </Router>
-          <a
+function App() {
+  return (
+    <div className="App">
+     
+        
+      <Switch>
+        <Route exact path='/' component={HomePage} />
+        <Route exact path='/about' component={About} />
+        <Route path='/shop' component={Shop} />
+        <Route path='/product/:id' component={SingleProduct} />
+        <Route path='/cart' component={CartPage} />
+        <Route path='/checkout' component={Checkout} />
+        <Route path='/success' component={Success} />
+        <Route path='/canceled' component={Canceled} />
+        <Route path='*' component={NotFound} />
+      </Switch>
+     
+      <a
         href="https://wa.me/2347025007766"
-        class="whatsapp_float"
-        target="_blank"
+        className="whatsapp_float"
+        
         rel="noopener noreferrer"
       >
         <i class="fa fa-whatsapp whatsapp-icon"></i>
       </a>
           <Scrollup/>
-        </div>
-      </div>
-    );
-  }
+    </div>
+  )
 }
 
 export default App;
