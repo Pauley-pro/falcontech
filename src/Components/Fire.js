@@ -58,7 +58,7 @@ class Fire extends Component{
                             <Col md={6} sm={6}>
                                 <div className="statevid-right">
                                 <h2>Fire Protection</h2>
-                                <p className="Para-vid" id="Para-vid">Prevention is better than cure, and this cannot be overemphasized. With fire protection devices from Falcontech, you’ll be able to spot the slightest indications of a fire.</p>
+                                <p className="Para-vid" id="Para-vid">Prevention is better than cure, and this cannot be overemphasized. With fire protection devices from Falconet Technology, you’ll be able to spot the slightest indications of a fire.</p>
                                 <p className="Para-vid" id="Para-vid">They say where there’s smoke, there’s fire, and rightly so. Our smoke detectors are unrivaled, and we bring you the latest ones with the most innovative technology. You don’t even need to be tech-savvy to disable the fire alarms when they come on expertly. We'll provide you with the most straightforward user interface devices without reducing the quality and value for money you’ll get.</p> 
                                 <p className="Para-vid" id="Para-vid">Now, what are you waiting for? Invest in the protection of your property from foreseeable and unforeseeable circumstances today!</p>
                                 </div>

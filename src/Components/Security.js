@@ -58,7 +58,7 @@ class Security extends Component{
                             <Col md={6} sm={6}>
                                 <div className="statevid-right">
                                 <h2>Security Alarm</h2>
-                                <p className="Para-vid" id="Para-vid">Pairing surveillance cameras with security alarms gives you airtight security for your property. Our security alarms at Falcontech are highly sensitive and will detect the slightest intrusion and unauthorized access, and alert you long before any damage can be done to your property. </p>
+                                <p className="Para-vid" id="Para-vid">Pairing surveillance cameras with security alarms gives you airtight security for your property. Our security alarms at Falconet Technology are highly sensitive and will detect the slightest intrusion and unauthorized access, and alert you long before any damage can be done to your property. </p>
                                 <p className="Para-vid" id="Para-vid">When these alarms go off, all you need is a four or six-digit code to disable them. With the proper knowledge, you can adequately protect your property. </p> 
                                 <p className="Para-vid" id="Para-vid">Contact us today for a fair quote, and we'll provide you with excellent services that'll give you the uttermost satisfaction. </p>
                                 </div>

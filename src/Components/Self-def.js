@@ -60,7 +60,7 @@ class Selfdef extends Component{
                                 <h2>Self Defense Supplies</h2>
                                 <p className="Para-vid" id="Para-vid">In terms of self and property protection, you can’t be too careful. With self-defense supplies, you can adequately equip yourself with everything you need to ensure maximum safety in the case of an unforeseen attack.</p>
                                 <p className="Para-vid" id="Para-vid">In a world where civil unrest is fast becoming rampant, you’ll be doing yourself a solid by purchasing tasers, stun guns, pepper spray and just about any device you need to protect yourself. </p> 
-                                <p className="Para-vid" id="Para-vid">At Falcontech, we'll recommend the most suitable ones for your person, and will even guide you on how to use them without harming yourself. Falcontech prioritizes the security of self and property, and you'll realize that when you reach out to us.  </p>
+                                <p className="Para-vid" id="Para-vid">At Falconet Technology, we'll recommend the most suitable ones for your person, and will even guide you on how to use them without harming yourself. Falconet Technology prioritizes the security of self and property, and you'll realize that when you reach out to us.  </p>
                                 </div>
                             </Col>
                         </Row>

@@ -59,9 +59,9 @@ class Video extends Component{
                                 <div className="statevid-right">
                                 <h2>Video Surveillance</h2>
                                 <p className="Para-vid" id="Para-vid">Did you know that video surveillance is one of the most reliable ways to stay conversant with happenings around you? You get to monitor every activity, even if you weren’t present when it occurred. It's a credible way for you to keep abreast of what's happening around you and give you enough time to prepare a defense if you have to. 
-At Falcontech, we exist to provide you with the best! Every CCTV camera you purchase from us assures you of the best video footage quality, and you can access it from just about anywhere.
+At Falconet Technology, we exist to provide you with the best! Every CCTV camera you purchase from us assures you of the best video footage quality, and you can access it from just about anywhere.
 </p>
-                                <p className="Para-vid" id="Para-vid">With surveillance cameras from Falcontech, you don't have to be within your property before you can protect it. You can also access footage from any point of the day; that way, nothing skips your attention, giving you the highly sought-after medium to stay a step ahead. </p> 
+                                <p className="Para-vid" id="Para-vid">With surveillance cameras from Falconet Technology, you don't have to be within your property before you can protect it. You can also access footage from any point of the day; that way, nothing skips your attention, giving you the highly sought-after medium to stay a step ahead. </p> 
                                 <p className="Para-vid" id="Para-vid">Knowledge is power, and the avenue to see what’s coming from every angle gives you access to that power. So why not seize it today by buying the best CCTV cameras in the market? .</p>
                                 </div>
                             </Col>

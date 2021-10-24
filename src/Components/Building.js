@@ -60,8 +60,8 @@ class Build extends Component{
                                 <h2>Building Automation</h2>
                                 <p className="Para-vid" id="Para-vid">Most people don't know the essence and benefits of building automation, and we’ll briefly delve into it. First, it helps reduce your energy consumption, thereby cutting back on your costs in this area. </p>
                                 <p className="Para-vid" id="Para-vid">You’ll also spend less on maintaining your electrical, security, plumbing, cooling and just about every other system on your property because building automation is a way to regulate these devices without supervision. </p> 
-                                <p className="Para-vid" id="Para-vid">We make building automation much easier for your property. Technology has made living more effortless, and Falcontech makes it easy for you to tap into everything it has to offer. Every piece of equipment you need to easily control your air conditioning, lighting, plumbing, and generally every other system that falls under the HVAC category is available to you at the snap of a finger. </p>
-                                <p className="Para-vid" id="Para-vid">Falcontech will provide excellent quality building automation systems in the market, so give us a trial today.</p>
+                                <p className="Para-vid" id="Para-vid">We make building automation much easier for your property. Technology has made living more effortless, and Falconet Technology makes it easy for you to tap into everything it has to offer. Every piece of equipment you need to easily control your air conditioning, lighting, plumbing, and generally every other system that falls under the HVAC category is available to you at the snap of a finger. </p>
+                                <p className="Para-vid" id="Para-vid">Falconet Technology will provide excellent quality building automation systems in the market, so give us a trial today.</p>
                                 </div>
                             </Col>
                         </Row>

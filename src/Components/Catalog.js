@@ -141,7 +141,7 @@ function ProductData() {
        <Row>
            <Col md={12}>
            <div className="breadcromb-top-text">
-               <h2 className="breadcromb-h2">Our Products</h2>
+               <h2 className="breadcromb-h2">Featured Products</h2>
            </div>
            </Col>
        </Row>

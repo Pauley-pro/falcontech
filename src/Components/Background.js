@@ -25,7 +25,7 @@ class Background extends Component{
               </Col>
               <Col xs={12} md={6}>
                 <div className="Back-right">
-                  <h4 className="para-h4">Why Falcontech?</h4>
+                  <h4 className="para-h4">Why Falconet Technology?</h4>
                   <h2 className="para-h2">A smarter move for <br/><span className="span-back">ultimate security</span></h2>
                   <p className="para-back">We are well-equipped and our consultants are available to mix and match any camera or recommend a custom solution to better meet your needs. Our goal is to provide you with a top-of-the-line HD video monitoring solution from a company you can depend on.</p>
                   <Center>

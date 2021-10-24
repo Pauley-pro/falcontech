@@ -58,7 +58,7 @@ class Access extends Component{
                             <Col md={6} sm={6}>
                                 <div className="statevid-right">
                                 <h2>Access Control</h2>
-                                <p className="Para-vid" id="Para-vid">The world is largely unsafe, and the faster we accept that, the better. Limiting access to your property helps you make your world much safer. So why not take the first step today by reaching out to Falcontech?</p>
+                                <p className="Para-vid" id="Para-vid">The world is largely unsafe, and the faster we accept that, the better. Limiting access to your property helps you make your world much safer. So why not take the first step today by reaching out to Falconet Technology?</p>
                                 <p className="Para-vid" id="Para-vid">We’ll provide you with the best biometry systems, key locks, motion detectors, and essentially every other device that helps you monitor entry and exit to and from your property.</p> 
                                 <p className="Para-vid" id="Para-vid">The best part is that the products we sell don't need tech-savvy operators. No, you don't need to be an expert before navigating the controls for the equipment. We ensure that every piece of equipment has a simple user interface for our experienced and non-experienced clients without providing you with inferior products. </p>
                                 </div>

@@ -61,8 +61,8 @@ class Vision extends Component{
                             <Col md={6} sm={6}>
                                 <div className="statement-right">
                                 <h2>Vision Statement</h2>
-                                <p className="Parag1" id="Parag1">Falcontech exists for several reasons, however, our priority is to serve and provide you with highly reliable surveillance products. In addition, we have a long-term goal which is to imprint our one-of-a-kind services in your mind. When you think Falcontech, you automatically think of quality and high-end utility.</p>
-                                <p className="Parag1" id="Parag1">Of course, we are taking active steps towards this goal. Everything that revolves around Falcontech aims to achieve it. It ranges from our products down to our customer relations. But, overall, we will leave you smiling from ear to ear with uttermost satisfaction.</p>
+                                <p className="Parag1" id="Parag1">Falconet Technology exists for several reasons, however, our priority is to serve and provide you with highly reliable surveillance products. In addition, we have a long-term goal which is to imprint our one-of-a-kind services in your mind. When you think Falconet Technology, you automatically think of quality and high-end utility.</p>
+                                <p className="Parag1" id="Parag1">Of course, we are taking active steps towards this goal. Everything that revolves around Falconet Technology aims to achieve it. It ranges from our products down to our customer relations. But, overall, we will leave you smiling from ear to ear with uttermost satisfaction.</p>
                                 </div>
                             </Col>
                         </Row>

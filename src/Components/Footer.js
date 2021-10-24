@@ -34,7 +34,7 @@ class Footer extends Component{
                     <ul className="List">
                     <li className="Sub-list"><Link to="/About" className="test-link">About</Link></li>
                         <li className="Sub-list"><Link to="/Contact" className="test-link">Contact</Link></li>
-                        <li className="Sub-list"><Link to="" className="test-link">Shop</Link></li>
+                        <li className="Sub-list"><Link to="/catalog" className="test-link">Featured Products</Link></li>
                     </ul>
                 </div>
                 <div className="Footer3">
@@ -53,7 +53,7 @@ class Footer extends Component{
                 </div>    
             </div>
             <div className="Copyright-area" id="Copyright-area">
-                <p id="para-footer">&copy; Copyright <Link to="#" className="foot-link">FalconTech</Link> All rights reserved</p> 
+                <p id="para-footer">&copy; Copyright <Link to="#" className="foot-link">Falconet Technology</Link> All rights reserved</p> 
             </div> 
         </>
     );

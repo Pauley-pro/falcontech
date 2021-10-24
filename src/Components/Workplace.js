@@ -60,7 +60,7 @@ class Workplace extends Component{
                                 <h2>Workplace Safety Supplies</h2>
                                 <p className="Para-vid" id="Para-vid">We're confident you're aware that one can't be too careful with protection in the workplace. Unfortunately, accidents and mishaps occur; they're an indispensable part of life. Now, what we have is control over how we handle these occurrences.</p>
                                 <p className="Para-vid" id="Para-vid">Well-equipped first aid boxes, safety signs, spill kits, and every other workplace safety supply in the market can protect you from hefty lawsuits. Invest in these supplies today to ensure the maximum protection of yourself and your employees in the workplace.  </p> 
-                                <p className="Para-vid" id="Para-vid">Falcontech will provide you with every device and equipment you need to for a safe workplace environment, and you can contact us for a favorable consultation and quote today.</p>
+                                <p className="Para-vid" id="Para-vid">Falconet Technology will provide you with every device and equipment you need to for a safe workplace environment, and you can contact us for a favorable consultation and quote today.</p>
                                 </div>
                             </Col>
                         </Row>

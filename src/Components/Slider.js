@@ -92,7 +92,7 @@ const Slider = () => {
                                             give yourself an<span> edge</span>
                                         </h2>
                                         <p id="Para-slide">
-                                            Whether you intend to call the police or handle negative situations yourself, you give yourself an edge with Falcontech.
+                                            Whether you intend to call the police or handle negative situations yourself, you give yourself an edge with Falconet Technology.
                                         </p>
                                         <Link to="/About" className="falconet-btn">learn more</Link>
                                     </div>
