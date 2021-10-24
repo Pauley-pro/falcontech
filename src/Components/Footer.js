@@ -13,9 +13,9 @@ import { Link } from 'react-router-dom';
 
 
 
-class Footer extends Component{
-  render(){
-    return (
+const Footer = () => {
+    const year = new Date().getFullYear();
+    return(
         <>
             <div class="falconet-footer-area" id="falconet-footer-area">
                 <div className="Footer1">
@@ -53,11 +53,10 @@ class Footer extends Component{
                 </div>    
             </div>
             <div className="Copyright-area" id="Copyright-area">
-                <p id="para-footer">&copy; Copyright <Link to="#" className="foot-link">Falconet Technology</Link> All rights reserved</p> 
+                <p id="para-footer">{year} &copy; Copyright <Link to="#" className="foot-link">Falconet Technology</Link> All rights reserved</p> 
             </div> 
         </>
     );
-  }
 }
 
 export default Footer;
