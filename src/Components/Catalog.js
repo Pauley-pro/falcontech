@@ -15,7 +15,7 @@ var products =
     {
       id: 1,
       title: "Pistol Shocker",
-      description: "Very efficient and pictures every movement",
+      /*description: "Very efficient and pictures every movement",*/
       currency: "NGN",
       price: "15000",
       image: "images/Pistol-shocker.jpg",
@@ -23,7 +23,7 @@ var products =
     {
       id: 2,
       title: "HX-X10 Baton Shocker",
-      description: "Very efficient and pictures every movement",
+      /*description: "Very efficient and pictures every movement",*/
       currency: "NGN",
       price: "28000",
       image: "images/batonshocker.jpg",
@@ -31,7 +31,7 @@ var products =
     {
       id: 3,
       title: "928 Stun gun",
-      description: "Very efficient and pictures every movement",
+      /*description: "Very efficient and pictures every movement",*/
       currency: "NGN",
       price: "22000",
       image: "images/928Stungun.jpg",
@@ -39,15 +39,15 @@ var products =
     {
       id: 4,
       title: "809 Self-defense flashlight shocker",
-      description: "Very efficient and pictures every movement",
+      /*description: "Very efficient and pictures every movement",*/
       currency: "NGN",
-      price: "25",
+      price: "22000",
       image: "images/809Self-defenseflashlightshocke.jpg",
     },
     {
       id: 5,
       title: "Pepper spray",
-      description: "Very efficient and pictures every movement",
+      /*description: "Very efficient and pictures every movement",*/
       currency: "NGN",
       price: "17000",
       image: "images/Still-pepperSpray.jpg",
@@ -55,7 +55,7 @@ var products =
     {
       id: 6,
       title: "Stun Master Baton",
-      description: "Very efficient and pictures every movement",
+      /*description: "Very efficient and pictures every movement",*/
       currency: "NGN",
       price: "27000",
       image: "images/Stillstun-masterbaton.jpg",
@@ -63,7 +63,7 @@ var products =
     {
       id: 7,
       title: "Air Taser",
-      description: "Very efficient and pictures every movement",
+      /*description: "Very efficient and pictures every movement",*/
       currency: "NGN",
       price: "27000",
       image: "images/Stillairtaser2.jpg",
@@ -71,7 +71,7 @@ var products =
     {
       id: 8,
       title: "Flashlight Stun Gun",
-      description: "Very efficient and pictures every movement",
+      /*description: "Very efficient and pictures every movement",*/
       currency: "NGN",
       price: "15000",
       image: "images/Stillflashlightstungun.jpg",
@@ -79,7 +79,7 @@ var products =
     {
       id: 9,
       title: "928 Stun gun 980,000v",
-      description: "Fashionable trendy heels.",
+      /*description: "Very efficient and pictures every movement",*/
       currency: "NGN",
       price: "17000",
       image: "images/928Stungun.jpg",
@@ -87,7 +87,7 @@ var products =
    {
       id: 10,
       title: "1101 Flashlight Stun Gun",
-      description: "High quality canvas shoes.",
+      /*description: "Very efficient and pictures every movement",*/
       currency: "NGN",
       price: "17000",
       image: "images/flashlightstungun.jpg",
@@ -95,7 +95,7 @@ var products =
    {
       id: 11,
       title: "Air taser with 3 cartridges",
-      description: "Sporty shoes, durable at affordable ranges.",
+      /*description: "Very efficient and pictures every movement",*/
       price: "27000",
       currency: "NGN",
       /*discounted: "15",*/
@@ -104,7 +104,7 @@ var products =
    {
       id: 12,
       title: "Flashlight Stun gun",
-      description: "Fashionable trendy heels.",
+      /*description: "Very efficient and pictures every movement",*/
       currency: "NGN",
       price: "15000",
       image: "images/Flashlight.jpg",
@@ -112,7 +112,7 @@ var products =
    {
       id: 13,
       title: "Stun Master Baton, 800,000v",
-      description: "High quality canvas shoes.",
+      /*description: "Very efficient and pictures every movement",*/
       price: "27000",
       currency: "NGN",
       image: "images/Stunmastgun.jpg",
