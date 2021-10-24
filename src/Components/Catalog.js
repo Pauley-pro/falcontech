@@ -1,5 +1,6 @@
 import React, { Component }  from 'react';
 import './Catalog.css';
+import Layout from '../Components/Layout.js'
 import Catalog from 'react-catalog-view';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
@@ -134,7 +135,8 @@ const CONTENT_KEYS = {
 function ProductData() {
   return (
    <div className="Catalog">
-   <div className="breadcromb-top section_50">
+      <Layout>
+      <div className="breadcromb-top section_50">
        <Container>
        <Row>
            <Col md={12}>
@@ -174,7 +176,8 @@ function ProductData() {
             // Any non zero number will override default cards
             // and will show that many skeleton cards.
             />
-    </div>
+      </Layout>
+   </div>
   );
 }
 

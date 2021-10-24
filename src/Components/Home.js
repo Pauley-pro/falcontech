@@ -1,12 +1,13 @@
 import React from 'react';
 import './Home.css';
+import Layout from '../Components/Layout';
 import Slider from '../Components/Slider.js';
 import Promo from '../Components/Promo.js';
 import Service from '../Components/Service.js';
 import Counter from '../Components/Counter.js';
 import Gallepic from '../Components/Gallery.js';
 import Background from '../Components/Background';
-import Testimonials from '../Components/Testimonials.js';
+
 
 
 
@@ -15,6 +16,7 @@ import Testimonials from '../Components/Testimonials.js';
 function Home() {
   return (
     <div className="Home">
+      <Layout>
       <Slider />
       <div className="Clear"></div>
       <Promo />
@@ -27,6 +29,7 @@ function Home() {
       <div className="Clear"></div>
       <Gallepic />
       <div className="Clear"></div>
+      </Layout>
       
     </div>
   );

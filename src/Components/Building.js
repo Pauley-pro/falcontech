@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import './Building.css';
+import Layout from '../Components/Layout.js';
 import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
@@ -13,6 +14,7 @@ class Build extends Component{
     render(){
         return (
             <div class="falconet-broucher-video">
+                <Layout>
                 <section className="falconet-breadcromb-area">
                     <div className="breadcromb-top section_50">
                         <Container>
@@ -65,6 +67,7 @@ class Build extends Component{
                         </Row>
                     </Container>
                 </div>
+                </Layout>
             </div>
         );
     }

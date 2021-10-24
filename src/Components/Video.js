@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import './Video.css';
+import Layout from '../Components/Layout.js';
 import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
@@ -13,6 +14,7 @@ class Video extends Component{
     render(){
         return (
             <div class="falconet-broucher-video">
+                <Layout>
                 <section className="falconet-breadcromb-area">
                     <div className="breadcromb-top section_50">
                         <Container>
@@ -66,6 +68,7 @@ At Falcontech, we exist to provide you with the best! Every CCTV camera you purc
                         </Row>
                     </Container>
                 </div>
+                </Layout>
             </div>
         );
     }

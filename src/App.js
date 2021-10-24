@@ -33,7 +33,6 @@ class App extends Component{
       <div className = "App">
         <div>
           <Router>
-            <Navbar/>
             <Switch>
               <Route exact path="/" component={Home}/>
               <Route path="/home" component={Home}/>                     
@@ -55,13 +54,6 @@ class App extends Component{
               <Route exact path='/self-def' component={Selfdef}/>
               <Route exact path='/workplace' component={Workplace}/>
             </Switch>
-              
-              
-              
-            
-            <div className="Div-fo">
-              <Footer/>
-            </div>
           </Router>
           <a
         href="https://wa.me/2347025007766"

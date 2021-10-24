@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import './Value.css';
+import Layout from "../Components/Layout.js";
 import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
@@ -17,6 +18,7 @@ class Value extends Component{
     render(){
         return (
             <div class="falconet-broucher-area">
+                <Layout>
                 <section className="falconet-breadcromb-area">
                     <div className="breadcromb-top section_50">
                         <Container>
@@ -80,6 +82,7 @@ You can reach out to us via our website or through a direct visitation to our of
                     </Container>
                 </div>
                 
+                </Layout>
             </div>
         );
     }

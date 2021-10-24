@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import './About.css';
+import Layout from "../Components/Layout.js";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
@@ -16,6 +17,7 @@ class About extends Component{
   render(){
     return (
       <div className = "About-main">
+        <Layout>
         <section className="falconet-breadcromb-area">
           <div className="breadcromb-top section_50">
             <Container>
@@ -93,6 +95,7 @@ class About extends Component{
           
         
         <div className="Clear"></div>
+        </Layout>
       </div>     
     );
   }

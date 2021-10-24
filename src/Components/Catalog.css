@@ -1,4 +1,11 @@
 .Catalog{
-    height: 1300px;
+    height: 1400px;
 }
 
+@media (max-width: 420px) {
+    .catalog{
+        margin-bottom: 2000px;
+    }
+
+    
+}
