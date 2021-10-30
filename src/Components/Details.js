@@ -50,9 +50,9 @@ export default class Details extends Component {
                     <Link to="/Productlist" className="Det-button1">
                       Back to products
                     </Link>
-                    <Link to="https://wa.me/2347025007766" className="Det-button2">
+                    <a href="https://wa.me/2347025007766" className="Det-button2">
                       <RiWhatsappFill/> Chat us
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
