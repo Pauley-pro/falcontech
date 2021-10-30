@@ -20,16 +20,11 @@ class Counter extends Component{
     return (
         <div className="falconet-count-area section_100">
             <div className="falc-count">
-                <Container>
-                    <Row>
-                        <Col md={12}>
+                
                             <div className="counts-text">
                                 <h3 id="Count-h3">We are ready to provide security in resonable price and guarantee your safety in any situation in your life </h3>
                             </div>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col xs={6} md={3}>
+                      
                             <div className="count-box" id="count-box">
                                 <FaDumbbell className="Count-icon"/>
                                 <h3 className="Count-h2">
@@ -43,8 +38,7 @@ class Counter extends Component{
                                 </h3>
                                 <h4 className="Count-h4">Project <span>Done</span></h4>
                             </div>
-                        </Col>
-                        <Col xs={6} md={3}>
+                        
                             <div className="count-box" id="count-box2">
                                 <FaUserFriends className="Count-icon"/>
                                 <h3 className="Count-h2">
@@ -58,8 +52,7 @@ class Counter extends Component{
                                 </h3>
                                 <h4 className="Count-h4">Our <span>Clients</span></h4>
                             </div>
-                        </Col>
-                        <Col xs={6} md={3}>
+                        
                             <div className="count-box" id="count-box3">
                                 <FaHandHoldingUsd className="Count-icon"/>
                                 <h3 className="Count-h2">
@@ -73,8 +66,7 @@ class Counter extends Component{
                                 </h3>
                                 <h4 className="Count-h4">Deal <span>Assigned</span></h4>
                             </div>
-                        </Col>
-                        <Col xs={6} md={3}>
+                        
                             <div className="count-box" id="count-box4">
                             <IoMdMedal className="Count-icon"/>
                                 <h3 className="Count-h2">
@@ -88,9 +80,7 @@ class Counter extends Component{
                                 </h3>
                                 <h4 className="Count-h4">Satisfied <span>Clients</span></h4>
                             </div>
-                        </Col>
-                    </Row>
-                </Container>
+                        
             </div>
         </div>
   );

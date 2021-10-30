@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import './App.css';
-import Navbar from './Components/Navbar.js';
+import "bootstrap/dist/css/bootstrap.min.css";
 import Home from './Components/Home.js';
 import About from './Components/About.js';
-import Footer from './Components/Footer.js';
 import Scrollup from './Components/Scrollup.js';
 import Contact from './Components/Contact.js';
 import Catalog from './Components/Catalog.js';
@@ -12,6 +11,9 @@ import Vision from './Components/Vision';
 import Signup from './Auth-pages/Signup';
 import Login from './Auth-pages/Login';
 import Mission from './Components/Mission';
+import Productlist from './Components/Productlist';
+import Product from './Components/Product';
+import Details from './Components/Details';
 import Value from './Components/Value';
 import Video from './Components/Video';
 import Access from './Components/Access';
@@ -42,6 +44,9 @@ class App extends Component{
               <Route path="/signup" component={Signup} />
               <Route path="/login" component={Login} />
               <Route exact path='/vision' component={Vision}/>
+              <Route exact path='/productlist' component={Productlist}/>
+              <Route exact path='/product' component={Product}/>
+              <Route exact path='/details' component={Details}/>
               <Route exact path='/mission' component={Mission}/>
               <Route exact path='/value' component={Value}/>
               <Route exact path='/catalog' component={Catalog}/>
@@ -55,14 +60,14 @@ class App extends Component{
               <Route exact path='/workplace' component={Workplace}/>
             </Switch>
           </Router>
-          <a
-        href="https://wa.me/2347025007766"
-        class="whatsapp_float"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i class="fa fa-whatsapp whatsapp-icon"></i>
-      </a>
+          
+            <a
+              href="https://wa.me/2347025007766"
+              class="whatsapp_float"
+              rel="noopener noreferrer"
+            >
+              <i class="fa fa-whatsapp whatsapp-icon"></i>
+            </a>
           <Scrollup/>
         </div>
       </div>

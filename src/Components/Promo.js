@@ -1,8 +1,5 @@
 import React, { Component } from "react";
 import './Promo.css';
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
 import Vision from '../images/vision.jpg';
 import Value from '../images/corevalue.jpg';
 import Mission from '../images/mission.jpg';

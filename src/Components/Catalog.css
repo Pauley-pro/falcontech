@@ -1,5 +1,6 @@
 .Catalog{
     height: 1400px;
+    margin-bottom: 3000px;
 }
 
 @media (max-width: 420px) {

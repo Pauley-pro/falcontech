@@ -1,8 +1,5 @@
 import React, { Component } from "react";
 import './Footer.css';
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
 import Logo from '../images/real-form.jpg';
 import { RiWhatsappFill } from "react-icons/ri";
 import { ImLinkedin2, ImTwitter } from "react-icons/im";
