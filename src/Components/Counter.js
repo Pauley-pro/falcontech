@@ -27,7 +27,7 @@ class Counter extends Component{
                       
                             <div className="count-box" id="count-box">
                                 <FaDumbbell className="Count-icon"/>
-                                <h3 className="Count-h2">
+                                <h3 className="Count-h2" id="Count-h2">
                                     <CountUp end={2700} duration={5} redraw={true} suffix="+" className="counts">
                                         {({ countUpRef, start }) => (
                                             <VisibilitySensor onChange={start} delayedCall>
@@ -41,7 +41,7 @@ class Counter extends Component{
                         
                             <div className="count-box" id="count-box2">
                                 <FaUserFriends className="Count-icon"/>
-                                <h3 className="Count-h2">
+                                <h3 className="Count-h2" id="Count-h2">
                                     <CountUp end={1200} duration={5} redraw={true} suffix="+">
                                         {({ countUpRef, start }) => (
                                             <VisibilitySensor onChange={start} delayedCall>
@@ -55,7 +55,7 @@ class Counter extends Component{
                         
                             <div className="count-box" id="count-box3">
                                 <FaHandHoldingUsd className="Count-icon"/>
-                                <h3 className="Count-h2">
+                                <h3 className="Count-h2" id="Count-h2">
                                     <CountUp end={3100} duration={5} redraw={true} suffix="+">
                                         {({ countUpRef, start }) => (
                                             <VisibilitySensor onChange={start} delayedCall>
@@ -69,7 +69,7 @@ class Counter extends Component{
                         
                             <div className="count-box" id="count-box4">
                             <IoMdMedal className="Count-icon"/>
-                                <h3 className="Count-h2">
+                                <h3 className="Count-h2" id="Count-h2">
                                     <CountUp end={2700} duration={5} redraw={true} suffix="+">
                                         {({ countUpRef, start }) => (
                                             <VisibilitySensor onChange={start} delayedCall>

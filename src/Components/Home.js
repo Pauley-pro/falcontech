@@ -15,23 +15,24 @@ import Background from '../Components/Background';
 
 function Home() {
   return (
-    <div className="Home">
+    <>
       <Layout>
-      <Slider />
-      <div className="Clear"></div>
-      <Promo />
-      <div className="Clear"></div>
-      <Service />
-      <div className="Clear"></div>
-      <Background />
-      <div className="Clear"></div>
-      <Counter />
-      <div className="Clear"></div>
-      <Gallepic />
-      <div className="Clear"></div>
+        <div className="Home">
+          <Slider />
+          <div className="Clear"></div>
+          <Promo />
+          <div className="Clear"></div>
+          <Service />
+          <div className="Clear"></div>
+          <Background />
+          <div className="Clear"></div>
+          <Counter />
+          <div className="Clear"></div>
+          <Gallepic />
+          <div className="Clear"></div>
+        </div>  
       </Layout>
-      
-    </div>
+    </>
   );
 }
 

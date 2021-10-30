@@ -13,6 +13,7 @@ export default class ProductList extends Component {
     return (
       <>
         <Layout>
+          <div className="Prod-list">
           <div className="breadcromb-top section_50">
             <div className="breadcromb-top-text">
               <h2 className="breadcromb-h2">Featured Products</h2>
@@ -31,6 +32,7 @@ export default class ProductList extends Component {
                 </ProductConsumer>
               </div>
             </div>
+          </div>
           </div>
         </Layout>
       </>

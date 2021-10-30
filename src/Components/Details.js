@@ -1,7 +1,9 @@
 import React, { Component } from "react";
+import "./Details.css";
 import { ProductConsumer } from "../Context";
 import { Link } from "react-router-dom";
 import { ButtonContainer } from "./Button";
+import { RiWhatsappFill } from "react-icons/ri";
 
 export default class Details extends Component {
   render() {
@@ -45,19 +47,12 @@ export default class Details extends Component {
                   <p className="text-muted lead">{info}</p>
                   {/* buttons */}
                   <div>
-                    <Link to="www.google.com">
-                      <ButtonContainer>back to products</ButtonContainer>
+                    <Link to="/Productlist" className="Det-button1">
+                      Back to products
                     </Link>
-                    <ButtonContainer
-                      cart
-                      disabled={inCart ? true : false}
-                      onClick={() => {
-                        value.addToCart(id);
-                        value.openModal(id);
-                      }}
-                    >
-                      {inCart ? "in Cart" : "add to cart"}
-                    </ButtonContainer>
+                    <Link to="https://wa.me/2347025007766" className="Det-button2">
+                      <RiWhatsappFill/> Chat us
+                    </Link>
                   </div>
                 </div>
               </div>

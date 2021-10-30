@@ -1,6 +1,8 @@
-.Falconet-map{
+.Contact-div{
     height:1200px
 }
+
+
 
 .falconet-breadcromb-map{
     margin-bottom: 100px;    
@@ -143,7 +145,7 @@
 
 
 @media (max-width: 768px){
-    .Falconet-map{
+    .Contact-div{
         height:1200px
     }
 
@@ -203,7 +205,7 @@
 
 
 @media (max-width: 420px){
-    .Falconet-map{
+    .Contact-div{
         height:1000px
     }
 

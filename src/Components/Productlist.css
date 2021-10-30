@@ -1,0 +1,17 @@
+.Prod-list{
+    height: 1000px;
+}
+
+
+@media (max-width: 768px){
+    .Prod-list{
+        height: 100%;
+    }
+}
+
+
+@media (max-width: 420px){
+    .Prod-list{
+        height: 100%;
+    }
+}
