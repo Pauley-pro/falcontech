@@ -144,36 +144,42 @@
     background-color:transparent;
     border:solid pink 2px;
     color:white;
+    text-decoration: none;
 }
 
 .But7:hover{
     background-color:transparent;
     border:solid pink 2px;
     color:white;
+    text-decoration: none;
 }
 
 .But8:hover{
     background-color:transparent;
     border:solid pink 2px;
     color:white;
+    text-decoration: none;
 }
 
 .But9:hover{
     background-color:transparent;
     border:solid pink 2px;
     color:white;
+    text-decoration: none;
 }
 
 .But10:hover{
     background-color:transparent;
     border:solid pink 2px;
     color:white;
+    text-decoration: none;
 }
 
 .But11:hover{
     background-color:transparent;
     border:solid pink 2px;
     color:white;
+    text-decoration: none;
 }
 
 .Transparent{
@@ -201,7 +207,8 @@
 .Transparent:hover{
     background-color:beige;
     color:black;
-    transition:0.5s
+    transition:0.5s;
+    text-decoration: none;
 }
 
 

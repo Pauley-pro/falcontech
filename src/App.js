@@ -61,13 +61,13 @@ class App extends Component{
             </Switch>
           </Router>
           
-            <a
+            {/*<a
               href="https://wa.me/2347025007766"
               class="whatsapp_float"
               rel="noopener noreferrer"
             >
               <i class="fa fa-whatsapp whatsapp-icon"></i>
-            </a>
+            </a>*/}
           <Scrollup/>
         </div>
       </div>
