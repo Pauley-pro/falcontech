@@ -95,10 +95,19 @@
   font-size: 30px;
 }
 
+.instagram-social:hover{
+  color:white
+}
+
 .twitter-social{
   color:#f26723;
   font-size: 30px;
 }
+
+.twitter-social:hover{
+  color:white
+}
+
 
 
 
