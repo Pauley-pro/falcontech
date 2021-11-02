@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { ProductConsumer } from "../Context";
 import PropTypes from "prop-types";
 
+
+
 export default class Product extends Component {
   render() {
     const { id, title, img, price, inCart } = this.props.product;
@@ -19,7 +21,7 @@ export default class Product extends Component {
                 <Link to="/details">
                   <img src={img} alt="product" className="card-img-top" />
                 </Link>
-                <button
+                {/*<button
                   className="cart-btn"
                   disabled={inCart ? true : false}
                   onClick={() => {
@@ -34,7 +36,7 @@ export default class Product extends Component {
                   ) : (
                     <i className="fas fa-cart-plus" />
                   )}
-                </button>
+                  </button>*/}
               </div>
             )}
           </ProductConsumer>
