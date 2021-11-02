@@ -31,7 +31,7 @@ const Footer = () => {
                     <ul className="List">
                     <li className="Sub-list"><Link to="/About" className="test-link">About</Link></li>
                         <li className="Sub-list"><Link to="/Contact" className="test-link">Contact</Link></li>
-                        <li className="Sub-list"><Link to="/catalog" className="test-link">Featured Products</Link></li>
+                        <li className="Sub-list"><Link to="/Productlist" className="test-link">Featured Products</Link></li>
                     </ul>
                 </div>
                 <div className="Footer3">
@@ -42,11 +42,17 @@ const Footer = () => {
                 </div>
                 <div className="Footer4">
                 <h5 className="h5-foot">Follow us</h5>
-                    <RiWhatsappFill className="Soc-list" id="Soc-list"/>
-                    <ImLinkedin2 className="Soc-list"/>
-                    <FaFacebook className="Soc-list"/>
-                    <ImTwitter className="Soc-list"/>
-                    <FaInstagram className="Soc-list"/>
+                    <a target="_blank" href="https://wa.me/2347025007766">
+                        <RiWhatsappFill className="Soc-list" id="Soc-list"/>
+                    </a>
+                    <a target="_blank" href="http://www.instagram.com/falcontechnet">
+                        <FaInstagram className="Soc-list"/>
+                    </a>   
+                    <a target="_blank" href="https://www.twitter.com/falcontechnet">
+                        <ImTwitter className="Soc-list"/>
+                    </a>     
+                    {/*<FaFacebook className="Soc-list"/>
+                    <ImLinkedin2 className="Soc-list"/>*/}
                 </div>    
             </div>
             <div className="Copyright-area" id="Copyright-area">

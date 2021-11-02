@@ -67,19 +67,40 @@
 }
 
 #Navbar{
-  float: right;
-  margin-right:100px;
+  float: left;
+  margin-left:-100px;
   display: flex;
   grid-gap:20px
 }
 
 .soc-icons{
-  margin-top: 25px;
+  margin-top: -90px;
   display: flex;
-  margin-right: 50px;
+  margin-right: 100px;
   float: right;
-  grid-gap: 10px;
+  grid-gap: 15px;
 }
+
+.whatsapp-social{
+  color:#f26723;
+  font-size: 30px;
+}
+
+.whatsapp-social:hover{
+  color:white
+}
+
+.instagram-social{
+  color:#f26723;
+  font-size: 30px;
+}
+
+.twitter-social{
+  color:#f26723;
+  font-size: 30px;
+}
+
+
 
 a.whatsapp {
   color:white;

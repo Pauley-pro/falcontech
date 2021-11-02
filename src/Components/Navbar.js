@@ -4,6 +4,11 @@ import { Link } from 'react-router-dom';
 import { BsX as CloseMenu } from 'react-icons/bs';
 import { VscMenu as MenuIcon } from 'react-icons/vsc';
 import Logo from '../images/site-logo.png';
+import { RiWhatsappFill } from "react-icons/ri";
+import { ImLinkedin2, ImTwitter } from "react-icons/im";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
+
+
 
 
 
@@ -21,10 +26,10 @@ function Navbar() {
 
   
 
-{/*}const Navbar = () => {
+{/*const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
-const closeMobileMenu = () => setClick(false);{*/}
+const closeMobileMenu = () => setClick(false);*/}
   
   return (
     <div className="header" id="fixed">
@@ -56,7 +61,7 @@ const closeMobileMenu = () => setClick(false);{*/}
               Contact
             </Link>
           </li>
-          <li className='nav-item' id="Navitems">
+          {/*<li className='nav-item' id="Navitems">
             <Link to='/Login' className='nav-links' onClick={closeMobileMenu} id="Link5">
               Login
             </Link>
@@ -65,11 +70,10 @@ const closeMobileMenu = () => setClick(false);{*/}
             <Link to='/Signup' className='nav-links' onClick={closeMobileMenu} id="Link6">
               Sign Up
             </Link>
-          </li>
-          
+          </li>*/}
         </ul>
         
-        <ul className="users">
+        {/*<ul className="users">
           <li className="logy">
             <Link to="/Login" className="login">
               Login
@@ -81,40 +85,30 @@ const closeMobileMenu = () => setClick(false);{*/}
             </Link>
           </li>
           
-        </ul>
+  </ul>*/}
 
       </div>
 
 
 
-      {/*}<ul className="soc-icons">
+        <ul className="soc-icons">
           <li>
-            <Link to="" className="whatsapp social">
-              <FontAwesomeIcon icon={faWhatsapp} size="1x" />
-            </Link>
+            <a target="_blank" href="https://wa.me/2347025007766" className="whatsapp-social">
+              <RiWhatsappFill />
+            </a>
           </li>
           <li>
-            <Link to="" className="linkedin social">
-              <FontAwesomeIcon icon={faLinkedinIn} size="1x" />
-            </Link>
+            <a target="_blank" href="http://www.instagram.com/falcontechnet" className="instagram-social">
+              <FaInstagram/>
+            </a>
           </li>
           <li>
-            <Link to="" className="facebook social">
-              <FontAwesomeIcon icon={faFacebookF} size="1x" />
-            </Link>
-          </li>
-          <li>
-            <Link to="" className="twitter social">
-              <FontAwesomeIcon icon={faTwitter} size="1x" />
-            </Link>
-          </li>
-          <li>
-            <Link to="" className="instagram social">
-              <FontAwesomeIcon icon={faInstagram} size="1x" />
-            </Link>
+            <a target="_blank" href="https://www.twitter.com/falcontechnet" className="twitter-social">
+              <ImTwitter/>
+            </a>
           </li>
         </ul>
-        {*/}
+        
     
       {/*}<div id="site-logo" onClick={closeMobileMenu}>
         <Link to="/Home">

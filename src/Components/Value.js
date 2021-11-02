@@ -17,8 +17,9 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 class Value extends Component{
     render(){
         return (
-            <div class="falconet-broucher-area">
+            <div>
                 <Layout>
+                    <div className="falconet-broucher-area">
                     <section className="falconet-breadcromb-area">
                         <div className="breadcromb-top section_50">
                             <div className="breadcromb-top-text">
@@ -60,7 +61,7 @@ class Value extends Component{
             </p>
                         </div>
                     </div>
-                
+                    </div>
                 </Layout>
             </div>
         );
