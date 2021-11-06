@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import './Vision.css';
 import Layout from '../Components/Layout.js';
 import { Link } from 'react-router-dom';
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
 import Visionpic from '../images/vision.jpg';
 import { FaLongArrowAltRight } from "react-icons/fa";
 

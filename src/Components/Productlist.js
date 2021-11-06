@@ -3,8 +3,7 @@ import './Productlist.css';
 import Product from "./Product";
 import { ProductConsumer } from "../Context";
 import Layout from '../Components/Layout';
-import { Link } from 'react-router-dom';
-import { FaLongArrowAltRight } from "react-icons/fa";
+
 
 
 
