@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import './Footer.css';
 import Logo from '../images/real-form.jpg';
 import { RiWhatsappFill } from "react-icons/ri";
-import { ImLinkedin2, ImTwitter } from "react-icons/im";
-import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { ImTwitter } from "react-icons/im";
+import { FaInstagram } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 
@@ -42,11 +42,9 @@ const Footer = () => {
                 </div>
                 <div className="Footer4">
                 <h5 className="h5-foot">Follow us</h5>
-                    <RiWhatsappFill className="Soc-list" id="Soc-list"/>
-                    <ImLinkedin2 className="Soc-list"/>
-                    <FaFacebook className="Soc-list"/>
-                    <ImTwitter className="Soc-list"/>
-                    <FaInstagram className="Soc-list"/>
+                    <a href="https://wa.me/2347025007766" rel="noopener noreferrer"><RiWhatsappFill className="Soc-list" id="Soc-list"/></a>
+                    <a href="http://twitter.com/falcontechnet" rel="noopener noreferrer"><ImTwitter className="Soc-list"/></a>
+                    <a href="http://www.instagram.com/falcontechnet" rel="noopener noreferrer"><FaInstagram className="Soc-list"/></a>
                 </div>    
             </div>
             <div className="Copyright-area" id="Copyright-area">

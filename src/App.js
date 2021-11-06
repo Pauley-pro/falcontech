@@ -23,6 +23,7 @@ import Intercom from './Components/Intercom';
 import Security from './Components/Security';
 import Selfdef from './Components/Self-def';
 import Workplace from './Components/Workplace';
+import Default from './Components/Default';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
@@ -58,16 +59,11 @@ class App extends Component{
               <Route exact path='/security' component={Security}/>
               <Route exact path='/self-def' component={Selfdef}/>
               <Route exact path='/workplace' component={Workplace}/>
+              <Route  component={Default}/>
             </Switch>
           </Router>
           
-            {/*<a
-              href="https://wa.me/2347025007766"
-              class="whatsapp_float"
-              rel="noopener noreferrer"
-            >
-              <i class="fa fa-whatsapp whatsapp-icon"></i>
-            </a>*/}
+            
           <Scrollup/>
         </div>
       </div>

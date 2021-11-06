@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 import { BsX as CloseMenu } from 'react-icons/bs';
 import { VscMenu as MenuIcon } from 'react-icons/vsc';
 import Logo from '../images/site-logo.png';
+import { RiWhatsappFill } from "react-icons/ri";
+import { ImTwitter } from "react-icons/im";
+import { FaInstagram } from "react-icons/fa";
 
 
 
@@ -21,11 +24,7 @@ function Navbar() {
 
   
 
-{/*}const Navbar = () => {
-  const [click, setClick] = useState(false);
-  const handleClick = () => setClick(!click);
-const closeMobileMenu = () => setClick(false);{*/}
-  
+
   return (
     <div className="header" id="fixed">
       <div className='navbar-container'>
@@ -56,20 +55,26 @@ const closeMobileMenu = () => setClick(false);{*/}
               Contact
             </Link>
           </li>
-          <li className='nav-item' id="Navitems">
-            <Link to='/Login' className='nav-links' onClick={closeMobileMenu} id="Link5">
-              Login
-            </Link>
+          <li className="nav-item" id="nav-soc">
+            <a href="https://wa.me/2347025007766"
+              className="soc-med"
+              rel="noopener noreferrer">
+              <RiWhatsappFill className="wat-icon"/>
+            </a>
           </li>
-          <li className='nav-item' id="Navitems2">
-            <Link to='/Signup' className='nav-links' onClick={closeMobileMenu} id="Link6">
-              Sign Up
-            </Link>
+          <li className="nav-item">
+            <a href='http://twitter.com/falcontechnet' rel="noopener noreferrer">
+              <ImTwitter className="twi-icon"/>
+            </a>
           </li>
-          
+          <li className="nav-item">
+            <a href='http://www.instagram.com/falcontechnet' rel="noopener noreferrer">
+              <FaInstagram className="ins-icon"/>
+            </a>
+          </li>
         </ul>
         
-        <ul className="users">
+        {/*<ul className="users">
           <li className="logy">
             <Link to="/Login" className="login">
               Login
@@ -81,7 +86,7 @@ const closeMobileMenu = () => setClick(false);{*/}
             </Link>
           </li>
           
-        </ul>
+  </ul>*/}
 
       </div>
 

@@ -33,3 +33,6 @@
     background-color: transparent;
 }
 
+p.text-muted.lead{
+    text-transform: none;
+}
