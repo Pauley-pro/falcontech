@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './Navbar.css';
+import './Navba.css';
 import { Link } from 'react-router-dom';
 import { BsX as CloseMenu } from 'react-icons/bs';
 import { VscMenu as MenuIcon } from 'react-icons/vsc';
@@ -63,12 +63,12 @@ function Navbar() {
             </a>
           </li>
           <li className="nav-item">
-            <a href='http://twitter.com/falcontechnet' rel="noopener noreferrer">
+            <a href='http://twitter.com/falcontechnet'>
               <ImTwitter className="twi-icon"/>
             </a>
           </li>
           <li className="nav-item">
-            <a href='http://www.instagram.com/falcontechnet' rel="noopener noreferrer">
+            <a href='http://www.instagram.com/falcontechnet'>
               <FaInstagram className="ins-icon"/>
             </a>
           </li>

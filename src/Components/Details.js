@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import { ButtonContainer } from "./Button";
 import { RiWhatsappFill } from "react-icons/ri";
 
+
+
 export default class Details extends Component {
   render() {
     return (

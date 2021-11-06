@@ -85,6 +85,7 @@
 .But-con:hover{
     background-color: transparent;
     color: beige;
+    text-decoration: none;
 }
 
 @media (min-width: 421px) and (max-width: 768px){

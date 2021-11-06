@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import './Value.css';
 import Layout from "../Components/Layout.js";
 import { Link } from 'react-router-dom';
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
 import Valuepic from '../images/corevalue.jpg';
 import Valuepic2 from '../images/giveyourselftheedge.jpg';
 import { FaLongArrowAltRight } from "react-icons/fa";
@@ -17,8 +14,9 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 class Value extends Component{
     render(){
         return (
-            <div class="falconet-broucher-area">
+            <div>
                 <Layout>
+                    <div className="falconet-broucher-area">
                     <section className="falconet-breadcromb-area">
                         <div className="breadcromb-top section_50">
                             <div className="breadcromb-top-text">
@@ -60,7 +58,7 @@ class Value extends Component{
             </p>
                         </div>
                     </div>
-                
+                    </div>
                 </Layout>
             </div>
         );
