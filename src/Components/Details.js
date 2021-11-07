@@ -14,12 +14,14 @@ export default class Details extends Component {
         {value => {
           const {
             id,
-            company,
             img,
             info,
+            infoList1,
+            infoList2,
+            infoList3,
+            infoList4,
             price,
             title,
-            inCart
           } = value.detailProduct;
           return (
             <div className="container py-5">
@@ -47,6 +49,10 @@ export default class Details extends Component {
                     product description:
                   </p>
                   <p className="text-muted lead">{info}</p>
+                  <p className="text-muted lead">{infoList1}</p>
+                  <p className="text-muted lead">{infoList2}</p>
+                  <p className="text-muted lead">{infoList3}</p>
+                  <p className="text-muted lead">{infoList4}</p>
                   {/* buttons */}
                   <div>
                     <Link to="/Productlist" className="Det-button1">
